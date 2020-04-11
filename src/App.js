@@ -1,13 +1,12 @@
 import * as React from 'react';
 import {Component} from 'react';
-import {render} from 'react-dom';
 import MapGL, {Popup, NavigationControl, FullscreenControl, ScaleControl} from 'react-map-gl';
 
 import Pins from './pins';
 import CityInfo from './city-info';
 import TestingSiteCard, {name, address, phone, description, source} from "./components/TestingSiteCard";
-
 import CITIES from './cities.json';
+
 
 const TOKEN = 'pk.eyJ1Ijoic2hpdmFtLXBhdGVsIiwiYSI6ImNrOGt2aHM0NDA2MW4zbG8wdXl3YXNlcDIifQ.sMejLmWJNhzSRGpSO_pXcQ'; // Set your mapbox token here
 

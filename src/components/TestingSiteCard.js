@@ -1,6 +1,6 @@
 import React from 'react';
 import {Component} from 'react';
-import Card from "react-bootstrap/Card"
+import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 export default class TestingSiteCard extends Component {
@@ -11,16 +11,14 @@ export default class TestingSiteCard extends Component {
         <Card style={{ width: '18rem' }}>
             <Card.Body>
                 <Card.Title> {name} </Card.Title>
-                <Card.link className="mb-2 text-muted" href={"https://www.google.com/maps/d/viewer?mid=1UcgDEyHLXLESdACU8_r1FJ3-F1k&ie=UTF8&t=m&oe=UTF8&msa=0&ll=37.871953%2C-122.26005900000001&z=17"}>
-                    {address}
-                </Card.link>
+                <Card.Subtitle className="mb-2 text-muted"> {address} </Card.Subtitle>
                 <Card.Subtitle className="mb-2 text-muted"> {phone} </Card.Subtitle>
                 <Card.Text>
                     {description}
                 </Card.Text>
                 <Button variant="primary">Go somewhere</Button>
             </Card.Body>
-            <Card.Footer> Source: {source} </Card.Footer>
+            <Card.Subtitle className="mb-2 text-muted"> Source: {source} </Card.Subtitle>
         </Card>
         );
     }
