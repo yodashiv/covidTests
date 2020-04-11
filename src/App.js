@@ -77,16 +77,16 @@ export default class App extends Component {
     const {viewport} = this.state;
 
     return (
-        <div>
+        <div style={{display: "flex"}}>
           <TestingSiteCard name={name} address={address}
                            phone={phone} description={description}
                            source={source}>
           </TestingSiteCard>
           <MapGL
               {...viewport}
-              width="100vw"
+              width="70vw"
               height="100vh"
-              mapStyle="mapbox://styles/mapbox/dark-v9"
+              mapStyle="mapbox://styles/mapbox/light-v9"
               onViewportChange={this._updateViewport}
               mapboxApiAccessToken={TOKEN}
           >

@@ -1,7 +1,6 @@
 import React from 'react';
 import {Component} from 'react';
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 
 export default class TestingSiteCard extends Component {
     render() {
@@ -16,9 +15,10 @@ export default class TestingSiteCard extends Component {
                 <Card.Text>
                     {description}
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Subtitle className="mb-2 text-muted">
+                    <p style={{fontSize:"0.75rem"}}>Source: {source} </p>
+                </Card.Subtitle>
             </Card.Body>
-            <Card.Subtitle className="mb-2 text-muted"> Source: {source} </Card.Subtitle>
         </Card>
         );
     }
