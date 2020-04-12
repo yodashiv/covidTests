@@ -8,7 +8,9 @@ import BuyMeACoffee from "./BuyMeACoffee";
 export default class NavigationBar extends Component {
     render() {
         return (
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="light" expand="sm">
+                <Navbar.Brand href="#home">Covider</Navbar.Brand>
+                <div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
@@ -16,8 +18,7 @@ export default class NavigationBar extends Component {
                         <Nav.Link href="#about">About</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                <Navbar.Brand href="#home">Covider</Navbar.Brand>
-                <BuyMeACoffee/>
+                </div>
             </Navbar>
         );
     }

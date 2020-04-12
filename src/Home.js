@@ -1,6 +1,33 @@
 import React from 'react';
 import {Component} from 'react';
+import mask from "./images/mask.svg";
+import virus from "./images/virus.svg";
+import NavigationBar from "./components/NavigationBar";
+import "./Home.css";
+import IntroMessage from "./components/IntroMessage";
+import BuyMeACoffee from "./components/BuyMeACoffee";
+import SearchBar from "./components/SearchBar";
 
 export default class Home extends Component {
-    
+    render() {
+        return (
+            <div id='main'>
+                <div style={{flexGrow: 10}}>
+                    <NavigationBar/>
+                </div>
+                <div id="coffee">
+                        <BuyMeACoffee/>
+                </div>
+                <div id="intro" style={{flexGrow:30}}>
+                    <IntroMessage/>
+                </div>
+                <div id="searchbar">
+                    <SearchBar/>
+                </div>
+                <div id="maskcontainer">
+                    <img id="maskimg" src={mask} alt="mask Image"/>
+                </div>
+            </div>
+        );
+    }
 }
