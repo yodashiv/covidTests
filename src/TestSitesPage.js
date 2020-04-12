@@ -6,7 +6,7 @@ import Pins from './pins';
 import CityInfo from './city-info';
 import TestingSiteCard, {name, address, phone, description, source} from "./components/TestingSiteCard";
 import CITIES from './cities.json';
-import "./App.css";
+import "./TestSitesPage.css";
 import NavigationBar from "./components/NavigationBar";
 import SearchBar from "./components/SearchBar";
 import {MapToken} from "./constants/tokens";
@@ -35,7 +35,7 @@ const scaleControlStyle = {
   padding: '10px'
 };
 
-export default class App extends Component {
+export default class TestSitesPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -118,6 +118,18 @@ export default class App extends Component {
                            source={source}>
           </TestingSiteCard>
           </div>
+            <div style={{flexGrow: 25}}>
+                <TestingSiteCard name={name} address={address}
+                                 phone={phone} description={description}
+                                 source={source}>
+                </TestingSiteCard>
+            </div>
+            <div style={{flexGrow: 25}}>
+                <TestingSiteCard name={name} address={address}
+                                 phone={phone} description={description}
+                                 source={source}>
+                </TestingSiteCard>
+            </div>
         </div>
     );
   }

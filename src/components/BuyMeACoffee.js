@@ -1,5 +1,6 @@
 import React from 'react';
 import {Component} from 'react';
+import "./SearchBar.css";
 
 export default class BuyMeACoffee extends Component {
     render() {

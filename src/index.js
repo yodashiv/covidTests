@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import TestSitesPage from './TestSitesPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-    <App />,
+    <TestSitesPage />,
   document.getElementById('root')
 );
