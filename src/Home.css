@@ -1,6 +1,7 @@
 #main {
     display: flex;
     flex-direction: column;
+    background-color: blanchedalmond;
 }
 
 #intro {
@@ -15,16 +16,15 @@
 
 #searchbar {
     flex-grow: 5;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 15px 30px 15px 30px;
 }
 
-#maskcontainer {
+.imgcontainer {
     flex-grow: 20;
     text-align: center;
 }
 
-#maskimg {
+.coronaimg {
     width: 50%;
     height: 50%;
 }

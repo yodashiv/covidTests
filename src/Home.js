@@ -18,14 +18,17 @@ export default class Home extends Component {
                 <div id="coffee">
                         <BuyMeACoffee/>
                 </div>
+                <div className="imgcontainer">
+                    <img className="coronaimg" src={mask} alt="mask Image"/>
+                </div>
                 <div id="intro" style={{flexGrow:30}}>
                     <IntroMessage/>
                 </div>
                 <div id="searchbar">
                     <SearchBar/>
                 </div>
-                <div id="maskcontainer">
-                    <img id="maskimg" src={mask} alt="mask Image"/>
+                <div className="imgcontainer">
+                    <img className="coronaimg" src={virus} alt="v Image"/>
                 </div>
             </div>
         );
