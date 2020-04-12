@@ -6,6 +6,9 @@ import Pins from './pins';
 import CityInfo from './city-info';
 import TestingSiteCard, {name, address, phone, description, source} from "./components/TestingSiteCard";
 import CITIES from './cities.json';
+import "./App.css";
+import NavigationBar from "./components/NavigationBar";
+import SearchBar from "./components/SearchBar";
 
 
 const TOKEN = 'pk.eyJ1Ijoic2hpdmFtLXBhdGVsIiwiYSI6ImNrOGt2aHM0NDA2MW4zbG8wdXl3YXNlcDIifQ.sMejLmWJNhzSRGpSO_pXcQ'; // Set your mapbox token here
@@ -77,33 +80,43 @@ export default class App extends Component {
     const {viewport} = this.state;
 
     return (
-        <div style={{display: "flex"}}>
+        <div id="container">
+          <div style={{flexGrow: 10}}>
+          <NavigationBar />
+          </div>
+          <div style={{flexGrow: 75}}>
+            <MapGL
+                {...viewport}
+                width="100%"
+                height="45vh"
+                mapStyle="mapbox://styles/mapbox/light-v9"
+                onViewportChange={this._updateViewport}
+                mapboxApiAccessToken={TOKEN}
+            >
+              <Pins data={CITIES} onClick={this._onClickMarker} />
+
+              {this._renderPopup()}
+
+              <div style={fullscreenControlStyle}>
+                <FullscreenControl />
+              </div>
+              <div style={navStyle}>
+                <NavigationControl />
+              </div>
+              <div style={scaleControlStyle}>
+                <ScaleControl />
+              </div>
+            </MapGL>
+          </div>
+          <div style={{flexGrow: 10}}>
+            <SearchBar/>
+          </div>
+          <div style={{flexGrow: 25}}>
           <TestingSiteCard name={name} address={address}
                            phone={phone} description={description}
                            source={source}>
           </TestingSiteCard>
-          <MapGL
-              {...viewport}
-              width="70vw"
-              height="100vh"
-              mapStyle="mapbox://styles/mapbox/light-v9"
-              onViewportChange={this._updateViewport}
-              mapboxApiAccessToken={TOKEN}
-          >
-            <Pins data={CITIES} onClick={this._onClickMarker} />
-
-            {this._renderPopup()}
-
-            <div style={fullscreenControlStyle}>
-              <FullscreenControl />
-            </div>
-            <div style={navStyle}>
-              <NavigationControl />
-            </div>
-            <div style={scaleControlStyle}>
-              <ScaleControl />
-            </div>
-          </MapGL>
+          </div>
         </div>
     );
   }

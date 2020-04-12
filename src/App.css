@@ -2,8 +2,9 @@ body {
   margin: 0;
   background: #000;
 }
+
 #map {
-  width: 100vw;
+  width: 75vw;
   height: 100vh;
 }
 
@@ -22,3 +23,11 @@ body {
   text-transform: uppercase;
   outline: none;
 }
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+

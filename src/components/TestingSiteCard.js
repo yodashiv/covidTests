@@ -7,7 +7,7 @@ export default class TestingSiteCard extends Component {
         const {name, address, phone, description, source} =
             this.props;
         return (
-        <Card style={{ width: '18rem' }}>
+        <Card border="secondary">
             <Card.Body>
                 <Card.Title> {name} </Card.Title>
                 <Card.Subtitle className="mb-2 text-muted"> {address} </Card.Subtitle>
