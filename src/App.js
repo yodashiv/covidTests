@@ -9,9 +9,10 @@ import CITIES from './cities.json';
 import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import SearchBar from "./components/SearchBar";
+import {MapToken} from "./constants/tokens";
 
 
-const TOKEN = 'pk.eyJ1Ijoic2hpdmFtLXBhdGVsIiwiYSI6ImNrOGt2aHM0NDA2MW4zbG8wdXl3YXNlcDIifQ.sMejLmWJNhzSRGpSO_pXcQ'; // Set your mapbox token here
+const TOKEN = MapToken; // Set your mapbox token here
 
 const fullscreenControlStyle = {
   position: 'absolute',
