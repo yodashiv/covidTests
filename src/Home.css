@@ -1,12 +1,16 @@
 html {
     height: 100%;
-    background-color: blanchedalmond;
 }
 
 #main {
     display: flex;
     flex-direction: column;
     background-color: blanchedalmond;
+    min-height: 100%;
+}
+
+#backoverlay {
+    height: 100vh;
 }
 
 #intro {

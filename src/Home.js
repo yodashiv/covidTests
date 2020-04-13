@@ -11,24 +11,26 @@ import SearchBar from "./components/SearchBar";
 export default class Home extends Component {
     render() {
         return (
-            <div id='main'>
-                <div style={{flexGrow: 10}}>
-                    <NavigationBar/>
-                </div>
-                <div id="coffee">
-                        <BuyMeACoffee/>
-                </div>
-                <div className="imgcontainer">
-                    <img className="coronaimg" src={mask} alt="mask Image"/>
-                </div>
-                <div id="intro" style={{flexGrow:30}}>
-                    <IntroMessage/>
-                </div>
-                <div id="searchbar">
-                    <SearchBar/>
-                </div>
-                <div className="imgcontainer">
-                    <img className="coronaimg" src={virus} alt="v Image"/>
+            <div id="backoverlay">
+                <div id='main'>
+                    <div style={{flexGrow: 10}}>
+                        <NavigationBar/>
+                    </div>
+                    <div id="coffee">
+                            <BuyMeACoffee/>
+                    </div>
+                    <div className="imgcontainer">
+                        <img className="coronaimg" src={mask} alt="mask Image"/>
+                    </div>
+                    <div id="intro" style={{flexGrow:30}}>
+                        <IntroMessage/>
+                    </div>
+                    <div id="searchbar">
+                        <SearchBar/>
+                    </div>
+                    <div className="imgcontainer">
+                        <img className="coronaimg" src={virus} alt="v Image"/>
+                    </div>
                 </div>
             </div>
         );
