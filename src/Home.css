@@ -1,3 +1,8 @@
+html {
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
 #main {
     display: flex;
     flex-direction: column;
@@ -25,8 +30,53 @@
 }
 
 .coronaimg {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
+}
+
+@media only screen and (min-width: 700px) {
+    .coronaimg {
+        width: 25%;
+        height: 25%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .coronaimg {
+        width: 20%;
+        height: 20%;
+    }
+}
+
+@media only screen and (min-width: 1248px) {
+    .coronaimg {
+        width: 16%;
+        height: 16%;
+    }
+}
+
+/* Portrait Tablets */
+@media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .coronaimg {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+/* Landscape Tablets */
+@media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1366px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .coronaimg {
+        width: 25%;
+        height: 25%;
+    }
 }
 
 
