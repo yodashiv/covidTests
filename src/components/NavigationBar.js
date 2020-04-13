@@ -9,16 +9,16 @@ export default class NavigationBar extends Component {
         return (
             <Navbar bg="light" expand="sm">
                 <Navbar.Brand href="#home">Covider</Navbar.Brand>
-                <div>
+
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
+                    <Nav className="ml-auto">
                         <Nav.Link href="/home">Home</Nav.Link>
                         <Nav.Link href="/TestingSites">TestingSites</Nav.Link>
                         <Nav.Link href="/about">About</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                </div>
+
             </Navbar>
         );
     }
