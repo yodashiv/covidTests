@@ -6,6 +6,7 @@ import Pins from '../pins';
 import CityInfo from '../city-info';
 import CITIES from '../cities.json';
 import {MapToken} from "../constants/tokens";
+import {store} from "../store/store";
 
 
 const TOKEN = MapToken; // Set your mapbox token here
