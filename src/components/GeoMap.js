@@ -33,30 +33,28 @@ const scaleControlStyle = {
 };
 
 export default class GeoMap extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            viewport: {
-                latitude: 37.785164,
-                longitude: -100,
-                zoom: 3.5,
-                bearing: 0,
-                pitch: 0
-            },
-            popupInfo: null
-        };
-    }
 
     _updateViewport = viewport => {
-        this.setState({viewport});
+        // this.setState({viewport});
+        console.log(viewport);
+        let action = {
+            type: "setNewViewport",
+            viewport: viewport
+        };
+        store.dispatch(action);
     };
 
     _onClickMarker = city => {
-        this.setState({popupInfo: city});
+        // this.setState({popupInfo: city});
+        let action = {
+            type: "setNewPopup",
+            popupInfo: city
+        };
+        store.dispatch(action);
     };
 
     _renderPopup() {
-        const {popupInfo} = this.state;
+        const {popupInfo} = store.getState();
 
         return (
             popupInfo && (
@@ -66,7 +64,10 @@ export default class GeoMap extends Component {
                     longitude={popupInfo.longitude}
                     latitude={popupInfo.latitude}
                     closeOnClick={false}
-                    onClose={() => this.setState({popupInfo: null})}
+                    onClose={() =>
+                        // this.setState({popupInfo: null})
+                        this._onClickMarker(null)
+                    }
                 >
                     <CityInfo info={popupInfo}/>
                 </Popup>
@@ -75,7 +76,8 @@ export default class GeoMap extends Component {
     }
 
     render() {
-        const {viewport} = this.state;
+        console.log(store.getState());
+        const {viewport} = store.getState();
         return (
             <MapGL
                 {...viewport}

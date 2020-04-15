@@ -1,22 +1,24 @@
-function setActivePopUp (state, action) {
+function setNewPopup (state, action) {
     return {
         ...state,
-        popupInfo: action.newactivePopup
+        popupInfo: action.popupInfo
     }
 }
 
 function setNewViewport (state, action) {
     return {
         ...state,
-        viewport: action.newviewport
+        viewport: action.viewport
     }
 }
 
 export default function rootReducer(state, action) {
     switch(action.type) {
-        case "setActivePopUp":
-            return setActivePopUp(state, action);
+        case "setNewPopup":
+            return setNewPopup(state, action);
         case "setNewViewport":
             return setNewViewport(state, action);
+        default:
+            return state;
     }
 }
