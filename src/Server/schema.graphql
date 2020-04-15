@@ -1,0 +1,11 @@
+type Query {
+    samplecard: [Card]
+}
+
+type Card {
+    name: String
+    address: String
+    phone: String
+    description: String
+    source: String
+}

@@ -3,6 +3,7 @@ import {Component} from 'react';
 import TestSitesPage from './TestSitesPage';
 import Home from "./Home";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import HooksTestSitesPage from "./HooksTestSitesPage";
 
 export default class App extends Component {
     render() {
@@ -10,7 +11,7 @@ export default class App extends Component {
             <Router>
                 <div>
                     <Switch>
-                        <Route exact path="/TestingSites" component={TestSitesPage}/>
+                        <Route exact path="/TestingSites" component={HooksTestSitesPage}/>
                         <Route path="/" component={Home}/>
                     </Switch>
                 </div>
