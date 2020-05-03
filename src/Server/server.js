@@ -5,7 +5,9 @@ const testCard = {
     address: "2222 Bancroft Way, Berkeley, CA 94720",
     phone: "(510) 643-7197",
     description: "As of April 2nd, the Tang Medical is only testing UC Berkeley Students and staff.",
-    source: "dummy data"
+    source: "dummy data",
+    longitude: -122.258537,
+    latitude: 37.871899
 };
 
 const resolvers = {

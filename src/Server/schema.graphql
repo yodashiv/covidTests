@@ -8,4 +8,6 @@ type Card {
     phone: String
     description: String
     source: String
+    longitude: Float
+    latitude: Float
 }

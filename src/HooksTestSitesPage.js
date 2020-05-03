@@ -12,6 +12,8 @@ const GET_SAMPLE_CARD = gql`
             phone
             description
             source
+            longitude
+            latitude
         }
     }
 `;

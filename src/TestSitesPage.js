@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Component} from 'react';
 
-import TestingSiteCard, {name, address, phone, description, source} from "./components/TestingSiteCard";
+import TestingSiteCard, {name, address, phone, description, source, latitude, longitude} from "./components/TestingSiteCard";
 import "./TestSitesPage.css";
 import NavigationBar from "./components/NavigationBar";
 import SearchBar from "./components/SearchBar";
@@ -30,7 +30,8 @@ export default class TestSitesPage extends Component {
                     return (<div key={index} style={{flexGrow: 25}}>
                         <TestingSiteCard name={card.name} address={card.address}
                                          phone={card.phone} description={card.description}
-                                         source={card.source} key={index}>
+                                         source={card.source} latitude={card.latitude}
+                                         longitude={card.longitude} key={index}>
                         </TestingSiteCard>
                     </div>);
                 }
@@ -38,7 +39,8 @@ export default class TestSitesPage extends Component {
             <div style={{flexGrow: 25}}>
                 <TestingSiteCard name={name} address={address}
                                  phone={phone} description={description}
-                                 source={source}>
+                                 source={source} latitude={latitude}
+                                 longitude={longitude}>
                 </TestingSiteCard>
             </div>
         </div>
