@@ -18,7 +18,7 @@ export default class TestSitesPage extends Component {
           <NavigationBar />
           </div>
           <div style={{flexGrow: 75}}>
-            <GeoMap/>
+            <GeoMap allCards={data}/>
           </div>
           <div style={{flexGrow: 10}}>
             <SearchBar/>

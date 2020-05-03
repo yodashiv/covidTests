@@ -78,6 +78,7 @@ export default class GeoMap extends Component {
     render() {
         console.log(store.getState());
         const {viewport} = store.getState();
+        const {allCards} = this.props;
         return (
             <MapGL
                 {...viewport}

@@ -13,8 +13,8 @@ export default class Pins extends PureComponent {
     render() {
         const {data, onClick} = this.props;
 
-        return data.map((city, index) => (
-            <Marker key={`marker-${index}`} longitude={city.longitude} latitude={city.latitude}>
+        return data.map((testSite, index) => (
+            <Marker key={`marker-${index}`} longitude={testSite.longitude} latitude={testSite.latitude}>
                 <svg
                     height={SIZE}
                     viewBox="0 0 24 24"
@@ -24,7 +24,7 @@ export default class Pins extends PureComponent {
                         stroke: 'none',
                         transform: `translate(${-SIZE / 2}px,${-SIZE}px)`
                     }}
-                    onClick={() => onClick(city)}
+                    onClick={() => onClick(testSite)}
                 >
                     <path d={ICON} />
                 </svg>
