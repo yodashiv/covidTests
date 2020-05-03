@@ -3,8 +3,7 @@ import {Component} from 'react';
 import MapGL, {Popup, NavigationControl, FullscreenControl, ScaleControl} from 'react-map-gl';
 
 import Pins from '../pins';
-import CityInfo from '../city-info';
-import CITIES from '../cities.json';
+import TestSitePopup from './TestSitePopup';
 import {MapToken} from "../constants/tokens";
 import {store} from "../store/store";
 
@@ -44,11 +43,11 @@ export default class GeoMap extends Component {
         store.dispatch(action);
     };
 
-    _onClickMarker = city => {
+    _onClickMarker = testSite => {
         // this.setState({popupInfo: city});
         let action = {
             type: "setNewPopup",
-            popupInfo: city
+            popupInfo: testSite
         };
         store.dispatch(action);
     };
@@ -69,7 +68,7 @@ export default class GeoMap extends Component {
                         this._onClickMarker(null)
                     }
                 >
-                    <CityInfo info={popupInfo}/>
+                    <TestSitePopup info={popupInfo}/>
                 </Popup>
             )
         );
@@ -88,7 +87,7 @@ export default class GeoMap extends Component {
                 onViewportChange={this._updateViewport}
                 mapboxApiAccessToken={TOKEN}
             >
-                <Pins data={CITIES} onClick={this._onClickMarker} />
+                <Pins data={allCards} onClick={this._onClickMarker} />
 
                 {this._renderPopup()}
 
