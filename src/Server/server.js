@@ -1,4 +1,7 @@
 const { GraphQLServer } = require('graphql-yoga');
+const { PrismaClient } = require('@prisma/client');
+
+const prisma = new PrismaClient();
 
 const testCard = {
     name: "I came from the API",
@@ -10,9 +13,28 @@ const testCard = {
     latitude: 37.871899
 };
 
+async function getSampleCards() {
+    let result = await prisma.testSites.findMany();
+    await prisma.disconnect();
+    return result;
+}
+
+async function getSitesInCounty(obj, args) {
+    let result = await prisma.testSites.findMany({
+        where: {
+            county: {
+                equals: args.countyInput
+            }
+        }
+    });
+    await prisma.disconnect();
+    return result;
+}
+
 const resolvers = {
     Query: {
-        samplecard: () => [testCard, testCard]
+        samplecard: getSampleCards,
+        cardsInCounty: getSitesInCounty
     }
 };
 

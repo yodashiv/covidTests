@@ -6,7 +6,21 @@ import * as React from 'react';
 
 const GET_SAMPLE_CARD = gql`
     query {
-        samplecard {
+        cards : samplecard {
+            name
+            address
+            phone
+            description
+            source
+            longitude
+            latitude
+        }
+    }
+`;
+
+const GET_COUNTY_CARD = gql`
+    query($county: String!) {
+        cards : cardsInCounty(countyInput: $county) {
             name
             address
             phone
@@ -19,7 +33,11 @@ const GET_SAMPLE_CARD = gql`
 `;
 
 export default function HooksTestSitesPage(props) {
-    const { loading, error, data } = useQuery(GET_SAMPLE_CARD);
+    const { loading, error, data } = useQuery(GET_COUNTY_CARD, {
+        variables: {
+            county: "Maryland County"
+        }
+    });
 
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error</p>;

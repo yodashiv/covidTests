@@ -10,7 +10,7 @@ import GeoMap from "./components/GeoMap";
 
 export default class TestSitesPage extends Component {
   render() {
-    const data = this.props.data.samplecard;
+    const data = this.props.data.cards;
 
     return (
         <div id="container">
