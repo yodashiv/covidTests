@@ -7,7 +7,9 @@ import { ApolloClient } from 'apollo-client';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { HttpLink } from 'apollo-link-http';
 import { ApolloProvider } from '@apollo/react-hooks';
-import {store} from "./store/store";
+import {store, persistor} from "./store/store";
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/lib/integration/react';
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
@@ -22,7 +24,11 @@ const client = new ApolloClient({
 const render = function() {
     ReactDOM.render(
         <ApolloProvider client={client}>
-            <App />
+            <Provider store={store}>
+                <PersistGate loading={null} persistor={persistor}>
+                    <App />
+                </PersistGate>
+            </Provider>
         </ApolloProvider>,
         document.getElementById('root')
     );
