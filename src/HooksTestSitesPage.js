@@ -2,6 +2,7 @@ import gql from "graphql-tag";
 import {useQuery} from "@apollo/react-hooks";
 import TestSitesPage from "./TestSitesPage";
 import * as React from 'react';
+import {store} from "./store/store";
 
 
 const GET_SAMPLE_CARD = gql`
@@ -35,7 +36,7 @@ const GET_COUNTY_CARD = gql`
 export default function HooksTestSitesPage(props) {
     const { loading, error, data } = useQuery(GET_COUNTY_CARD, {
         variables: {
-            county: "Maryland County"
+            county: store.getState().searchTerm
         }
     });
 

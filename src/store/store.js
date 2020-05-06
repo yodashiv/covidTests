@@ -1,5 +1,6 @@
 import rootReducer from "../reducers/rootReducer";
 import { createStore } from "redux";
+import { composeWithDevTools } from "redux-devtools-extension";
 
 let initialState = {
     viewport: {
@@ -9,7 +10,8 @@ let initialState = {
         bearing: 0,
         pitch: 0
     },
-    popupInfo: null
+    popupInfo: null,
+    searchTerm: "initial"
 };
 
-export const store = createStore(rootReducer, initialState);
+export const store = createStore(rootReducer, initialState, composeWithDevTools());
