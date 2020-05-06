@@ -6,6 +6,7 @@ import Pins from '../pins';
 import TestSitePopup from './TestSitePopup';
 import {MapToken} from "../constants/tokens";
 import {store} from "../store/store";
+import {longitude} from "./TestingSiteCard";
 
 
 const TOKEN = MapToken; // Set your mapbox token here
@@ -52,6 +53,18 @@ export default class GeoMap extends Component {
         store.dispatch(action);
     };
 
+    zoomIfJustSearched = allCards => {
+        let {justSearched, viewport} = store.getState();
+        if (justSearched) {
+            let action = {
+                type: "setJustSearchedFalseAndNewViewPort",
+                latitude: (allCards === undefined || allCards.length === 0) ? viewport.latitude : allCards[0].latitude,
+                longitude: (allCards === undefined || allCards.length === 0) ? viewport.longitude : allCards[0].longitude
+            };
+            store.dispatch(action);
+        }
+    };
+
     _renderPopup() {
         const {popupInfo} = store.getState();
 
@@ -76,8 +89,9 @@ export default class GeoMap extends Component {
 
     render() {
         console.log(store.getState());
-        const {viewport} = store.getState();
         const {allCards} = this.props;
+        this.zoomIfJustSearched(allCards);
+        const {viewport} = store.getState();
         return (
             <MapGL
                 {...viewport}
