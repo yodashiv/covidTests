@@ -6,7 +6,6 @@ import {store} from "../store/store";
 
 const handleSubmit = event => {
     event.preventDefault();
-    alert("Hello");
     console.log(event.target.elements.searchForm.value);
     let newSearchTerm = event.target.elements.searchForm.value;
     let action = {
@@ -14,15 +13,14 @@ const handleSubmit = event => {
         searchTerm: newSearchTerm
     }
     store.dispatch(action);
-    // use lindstein algorithim to find closest county name in DB if county name is entered wrong
-    // could use some other algorithim too
-}
+    window.location.href = "/TestingSites";
+};
 
 export default function SearchBar(props) {
     return (
         <div className="SearchBar">
             <form onSubmit={handleSubmit}>
-                    <Form.Control name="searchForm" type="text" placeholder="Enter zipcode" />
+                    <Form.Control name="searchForm" type="text" placeholder="Enter your County" />
             </form>
         </div>
     );
