@@ -5,17 +5,33 @@
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 const cheerio = require('cheerio');
-const jquery = require("jquery");
+const fetch = require("node-fetch");
 const fs = require('fs');
 
 
 async function fetchAllStateCountyPairs() {
-    let states = ["CA"];
+    let states = [ 'AL', 'AK', 'AS', 'AZ', 'AR', 'CA', 'CO', 'CT',
+        'DE', 'DC', 'FM', 'FL', 'GA', 'GU', 'HI', 'ID', 'IL', 'IN',
+        'IA', 'KS', 'KY', 'LA', 'ME', 'MH', 'MD', 'MA', 'MI', 'MN',
+        'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC',
+        'ND', 'MP', 'OH', 'OK', 'OR', 'PW', 'PA', 'PR', 'RI', 'SC',
+        'SD', 'TN', 'TX', 'UT', 'VT', 'VI', 'VA', 'WA', 'WV', 'WI',
+        'WY' ];
+    let url = `https://my.castlighthealth.com/corona-virus-testing-sites/data/result.php?state_key=${states[5]}`;
+    result = [];
 
-    let $ = cheerio.load(fs.readFileSync("/Users/shivampatel/Projects/covid/covidproject/src/Server/sampleCounties.html"));
-    console.log($("option").text());
-    return 8;
+    let response = await fetch(url);
+    let data = await response.text();
+    let $ = cheerio.load(data);
+    let matches = $("option");
+    for (let i = 2; i < matches.length; i++) {
+        result.push(matches[i].children[0].data);
+    }
+    console.log(result);
+    return result;
 }
+
+
 
 async function getStateCountyPairsFromDB() {
     let result = await prisma.regions.findMany();
