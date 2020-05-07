@@ -8,17 +8,37 @@ const cheerio = require('cheerio');
 const fetch = require("node-fetch");
 const fs = require('fs');
 
+let states = [ 'AL', 'AK', 'AS', 'AZ', 'AR', 'CA', 'CO', 'CT',
+    'DE', 'DC', 'FM', 'FL', 'GA', 'GU', 'HI', 'ID', 'IL', 'IN',
+    'IA', 'KS', 'KY', 'LA', 'ME', 'MH', 'MD', 'MA', 'MI', 'MN',
+    'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC',
+    'ND', 'MP', 'OH', 'OK', 'OR', 'PW', 'PA', 'PR', 'RI', 'SC',
+    'SD', 'TN', 'TX', 'UT', 'VT', 'VI', 'VA', 'WA', 'WV', 'WI',
+    'WY' ];
 
-async function fetchAllStateCountyPairs() {
-    let states = [ 'AL', 'AK', 'AS', 'AZ', 'AR', 'CA', 'CO', 'CT',
-        'DE', 'DC', 'FM', 'FL', 'GA', 'GU', 'HI', 'ID', 'IL', 'IN',
-        'IA', 'KS', 'KY', 'LA', 'ME', 'MH', 'MD', 'MA', 'MI', 'MN',
-        'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC',
-        'ND', 'MP', 'OH', 'OK', 'OR', 'PW', 'PA', 'PR', 'RI', 'SC',
-        'SD', 'TN', 'TX', 'UT', 'VT', 'VI', 'VA', 'WA', 'WV', 'WI',
-        'WY' ];
-    let url = `https://my.castlighthealth.com/corona-virus-testing-sites/data/result.php?state_key=${states[5]}`;
-    result = [];
+async function populateRegions() {
+    for (const state of states) {
+        await insertIntoRegions(state);
+    }
+    console.log("All regions updated");
+}
+
+async function insertIntoRegions(state) {
+    let counties = await fetchStateCountyPairs(state);
+    for (const county of counties) {
+        const test = await prisma.regions.create({
+            data: {
+                state: state,
+                county: county
+            },
+        });
+    }
+    console.log("Database updated");
+}
+
+async function fetchStateCountyPairs(state) {
+    let url = `https://my.castlighthealth.com/corona-virus-testing-sites/data/result.php?state_key=${state}`;
+    let result = [];
 
     let response = await fetch(url);
     let data = await response.text();
@@ -27,16 +47,28 @@ async function fetchAllStateCountyPairs() {
     for (let i = 2; i < matches.length; i++) {
         result.push(matches[i].children[0].data);
     }
-    console.log(result);
     return result;
 }
 
+// populateRegions().then(
+//     (result) => {
+//         prisma.disconnect();
+//     }
+// );
 
 
-async function getStateCountyPairsFromDB() {
-    let result = await prisma.regions.findMany();
-    console.log("Done with func");
-    await prisma.disconnect();
+
+
+
+
+
+
+
+async function getStateCountyPairsFromDB(state) {
+    let result = await prisma.regions.findMany({
+        where: {state: state},
+    });
+    console.log(result);
     return result;
 }
 
@@ -61,7 +93,11 @@ function fetchSites(state, county) {
 
 }
 
-fetchAllStateCountyPairs();
+getStateCountyPairsFromDB('CA').then(
+    (result) => {
+        prisma.disconnect();
+    }
+);
 
 // getAllTestSites().then(
 //     (result) => {
