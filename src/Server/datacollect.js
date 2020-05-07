@@ -7,6 +7,9 @@ const prisma = new PrismaClient();
 const cheerio = require('cheerio');
 const fetch = require("node-fetch");
 const fs = require('fs');
+const axios = require('axios');
+const {monkey} = require("../constants/tokens");
+// console.log(monkey);
 
 let states = [ 'AL', 'AK', 'AS', 'AZ', 'AR', 'CA', 'CO', 'CT',
     'DE', 'DC', 'FM', 'FL', 'GA', 'GU', 'HI', 'ID', 'IL', 'IN',
@@ -64,7 +67,7 @@ async function fetchStateCountyPairs(state) {
 
 
 
-async function getStateCountyPairsFromDB(state) {
+async function getCountiesOfState(state) {
     let result = await prisma.regions.findMany({
         where: {state: state},
     });
@@ -73,7 +76,7 @@ async function getStateCountyPairsFromDB(state) {
 }
 
 async function getAllTestSites() {
-    let stateCountyPairs = await getStateCountyPairsFromDB();
+    let stateCountyPairs = await getCountiesOfState();
     let result = [];
     stateCountyPairs.map(
         (pair, index) => {
@@ -93,11 +96,11 @@ function fetchSites(state, county) {
 
 }
 
-getStateCountyPairsFromDB('CA').then(
-    (result) => {
-        prisma.disconnect();
-    }
-);
+// getCountiesOfState('CA').then(
+//     (result) => {
+//         prisma.disconnect();
+//     }
+// );
 
 // getAllTestSites().then(
 //     (result) => {

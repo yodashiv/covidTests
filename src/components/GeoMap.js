@@ -4,11 +4,11 @@ import MapGL, {Popup, NavigationControl, FullscreenControl, ScaleControl} from '
 
 import Pins from '../pins';
 import TestSitePopup from './TestSitePopup';
-import {MapToken} from "../constants/tokens";
+import {mapToken} from "../constants/tokens";
 import {store} from "../store/store";
 
 
-const TOKEN = MapToken; // Set your mapbox token here
+const TOKEN = mapToken; // Set your mapbox token here
 
 const fullscreenControlStyle = {
     position: 'absolute',
