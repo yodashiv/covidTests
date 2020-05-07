@@ -4,50 +4,53 @@
 // Will put this cron job function onto google cloud function.
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
-const htmlparser2 = require("htmlparser2");
+const cheerio = require('cheerio');
+const jquery = require("jquery");
 const fs = require('fs');
 
-const parser = new htmlparser2.Parser(
-    {
-        onopentag(name, attrs) {
-            if (name === "h2") {
-                console.log(attrs);
-            }
-        }
-    }
-)
 
-async function getStateCountyPairs() {
+async function fetchAllStateCountyPairs() {
+    let states = ["CA"];
+
+    let $ = cheerio.load(fs.readFileSync("/Users/shivampatel/Projects/covid/covidproject/src/Server/sampleCounties.html"));
+    console.log($("option").text());
+    return 8;
+}
+
+async function getStateCountyPairsFromDB() {
     let result = await prisma.regions.findMany();
     console.log("Done with func");
     await prisma.disconnect();
     return result;
 }
 
-async function fetchData() {
-    let stateCountyPairs = await getStateCountyPairs();
+async function getAllTestSites() {
+    let stateCountyPairs = await getStateCountyPairsFromDB();
     let result = [];
     stateCountyPairs.map(
         (pair, index) => {
-            result.push(getSites(pair.state, pair.county));
+            result.push(fetchSites(pair.state, pair.county));
         });
     return result;
 }
 
-function getSites(state, county) {
+function fetchSites(state, county) {
     let url = `https://my.castlighthealth.com/corona-virus-testing-sites/data/result.php?county=${county}&state=${state}`;
-    parser.write(fs.readFileSync("/Users/shivampatel/Projects/covid/covidproject/src/Server/sample.html"));
-    parser.end();
+    let $ = cheerio.load(fs.readFileSync("/Users/shivampatel/Projects/covid/covidproject/src/Server/sampleTestSites.html"));
+    // console.log($("h2").text()); // Gets the name
+    // console.log($("img[alt='Icon pin']").next().text()); // gets the address
+    // console.log($("img[alt='Icon call']").next().text()); // gets the phone
+    // console.log($("a[style='color: #282C37;']").text()); // gets the source
+    return state;
+
 }
 
-console.log(fetchData());
+fetchAllStateCountyPairs();
+
+// getAllTestSites().then(
+//     (result) => {
+//         console.log(result);
+//     }
+// );
 
 // make sure that we disconnect from our data base once we are done writing to it through prisma client.
-
-// let test = getStateCountyPairs();
-// setTimeout(() => {
-//     console.log(test);
-//     console.log("afterin");
-// }, 1000);
-// console.log(test);
-// console.log("after");
