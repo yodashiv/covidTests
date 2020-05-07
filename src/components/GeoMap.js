@@ -6,7 +6,6 @@ import Pins from '../pins';
 import TestSitePopup from './TestSitePopup';
 import {MapToken} from "../constants/tokens";
 import {store} from "../store/store";
-import {longitude} from "./TestingSiteCard";
 
 
 const TOKEN = MapToken; // Set your mapbox token here

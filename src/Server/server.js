@@ -23,7 +23,7 @@ async function getSitesInCounty(obj, args) {
     let result = await prisma.testSites.findMany({
         where: {
             county: {
-                equals: args.countyInput
+                contains: args.countyInput
             }
         }
     });

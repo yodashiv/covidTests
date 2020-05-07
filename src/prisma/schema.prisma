@@ -7,6 +7,12 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model regions {
+  county String?
+  id     Int     @default(autoincrement()) @id
+  state  String?
+}
+
 model testSites {
   address     String?
   county      String?
