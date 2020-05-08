@@ -8,8 +8,7 @@ const cheerio = require('cheerio');
 const fetch = require("node-fetch");
 const fs = require('fs');
 const axios = require('axios');
-const {monkey} = require("../constants/tokens");
-// console.log(monkey);
+const {googToken} = require("../constants/tokens");
 
 let states = [ 'AL', 'AK', 'AS', 'AZ', 'AR', 'CA', 'CO', 'CT',
     'DE', 'DC', 'FM', 'FL', 'GA', 'GU', 'HI', 'ID', 'IL', 'IN',
@@ -70,6 +69,7 @@ async function fetchStateCountyPairs(state) {
 async function getCountiesOfState(state) {
     let result = await prisma.regions.findMany({
         where: {state: state},
+        select: {county: true}
     });
     console.log(result);
     return result;
@@ -85,16 +85,71 @@ async function getAllTestSites() {
     return result;
 }
 
-function fetchSites(state, county) {
-    let url = `https://my.castlighthealth.com/corona-virus-testing-sites/data/result.php?county=${county}&state=${state}`;
-    let $ = cheerio.load(fs.readFileSync("/Users/shivampatel/Projects/covid/covidproject/src/Server/sampleTestSites.html"));
-    // console.log($("h2").text()); // Gets the name
-    // console.log($("img[alt='Icon pin']").next().text()); // gets the address
-    // console.log($("img[alt='Icon call']").next().text()); // gets the phone
-    // console.log($("a[style='color: #282C37;']").text()); // gets the source
-    return state;
+async function fetchSites(state) {
+    let counties = await getCountiesOfState(state);
+    let result = [];
+    for (const county of counties) {
+        let url = `https://my.castlighthealth.com/corona-virus-testing-sites/data/result.php?county=${county.county}&state=${state}`;
+        let response = await fetch(url);
+        let data = await response.text();
+        let $ = cheerio.load(data);
+
+        let matches = $(".result_box");
+
+        for (let i = 0; i < matches.length; i++) {
+            let aResultBox = matches.eq(i);
+            let name = aResultBox.find("h2")[0].children[0].data;
+
+            let address = null;
+            let potAddress = aResultBox.find("img[alt='Icon pin']");
+            if (potAddress !== undefined && potAddress.next()[0] !== undefined) {
+                address = potAddress.next()[0].children[0].data;
+            }
+
+            let phone = null;
+            let potPhone = aResultBox.find("img[alt='Icon call']");
+            if (potPhone !== undefined && potPhone.next()[0] !== undefined) {
+                phone = potPhone.next()[0].children[0].data;
+            }
+
+            let source = null;
+            let potSource = aResultBox.find("a[style='color: #282C37;']")[0];
+            if (potSource !== undefined) {
+                source = potSource.children[0].data.trim();
+            }
+
+            let siteInfo = {
+                name : name,
+                address: address,
+                phone: phone,
+                source: source
+            };
+            result.push(siteInfo);
+        }
+
+
+        // // let nameMatches = $(".result_box h2");
+        // // console.log(nameMatches[1].children[0].data);
+        // // break;
+        //
+        // console.log($("h2").text()); // Gets the name
+        // console.log($("img[alt='Icon pin']").next().text()); // gets the address
+        // console.log($("img[alt='Icon call']").next().text()); // gets the phone
+        // console.log($("a[style='color: #282C37;']").text()); // gets the source
+        // console.log("Done with one county");
+        // console.log("\n");
+        // break;
+    }
+    console.log(result);
+    return result;
 
 }
+
+fetchSites('CA').then(
+    (result) => {
+        prisma.disconnect();
+    }
+);
 
 // getCountiesOfState('CA').then(
 //     (result) => {
