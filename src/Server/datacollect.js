@@ -8,8 +8,9 @@ const cheerio = require('cheerio');
 const fetch = require("node-fetch");
 const fs = require('fs');
 const axios = require('axios');
-const {googToken} = require("../constants/tokens");
 
+
+const googToken = 'AIzaSyDhvi5MzhCidHY-U33NeiEMha0U_zpD-LA';
 let states = [ 'AL', 'AK', 'AS', 'AZ', 'AR', 'CA', 'CO', 'CT',
     'DE', 'DC', 'FM', 'FL', 'GA', 'GU', 'HI', 'ID', 'IL', 'IN',
     'IA', 'KS', 'KY', 'LA', 'ME', 'MH', 'MD', 'MA', 'MI', 'MN',
@@ -28,7 +29,7 @@ async function populateRegions() {
 async function insertIntoRegions(state) {
     let counties = await fetchStateCountyPairs(state);
     for (const county of counties) {
-        const test = await prisma.regions.create({
+        const newRecord = await prisma.regions.create({
             data: {
                 state: state,
                 county: county
@@ -65,24 +66,34 @@ async function fetchStateCountyPairs(state) {
 
 
 
-
-async function getCountiesOfState(state) {
-    let result = await prisma.regions.findMany({
-        where: {state: state},
-        select: {county: true}
-    });
-    console.log(result);
-    return result;
-}
-
-async function getAllTestSites() {
-    let stateCountyPairs = await getCountiesOfState();
-    let result = [];
-    stateCountyPairs.map(
-        (pair, index) => {
-            result.push(fetchSites(pair.state, pair.county));
+async function insertIntoTestSites(state) {
+    let testSitesInState = await fetchSites(state);
+    for (const testSite of testSitesInState) {
+        let geoCodeResults = await axios.get("https://maps.googleapis.com/maps/api/geocode/json", {
+            params : {
+                address: testSite.address,
+                key: googToken
+                }
+            }
+        );
+        let {lat, lng} = geoCodeResults.data.results[0].geometry.location;
+        testSite.lat = lat;
+        testSite.lng = lng;
+        console.log(testSite);
+        const newRecord = await prisma.testSites.create({
+            data: {
+                name: testSite.name,
+                address: testSite.address,
+                phone: testSite.phone,
+                source: testSite.source,
+                latitude: testSite.lat,
+                longitude: testSite.lng,
+                county: testSite.county,
+                description: null
+            },
         });
-    return result;
+    }
+    console.log(`Finished inserting records for ${state}`);
 }
 
 async function fetchSites(state) {
@@ -122,7 +133,8 @@ async function fetchSites(state) {
                 name : name,
                 address: address,
                 phone: phone,
-                source: source
+                source: source,
+                county: county
             };
             result.push(siteInfo);
         }
@@ -140,12 +152,19 @@ async function fetchSites(state) {
         // console.log("\n");
         // break;
     }
-    console.log(result);
     return result;
 
 }
 
-fetchSites('CA').then(
+async function getCountiesOfState(state) {
+    let result = await prisma.regions.findMany({
+        where: {state: state},
+        select: {county: true}
+    });
+    return result;
+}
+
+insertIntoTestSites('DE').then(
     (result) => {
         prisma.disconnect();
     }
