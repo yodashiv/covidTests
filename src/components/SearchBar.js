@@ -8,6 +8,7 @@ const handleSubmit = event => {
     event.preventDefault();
     console.log(event.target.elements.searchForm.value);
     let newSearchTerm = event.target.elements.searchForm.value;
+    newSearchTerm = newSearchTerm.replace(/county/i,'').trim();
     let action = {
         type: "setNewSearchTerm",
         searchTerm: newSearchTerm
