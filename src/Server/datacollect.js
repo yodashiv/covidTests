@@ -61,10 +61,11 @@ async function fetchStateCountyPairs(state) {
 
 
 
-
-
-
-
+async function populateTestSites() {
+    for (const state in states) {
+        await insertIntoTestSites(state);
+    }
+}
 
 async function insertIntoTestSites(state) {
     let testSitesInState = await fetchSites(state);
@@ -134,7 +135,7 @@ async function fetchSites(state) {
                 address: address,
                 phone: phone,
                 source: source,
-                county: county
+                county: county.county
             };
             result.push(siteInfo);
         }
