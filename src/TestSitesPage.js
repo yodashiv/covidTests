@@ -23,8 +23,6 @@ export default class TestSitesPage extends Component {
           <div style={{flexGrow: 10}}>
             <SearchBar/>
           </div>
-            {console.log(this.props.data)}
-            {console.log(data)}
             {data.map(
                 (card, index) => {
                     return (<div key={index} style={{flexGrow: 25}}>

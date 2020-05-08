@@ -4,21 +4,6 @@ import TestSitesPage from "./TestSitesPage";
 import * as React from 'react';
 import {store} from "./store/store";
 
-
-const GET_SAMPLE_CARD = gql`
-    query {
-        cards : samplecard {
-            name
-            address
-            phone
-            description
-            source
-            longitude
-            latitude
-        }
-    }
-`;
-
 const GET_COUNTY_CARD = gql`
     query($county: String!) {
         cards : cardsInCounty(countyInput: $county) {

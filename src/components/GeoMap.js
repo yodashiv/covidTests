@@ -35,7 +35,6 @@ export default class GeoMap extends Component {
 
     _updateViewport = viewport => {
         // this.setState({viewport});
-        console.log(viewport);
         let action = {
             type: "setNewViewport",
             viewport: viewport
@@ -87,7 +86,6 @@ export default class GeoMap extends Component {
     }
 
     render() {
-        console.log(store.getState());
         const {allCards} = this.props;
         this.zoomIfJustSearched(allCards);
         const {viewport} = store.getState();

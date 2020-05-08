@@ -1,7 +1,3 @@
-// This is where the logic for collecting the data from castlight will reside.
-// This module will then use prisma to interact with our database and update it
-// with the new data that we will fetch every night.
-// Will put this cron job function onto google cloud function.
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 const cheerio = require('cheerio');
@@ -23,7 +19,6 @@ async function populateRegions() {
     for (const state of states) {
         await insertIntoRegions(state);
     }
-    console.log("All regions updated");
 }
 
 async function insertIntoRegions(state) {
@@ -36,7 +31,6 @@ async function insertIntoRegions(state) {
             },
         });
     }
-    console.log("Database updated");
 }
 
 async function fetchStateCountyPairs(state) {
@@ -62,7 +56,8 @@ async function fetchStateCountyPairs(state) {
 
 
 async function populateTestSites() {
-    for (const state in states) {
+    await prisma.testSites.deleteMany({});
+    for (const state of states) {
         await insertIntoTestSites(state);
     }
 }
@@ -80,7 +75,6 @@ async function insertIntoTestSites(state) {
         let {lat, lng} = geoCodeResults.data.results[0].geometry.location;
         testSite.lat = lat;
         testSite.lng = lng;
-        console.log(testSite);
         const newRecord = await prisma.testSites.create({
             data: {
                 name: testSite.name,
@@ -94,7 +88,6 @@ async function insertIntoTestSites(state) {
             },
         });
     }
-    console.log(`Finished inserting records for ${state}`);
 }
 
 async function fetchSites(state) {
@@ -139,19 +132,6 @@ async function fetchSites(state) {
             };
             result.push(siteInfo);
         }
-
-
-        // // let nameMatches = $(".result_box h2");
-        // // console.log(nameMatches[1].children[0].data);
-        // // break;
-        //
-        // console.log($("h2").text()); // Gets the name
-        // console.log($("img[alt='Icon pin']").next().text()); // gets the address
-        // console.log($("img[alt='Icon call']").next().text()); // gets the phone
-        // console.log($("a[style='color: #282C37;']").text()); // gets the source
-        // console.log("Done with one county");
-        // console.log("\n");
-        // break;
     }
     return result;
 
@@ -165,7 +145,7 @@ async function getCountiesOfState(state) {
     return result;
 }
 
-insertIntoTestSites('DE').then(
+populateTestSites().then(
     (result) => {
         prisma.disconnect();
     }
