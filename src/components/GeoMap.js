@@ -9,6 +9,7 @@ import {store} from "../store/store";
 
 
 const TOKEN = mapToken; // Set your mapbox token here
+console.log(TOKEN);
 
 const fullscreenControlStyle = {
     position: 'absolute',

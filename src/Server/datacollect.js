@@ -6,7 +6,7 @@ const fs = require('fs');
 const axios = require('axios');
 
 
-const googToken = 'AIzaSyDhvi5MzhCidHY-U33NeiEMha0U_zpD-LA';
+const googToken = process.env.GOOG_KEY;
 let states = [ 'AL', 'AK', 'AS', 'AZ', 'AR', 'CA', 'CO', 'CT',
     'DE', 'DC', 'FM', 'FL', 'GA', 'GU', 'HI', 'ID', 'IL', 'IN',
     'IA', 'KS', 'KY', 'LA', 'ME', 'MH', 'MD', 'MA', 'MI', 'MN',
@@ -145,11 +145,13 @@ async function getCountiesOfState(state) {
     return result;
 }
 
-populateTestSites().then(
-    (result) => {
-        prisma.disconnect();
-    }
-);
+console.log(googToken);
+
+// populateTestSites().then(
+//     (result) => {
+//         prisma.disconnect();
+//     }
+// );
 
 // getCountiesOfState('CA').then(
 //     (result) => {

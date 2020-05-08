@@ -2,6 +2,7 @@
 
 # Tokens
 ./src/constants/tokens.js
+./src/prisma
 
 # dependencies
 /node_modules
