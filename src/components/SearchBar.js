@@ -1,7 +1,6 @@
 import React from 'react';
 import Form from "react-bootstrap/Form";
 import "./SearchBar.css";
-import { Link } from "react-router-dom";
 import {store} from "../store/store";
 
 const handleSubmit = event => {

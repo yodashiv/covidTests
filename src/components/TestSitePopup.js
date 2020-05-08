@@ -9,8 +9,8 @@ export default class TestSitePopup extends PureComponent {
         const {name, address, phone, source} = info;
 
         return (
-            <div>
-                <div className="PopupContents">
+            <div className="PopupContents">
+                <div>
                     <Card border="light">
                         <Card.Body>
                             <Card.Title> {name} </Card.Title>

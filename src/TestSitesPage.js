@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Component} from 'react';
 
-import TestingSiteCard, {name, address, phone, description, source, latitude, longitude} from "./components/TestingSiteCard";
+import TestingSiteCard from "./components/TestingSiteCard";
 import "./TestSitesPage.css";
 import NavigationBar from "./components/NavigationBar";
 import SearchBar from "./components/SearchBar";
@@ -36,13 +36,6 @@ export default class TestSitesPage extends Component {
                     </div>);
                 }
             )}
-            <div style={{flexGrow: 25}}>
-                <TestingSiteCard name={name} address={address}
-                                 phone={phone} description={description}
-                                 source={source} latitude={latitude}
-                                 longitude={longitude}>
-                </TestingSiteCard>
-            </div>
         </div>
     );
   }
