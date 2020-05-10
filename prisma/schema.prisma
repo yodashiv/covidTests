@@ -13,6 +13,11 @@ model regions {
   state  String?
 }
 
+// The underlying table does not contain a unique identifier and can therefore currently not be handled.
+// model test {
+  // age Int?
+// }
+
 model testSites {
   address     String?
   county      String?

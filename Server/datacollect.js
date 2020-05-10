@@ -15,8 +15,11 @@ let states = [ 'AL', 'AK', 'AS', 'AZ', 'AR', 'CA', 'CO', 'CT',
     'SD', 'TN', 'TX', 'UT', 'VT', 'VI', 'VA', 'WA', 'WV', 'WI',
     'WY' ];
 
+let states1 = ['CA', 'MD'];
+
 async function populateRegions() {
-    for (const state of states) {
+    await prisma.regions.deleteMany({});
+    for (const state of states1) {
         await insertIntoRegions(state);
     }
 }
@@ -57,7 +60,7 @@ async function fetchStateCountyPairs(state) {
 
 async function populateTestSites() {
     await prisma.testSites.deleteMany({});
-    for (const state of states) {
+    for (const state of states1) {
         await insertIntoTestSites(state);
     }
 }
@@ -65,13 +68,18 @@ async function populateTestSites() {
 async function insertIntoTestSites(state) {
     let testSitesInState = await fetchSites(state);
     for (const testSite of testSitesInState) {
-        let geoCodeResults = await axios.get("https://maps.googleapis.com/maps/api/geocode/json", {
-            params : {
-                address: testSite.address,
-                key: googToken
+        let geoCodeResult = null;
+        try {
+            geoCodeResults = await axios.get("https://maps.googleapis.com/maps/api/geocode/json", {
+                    params : {
+                        address: testSite.address,
+                        key: googToken
+                    }
                 }
-            }
-        );
+            );
+        } catch (err) {
+            continue;
+        }
         let {lat, lng} = geoCodeResults.data.results[0].geometry.location;
         testSite.lat = lat;
         testSite.lng = lng;
@@ -95,7 +103,12 @@ async function fetchSites(state) {
     let result = [];
     for (const county of counties) {
         let url = `https://my.castlighthealth.com/corona-virus-testing-sites/data/result.php?county=${county.county}&state=${state}`;
-        let response = await fetch(url);
+        let response = null;
+        try {
+            response = await fetch(url);
+        } catch(err) {
+            return result;
+        }
         let data = await response.text();
         let $ = cheerio.load(data);
 
@@ -145,7 +158,16 @@ async function getCountiesOfState(state) {
     return result;
 }
 
-console.log(googToken);
+async function performAll() {
+    await populateRegions();
+    await populateTestSites();
+}
+
+performAll().then(
+    (result) => {
+        prisma.disconnect();
+    }
+);
 
 // populateTestSites().then(
 //     (result) => {
