@@ -10,7 +10,7 @@ const handleSubmit = event => {
     let action = {
         type: "setNewSearchTerm",
         searchTerm: newSearchTerm
-    }
+    };
     store.dispatch(action);
     window.location.href = "/TestingSites";
 };
