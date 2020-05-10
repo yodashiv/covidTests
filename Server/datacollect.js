@@ -19,7 +19,7 @@ let states1 = ['CA', 'MD'];
 
 async function populateRegions() {
     await prisma.regions.deleteMany({});
-    for (const state of states1) {
+    for (const state of states) {
         await insertIntoRegions(state);
     }
 }
@@ -60,7 +60,7 @@ async function fetchStateCountyPairs(state) {
 
 async function populateTestSites() {
     await prisma.testSites.deleteMany({});
-    for (const state of states1) {
+    for (const state of states) {
         await insertIntoTestSites(state);
     }
 }
