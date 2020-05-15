@@ -12,7 +12,9 @@ const handleSubmit = event => {
         searchTerm: newSearchTerm
     };
     store.dispatch(action);
-    window.location.href = "/TestingSites";
+    if (window.location.pathname !== "/TestingSites") {
+        window.location.href = "/TestingSites";
+    }
 };
 
 export default function SearchBar(props) {
