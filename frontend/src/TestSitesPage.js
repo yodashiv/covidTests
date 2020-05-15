@@ -6,9 +6,33 @@ import "./TestSitesPage.css";
 import NavigationBar from "./components/NavigationBar";
 import SearchBar from "./components/SearchBar";
 import GeoMap from "./components/GeoMap";
+import Card from "react-bootstrap/Card";
 
 
 export default class TestSitesPage extends Component {
+
+  displayCards(data) {
+      if (data === undefined || data.length === 0) {
+          return (
+              <Card>
+                  <Card.Body>No test sites were found in that county. Please
+                  call your local health provider for more information on COVID-19 testing options near you.</Card.Body>
+              </Card>
+          );
+      }
+      return (data.map(
+            (card, index) => {
+                return (<div key={index} style={{flexGrow: 25}}>
+                    <TestingSiteCard name={card.name} address={card.address}
+                                     phone={card.phone} description={card.description}
+                                     source={card.source} latitude={card.latitude}
+                                     longitude={card.longitude} key={index}>
+                    </TestingSiteCard>
+                </div>);
+            }
+        ));
+    }
+
   render() {
     const data = this.props.data.cards;
 
@@ -23,17 +47,7 @@ export default class TestSitesPage extends Component {
           <div style={{flexGrow: 10}}>
             <SearchBar/>
           </div>
-            {data.map(
-                (card, index) => {
-                    return (<div key={index} style={{flexGrow: 25}}>
-                        <TestingSiteCard name={card.name} address={card.address}
-                                         phone={card.phone} description={card.description}
-                                         source={card.source} latitude={card.latitude}
-                                         longitude={card.longitude} key={index}>
-                        </TestingSiteCard>
-                    </div>);
-                }
-            )}
+            {this.displayCards(data)}
         </div>
     );
   }
