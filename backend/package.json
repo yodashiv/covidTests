@@ -9,7 +9,6 @@
     "apollo-link-http": "^1.5.17",
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
-    "graphql-tag": "^2.10.3",
     "graphql-yoga": "^1.18.3",
     "mysql": "^2.18.1",
     "node-fetch": "^2.6.0"
