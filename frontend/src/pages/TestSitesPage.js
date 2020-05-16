@@ -18,7 +18,7 @@ export default class TestSitesPage extends Component {
           return (
               <Card>
                   <Card.Body>Please ensure that you have separated your county and state by a comma. A valid
-                      example would be: Alameda, California</Card.Body>
+                      example would be: Alameda, California or Queens, NY</Card.Body>
               </Card>
           );
       }

@@ -26,9 +26,18 @@ async function getSitesInCountyState(obj, args) {
                 county: {
                     contains: args.countyInput
                 },
-                stateFullName: {
-                    contains: args.stateInput
-                }
+                OR: [
+                    {
+                        stateFullName: {
+                            contains: args.stateInput
+                        }
+                    },
+                    {
+                        stateAbrv: {
+                            contains: args.stateInput
+                        }
+                    }
+                ]
             }
         });
     await prisma.disconnect();

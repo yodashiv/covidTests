@@ -27,7 +27,7 @@ export default function SearchBar(props) {
     return (
         <div className="SearchBar">
             <form onSubmit={handleSubmit}>
-                    <Form.Control name="searchForm" type="text" placeholder="Enter your County and State. (Ex. Alameda, California)"/>
+                    <Form.Control name="searchForm" type="text" placeholder="Enter your county and state. (Ex. Queens, NY)"/>
             </form>
         </div>
     );
