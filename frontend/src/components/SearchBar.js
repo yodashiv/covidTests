@@ -6,14 +6,16 @@ import {store} from "../store/store";
 const handleSubmit = event => {
     event.preventDefault();
     let newSearchTerm = event.target.elements.searchForm.value;
-    newSearchTerm = newSearchTerm.replace(/county/i, "").replace(/,/i, "").trim();
-    let searchTermAsArr = newSearchTerm.split(" ");
+    newSearchTerm = newSearchTerm.replace(/county/i, "");
+    let containsComma = newSearchTerm.includes(",");
+    let searchTermAsArr = newSearchTerm.split(",");
     let state = searchTermAsArr[searchTermAsArr.length - 1].trim().toLowerCase();
-    let county = searchTermAsArr.slice(0, searchTermAsArr.length - 1).join(" ").trim().toLowerCase();
+    let county = searchTermAsArr.slice(0, 1).join(" ").trim().toLowerCase();
     let action = {
         type: "setNewSearchTerm",
         countySearchTerm: county,
-        stateSearchTerm: state
+        stateSearchTerm: state,
+        containsComma: containsComma
     };
     store.dispatch(action);
     if (window.location.pathname !== "/TestingSites") {

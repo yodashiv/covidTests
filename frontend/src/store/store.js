@@ -21,6 +21,7 @@ let initialState = {
     popupInfo: null,
     countySearchTerm: "initial County",
     stateSearchTerm: "initial State",
+    containsComma: false,
     justSearched: false
 };
 

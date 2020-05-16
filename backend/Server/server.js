@@ -21,22 +21,7 @@ async function getSampleCards() {
 }
 
 async function getSitesInCountyState(obj, args) {
-    let stateFormatted = args.stateInput;
-    let result = null;
-    if (args.stateInput !== null && args.stateInput !== undefined) {
-        stateFormatted = stateFormatted.charAt(0).toUpperCase() + stateFormatted.slice(1);
-    }
-    if (stateNameToAbrv[stateFormatted] === undefined) {
-        let county = (args.countyInput + " " + args.stateInput).trim();
-        result = await prisma.testSites.findMany({
-            where: {
-                county: {
-                    contains: county
-                },
-            }
-        });
-    } else {
-        result = await prisma.testSites.findMany({
+    let result = await prisma.testSites.findMany({
             where: {
                 county: {
                     contains: args.countyInput
@@ -46,7 +31,6 @@ async function getSitesInCountyState(obj, args) {
                 }
             }
         });
-    }
     await prisma.disconnect();
     return result;
 }

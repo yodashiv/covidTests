@@ -3,6 +3,7 @@ import {useQuery} from "@apollo/react-hooks";
 import TestSitesPage from "./TestSitesPage";
 import * as React from 'react';
 import {store} from "../store/store";
+import Card from "react-bootstrap/Card";
 
 const GET_COUNTY_CARD = gql`
     query($county: String!, $state: String) {
@@ -19,6 +20,7 @@ const GET_COUNTY_CARD = gql`
 `;
 
 export default function HooksTestSitesPage(props) {
+
     const { loading, error, data } = useQuery(GET_COUNTY_CARD, {
         variables: {
             county: store.getState().countySearchTerm,

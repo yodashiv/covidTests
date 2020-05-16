@@ -7,11 +7,22 @@ import NavigationBar from "../components/NavigationBar";
 import SearchBar from "../components/SearchBar";
 import GeoMap from "../components/GeoMap";
 import Card from "react-bootstrap/Card";
+import {store} from "../store/store";
 
 
 export default class TestSitesPage extends Component {
 
   displayCards(data) {
+      let containsComma = store.getState().containsComma;
+      if (!containsComma) {
+          return (
+              <Card>
+                  <Card.Body>Please ensure that you have separated your county and state by a comma. A valid
+                      example would be: Alameda, California</Card.Body>
+              </Card>
+          );
+      }
+
       if (data === undefined || data.length === 0) {
           return (
               <Card>
@@ -20,6 +31,7 @@ export default class TestSitesPage extends Component {
               </Card>
           );
       }
+
       return (data.map(
             (card, index) => {
                 return (<div key={index} style={{flexGrow: 25}}>

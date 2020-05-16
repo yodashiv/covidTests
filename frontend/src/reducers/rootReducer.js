@@ -17,6 +17,7 @@ function setNewSearchTerm(state, action) {
         ...state,
         countySearchTerm: action.countySearchTerm,
         stateSearchTerm: action.stateSearchTerm,
+        containsComma: action.containsComma,
         justSearched: true
     };
 }
