@@ -8,24 +8,22 @@ datasource db {
 }
 
 model regions {
-  county String?
-  id     Int     @default(autoincrement()) @id
-  state  String?
+  county        String?
+  id            Int     @default(autoincrement()) @id
+  stateAbrv     String?
+  stateFullName String?
 }
 
-// The underlying table does not contain a unique identifier and can therefore currently not be handled.
-// model test {
-  // age Int?
-// }
-
 model testSites {
-  address     String?
-  county      String?
-  description String?
-  id          Int     @default(autoincrement()) @id
-  latitude    Float?
-  longitude   Float?
-  name        String?
-  phone       String?
-  source      String?
+  address       String?
+  county        String?
+  description   String?
+  id            Int     @default(autoincrement()) @id
+  latitude      Float?
+  longitude     Float?
+  name          String?
+  phone         String?
+  source        String?
+  stateAbrv     String?
+  stateFullName String?
 }
