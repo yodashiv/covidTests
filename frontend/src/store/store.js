@@ -19,7 +19,8 @@ let initialState = {
         pitch: 0
     },
     popupInfo: null,
-    searchTerm: "initial",
+    countySearchTerm: "initial County",
+    stateSearchTerm: "initial State",
     justSearched: false
 };
 

@@ -1,6 +1,6 @@
 type Query {
     samplecard: [Card]
-    cardsInCounty(countyInput: String!): [Card]
+    cardsInCountyState(countyInput: String!, stateInput: String): [Card]
 }
 
 type Card {

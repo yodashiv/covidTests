@@ -19,11 +19,14 @@ async function getSampleCards() {
     return result;
 }
 
-async function getSitesInCounty(obj, args) {
+async function getSitesInCountyState(obj, args) {
     let result = await prisma.testSites.findMany({
         where: {
             county: {
                 contains: args.countyInput
+            },
+            stateFullName: {
+                equals: args.stateInput
             }
         }
     });
@@ -34,7 +37,7 @@ async function getSitesInCounty(obj, args) {
 const resolvers = {
     Query: {
         samplecard: getSampleCards,
-        cardsInCounty: getSitesInCounty
+        cardsInCountyState: getSitesInCountyState
     }
 };
 

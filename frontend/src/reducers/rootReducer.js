@@ -15,7 +15,8 @@ function setNewViewport (state, action) {
 function setNewSearchTerm(state, action) {
     return {
         ...state,
-        searchTerm: action.searchTerm,
+        countySearchTerm: action.countySearchTerm,
+        stateSearchTerm: action.stateSearchTerm,
         justSearched: true
     };
 }

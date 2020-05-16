@@ -5,8 +5,8 @@ import * as React from 'react';
 import {store} from "../store/store";
 
 const GET_COUNTY_CARD = gql`
-    query($county: String!) {
-        cards : cardsInCounty(countyInput: $county) {
+    query($county: String!, $state: String) {
+        cards : cardsInCountyState(countyInput: $county, stateInput: $state) {
             name
             address
             phone
@@ -21,7 +21,8 @@ const GET_COUNTY_CARD = gql`
 export default function HooksTestSitesPage(props) {
     const { loading, error, data } = useQuery(GET_COUNTY_CARD, {
         variables: {
-            county: store.getState().searchTerm
+            county: store.getState().countySearchTerm,
+            state: store.getState().stateSearchTerm
         }
     });
 
