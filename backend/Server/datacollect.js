@@ -92,6 +92,7 @@ async function insertIntoTestSites(state) {
                 latitude: testSite.lat,
                 longitude: testSite.lng,
                 county: testSite.county,
+                state: state,
                 description: null
             },
         });

@@ -5,7 +5,6 @@ import virus from "./images/virus.svg";
 import NavigationBar from "./components/NavigationBar";
 import "./Home.css";
 import IntroMessage from "./components/IntroMessage";
-import BuyMeACoffee from "./components/BuyMeACoffee";
 import SearchBar from "./components/SearchBar";
 
 export default class Home extends Component {
@@ -15,9 +14,6 @@ export default class Home extends Component {
                 <div id='main'>
                     <div style={{flexGrow: 10}}>
                         <NavigationBar/>
-                    </div>
-                    <div id="coffee">
-                            <BuyMeACoffee/>
                     </div>
                     <div className="imgcontainer">
                         <img className="coronaimg" src={mask} alt="mask Image"/>
