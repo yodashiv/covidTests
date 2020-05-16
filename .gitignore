@@ -3,6 +3,7 @@
 # Tokens
 frontend/src/constants/tokens.js
 backend/prisma/.env
+backend/Server/temp.js
 
 # dependencies
 backend/node_modules
