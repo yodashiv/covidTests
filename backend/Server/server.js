@@ -29,12 +29,12 @@ async function getSitesInCountyState(obj, args) {
                 OR: [
                     {
                         stateFullName: {
-                            contains: args.stateInput
+                            equals: args.stateInput
                         }
                     },
                     {
                         stateAbrv: {
-                            contains: args.stateInput
+                            equals: args.stateInput
                         }
                     }
                 ]
