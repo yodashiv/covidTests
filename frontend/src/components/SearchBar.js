@@ -8,8 +8,8 @@ const handleSubmit = event => {
     let newSearchTerm = event.target.elements.searchForm.value;
     newSearchTerm = newSearchTerm.replace(/county/i, "").replace(/,/i, "").trim();
     let searchTermAsArr = newSearchTerm.split(" ");
-    let state = searchTermAsArr[searchTermAsArr.length - 1].trim();
-    let county = searchTermAsArr.slice(0, searchTermAsArr.length - 1).join(" ").trim();
+    let state = searchTermAsArr[searchTermAsArr.length - 1].trim().toLowerCase();
+    let county = searchTermAsArr.slice(0, searchTermAsArr.length - 1).join(" ").trim().toLowerCase();
     let action = {
         type: "setNewSearchTerm",
         countySearchTerm: county,
@@ -25,7 +25,7 @@ export default function SearchBar(props) {
     return (
         <div className="SearchBar">
             <form onSubmit={handleSubmit}>
-                    <Form.Control name="searchForm" type="text" placeholder="Enter your County" />
+                    <Form.Control name="searchForm" type="text" placeholder="Enter your County and State. (Ex. Alameda, California)"/>
             </form>
         </div>
     );

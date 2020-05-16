@@ -1,5 +1,6 @@
 const { GraphQLServer } = require('graphql-yoga');
 const { PrismaClient } = require('@prisma/client');
+const {stateNameToAbrv} = require("../constants/constants");
 
 const prisma = new PrismaClient();
 
@@ -20,16 +21,32 @@ async function getSampleCards() {
 }
 
 async function getSitesInCountyState(obj, args) {
-    let result = await prisma.testSites.findMany({
-        where: {
-            county: {
-                contains: args.countyInput
-            },
-            stateFullName: {
-                equals: args.stateInput
+    let stateFormatted = args.stateInput;
+    let result = null;
+    if (args.stateInput !== null && args.stateInput !== undefined) {
+        stateFormatted = stateFormatted.charAt(0).toUpperCase() + stateFormatted.slice(1);
+    }
+    if (stateNameToAbrv[stateFormatted] === undefined) {
+        let county = (args.countyInput + " " + args.stateInput).trim();
+        result = await prisma.testSites.findMany({
+            where: {
+                county: {
+                    contains: county
+                },
             }
-        }
-    });
+        });
+    } else {
+        result = await prisma.testSites.findMany({
+            where: {
+                county: {
+                    contains: args.countyInput
+                },
+                stateFullName: {
+                    contains: args.stateInput
+                }
+            }
+        });
+    }
     await prisma.disconnect();
     return result;
 }
