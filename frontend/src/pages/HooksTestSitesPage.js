@@ -2,7 +2,7 @@ import gql from "graphql-tag";
 import {useQuery} from "@apollo/react-hooks";
 import TestSitesPage from "./TestSitesPage";
 import * as React from 'react';
-import {store} from "./store/store";
+import {store} from "../store/store";
 
 const GET_COUNTY_CARD = gql`
     query($county: String!) {

@@ -1,11 +1,11 @@
 import * as React from 'react';
 import {Component} from 'react';
 
-import TestingSiteCard from "./components/TestingSiteCard";
+import TestingSiteCard from "../components/TestingSiteCard";
 import "./TestSitesPage.css";
-import NavigationBar from "./components/NavigationBar";
-import SearchBar from "./components/SearchBar";
-import GeoMap from "./components/GeoMap";
+import NavigationBar from "../components/NavigationBar";
+import SearchBar from "../components/SearchBar";
+import GeoMap from "../components/GeoMap";
 import Card from "react-bootstrap/Card";
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import {Component} from 'react';
 import MapGL, {Popup, NavigationControl, FullscreenControl, ScaleControl} from 'react-map-gl';
 
-import Pins from '../pins';
+import Pins from './pins';
 import TestSitePopup from './TestSitePopup';
 import {mapToken} from "../constants/tokens";
 import {store} from "../store/store";

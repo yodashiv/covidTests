@@ -1,11 +1,11 @@
 import React from 'react';
 import {Component} from 'react';
-import mask from "./images/mask.svg";
-import virus from "./images/virus.svg";
-import NavigationBar from "./components/NavigationBar";
+import mask from "../images/mask.svg";
+import virus from "../images/virus.svg";
+import NavigationBar from "../components/NavigationBar";
 import "./Home.css";
-import IntroMessage from "./components/IntroMessage";
-import SearchBar from "./components/SearchBar";
+import IntroMessage from "../components/IntroMessage";
+import SearchBar from "../components/SearchBar";
 
 export default class Home extends Component {
     render() {
