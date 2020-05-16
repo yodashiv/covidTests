@@ -4,7 +4,7 @@ import MapGL, {Popup, NavigationControl, FullscreenControl, ScaleControl} from '
 
 import Pins from './pins';
 import TestSitePopup from './TestSitePopup';
-import {mapToken} from "../constants/tokens";
+import {mapToken} from "../constants/constants";
 import {store} from "../store/store";
 
 

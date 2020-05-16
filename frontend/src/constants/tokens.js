@@ -1,1 +1,0 @@
-exports.mapToken = 'pk.eyJ1Ijoic2hpdmFtLXBhdGVsIiwiYSI6ImNrOXltdXlqNzAxN2IzZnJ5NG56ZzJnMDEifQ.18h17pY6C1EvfloFSMLV9Q';

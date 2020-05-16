@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # Tokens
-frontend/src/constants/tokens.js
+frontend/src/constants/constants.js
 backend/prisma/.env
 backend/Server/temp.js
 
