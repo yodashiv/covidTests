@@ -3,4 +3,5 @@
     top: 0;
     align-self: flex-start;
     margin: 10px 15vw 10px 15vw;
+    z-index: 1;
 }

@@ -2,11 +2,12 @@ import React from 'react';
 import Form from "react-bootstrap/Form";
 import "./SearchBar.css";
 import {store} from "../store/store";
+import AutosuggestSearch from "./AutosuggestSearch";
 
 const handleSubmit = event => {
     event.preventDefault();
-    let newSearchTerm = event.target.elements.searchForm.value;
-    newSearchTerm = newSearchTerm.replace(/county/i, "");
+    let {currSearchValue} = store.getState();
+    let newSearchTerm = currSearchValue.replace(/county/i, "");
     let containsComma = newSearchTerm.includes(",");
     let searchTermAsArr = newSearchTerm.split(",");
     let state = searchTermAsArr[searchTermAsArr.length - 1].trim().toLowerCase();
@@ -27,8 +28,15 @@ export default function SearchBar(props) {
     return (
         <div className="SearchBar">
             <form onSubmit={handleSubmit}>
-                    <Form.Control name="searchForm" type="text" placeholder="Enter your county and state. (Ex. Queens, NY)"/>
+                <AutosuggestSearch/>
             </form>
         </div>
     );
+    // return (
+    //     <div className="SearchBar">
+    //         <form onSubmit={handleSubmit}>
+    //                 <Form.Control name="searchForm" type="text" placeholder="Enter your county and state. (Ex. Queens, NY)"/>
+    //         </form>
+    //     </div>
+    // );
 }

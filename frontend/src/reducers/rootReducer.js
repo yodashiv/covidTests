@@ -12,6 +12,20 @@ function setNewViewport (state, action) {
     };
 }
 
+function setSuggestions(state, action) {
+    return {
+        ...state,
+        suggestions: action.suggestions
+    };
+}
+
+function setCurrSearchValue(state, action) {
+    return {
+        ...state,
+        currSearchValue: action.currSearchValue
+    };
+}
+
 function setNewSearchTerm(state, action) {
     return {
         ...state,
@@ -37,6 +51,10 @@ function setJustSearchedFalseAndNewViewPort(state, action) {
 
 export default function rootReducer(state, action) {
     switch(action.type) {
+        case "setCurrSearchValue":
+            return setCurrSearchValue(state, action);
+        case "setSuggestions":
+            return setSuggestions(state, action);
         case "setNewPopup":
             return setNewPopup(state, action);
         case "setNewViewport":

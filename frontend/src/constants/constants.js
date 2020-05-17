@@ -1,8859 +1,4431 @@
 let allRegions = [
     {
-        "id" : 225,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Ashe"
+        "countyAndState": "Ashe, Alabama"
     },
     {
-        "id" : 226,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Autauga"
+        "countyAndState": "Autauga, Alabama"
     },
     {
-        "id" : 227,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Bibb"
+        "countyAndState": "Bibb, Alabama"
     },
     {
-        "id" : 228,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Calhoun"
+        "countyAndState": "Calhoun, Alabama"
     },
     {
-        "id" : 229,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Chilton"
+        "countyAndState": "Chilton, Alabama"
     },
     {
-        "id" : 230,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Choctaw"
+        "countyAndState": "Choctaw, Alabama"
     },
     {
-        "id" : 231,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Clarke"
+        "countyAndState": "Clarke, Alabama"
     },
     {
-        "id" : 232,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Cleburne"
+        "countyAndState": "Cleburne, Alabama"
     },
     {
-        "id" : 233,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Conecuh"
+        "countyAndState": "Conecuh, Alabama"
     },
     {
-        "id" : 234,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Cullman"
+        "countyAndState": "Cullman, Alabama"
     },
     {
-        "id" : 235,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Dallas"
+        "countyAndState": "Dallas, Alabama"
     },
     {
-        "id" : 236,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "DeKalb"
+        "countyAndState": "DeKalb, Alabama"
     },
     {
-        "id" : 237,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Elmore"
+        "countyAndState": "Elmore, Alabama"
     },
     {
-        "id" : 238,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Etowah"
+        "countyAndState": "Etowah, Alabama"
     },
     {
-        "id" : 239,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Franklin"
+        "countyAndState": "Franklin, Alabama"
     },
     {
-        "id" : 240,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Hale"
+        "countyAndState": "Hale, Alabama"
     },
     {
-        "id" : 241,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Hoover"
+        "countyAndState": "Hoover, Alabama"
     },
     {
-        "id" : 242,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Alabama"
     },
     {
-        "id" : 243,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Lauderdale"
+        "countyAndState": "Lauderdale, Alabama"
     },
     {
-        "id" : 244,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Lowndes"
+        "countyAndState": "Lowndes, Alabama"
     },
     {
-        "id" : 245,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Madison"
+        "countyAndState": "Madison, Alabama"
     },
     {
-        "id" : 246,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Marengo"
+        "countyAndState": "Marengo, Alabama"
     },
     {
-        "id" : 247,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Marion"
+        "countyAndState": "Marion, Alabama"
     },
     {
-        "id" : 248,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Mobile"
+        "countyAndState": "Mobile, Alabama"
     },
     {
-        "id" : 249,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Montgomery"
+        "countyAndState": "Montgomery, Alabama"
     },
     {
-        "id" : 250,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Morgan"
+        "countyAndState": "Morgan, Alabama"
     },
     {
-        "id" : 251,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Trussville"
+        "countyAndState": "Trussville, Alabama"
     },
     {
-        "id" : 252,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Tuscaloosa"
+        "countyAndState": "Tuscaloosa, Alabama"
     },
     {
-        "id" : 253,
-        "stateAbrv" : "AL",
-        "stateFullName" : "Alabama",
-        "county" : "Walker"
+        "countyAndState": "Walker, Alabama"
     },
     {
-        "id" : 254,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Aleutians East Borough"
+        "countyAndState": "Aleutians East Borough, Alaska"
     },
     {
-        "id" : 255,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Aleutians West"
+        "countyAndState": "Aleutians West, Alaska"
     },
     {
-        "id" : 256,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Anchorage"
+        "countyAndState": "Anchorage, Alaska"
     },
     {
-        "id" : 257,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Bethel"
+        "countyAndState": "Bethel, Alaska"
     },
     {
-        "id" : 258,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Bristol Bay Borough"
+        "countyAndState": "Bristol Bay Borough, Alaska"
     },
     {
-        "id" : 259,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "City and Borough of Wrangell"
+        "countyAndState": "City and Borough of Wrangell, Alaska"
     },
     {
-        "id" : 260,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Dillingham"
+        "countyAndState": "Dillingham, Alaska"
     },
     {
-        "id" : 261,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Fairbanks North Star Borough"
+        "countyAndState": "Fairbanks North Star Borough, Alaska"
     },
     {
-        "id" : 262,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Haines Borough"
+        "countyAndState": "Haines Borough, Alaska"
     },
     {
-        "id" : 263,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Hoonah-Angoon"
+        "countyAndState": "Hoonah-Angoon, Alaska"
     },
     {
-        "id" : 264,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Juneau City and Borough"
+        "countyAndState": "Juneau City and Borough, Alaska"
     },
     {
-        "id" : 265,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Kenai Peninsula Borough"
+        "countyAndState": "Kenai Peninsula Borough, Alaska"
     },
     {
-        "id" : 266,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Ketchikan Gateway Borough"
+        "countyAndState": "Ketchikan Gateway Borough, Alaska"
     },
     {
-        "id" : 267,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Kodiak Island Borough"
+        "countyAndState": "Kodiak Island Borough, Alaska"
     },
     {
-        "id" : 268,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Kusilvak"
+        "countyAndState": "Kusilvak, Alaska"
     },
     {
-        "id" : 269,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Matanuska-Susitna Borough"
+        "countyAndState": "Matanuska-Susitna Borough, Alaska"
     },
     {
-        "id" : 270,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Nome"
+        "countyAndState": "Nome, Alaska"
     },
     {
-        "id" : 271,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "North Slope Borough"
+        "countyAndState": "North Slope Borough, Alaska"
     },
     {
-        "id" : 272,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Northwest Arctic Borough"
+        "countyAndState": "Northwest Arctic Borough, Alaska"
     },
     {
-        "id" : 273,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Petersburg Borough"
+        "countyAndState": "Petersburg Borough, Alaska"
     },
     {
-        "id" : 274,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Prince of Wales-Hyder"
+        "countyAndState": "Prince of Wales-Hyder, Alaska"
     },
     {
-        "id" : 275,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Sitka City and Borough"
+        "countyAndState": "Sitka City and Borough, Alaska"
     },
     {
-        "id" : 276,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Southeast Fairbanks"
+        "countyAndState": "Southeast Fairbanks, Alaska"
     },
     {
-        "id" : 277,
-        "stateAbrv" : "AK",
-        "stateFullName" : "Alaska",
-        "county" : "Valdez-Cordova"
+        "countyAndState": "Valdez-Cordova, Alaska"
     },
     {
-        "id" : 278,
-        "stateAbrv" : "AZ",
-        "stateFullName" : "Arizona",
-        "county" : "Coconino"
+        "countyAndState": "Coconino, Arizona"
     },
     {
-        "id" : 279,
-        "stateAbrv" : "AZ",
-        "stateFullName" : "Arizona",
-        "county" : "Greenlee"
+        "countyAndState": "Greenlee, Arizona"
     },
     {
-        "id" : 280,
-        "stateAbrv" : "AZ",
-        "stateFullName" : "Arizona",
-        "county" : "Maricopa"
+        "countyAndState": "Maricopa, Arizona"
     },
     {
-        "id" : 281,
-        "stateAbrv" : "AZ",
-        "stateFullName" : "Arizona",
-        "county" : "Mohave"
+        "countyAndState": "Mohave, Arizona"
     },
     {
-        "id" : 282,
-        "stateAbrv" : "AZ",
-        "stateFullName" : "Arizona",
-        "county" : "Phoenix"
+        "countyAndState": "Phoenix, Arizona"
     },
     {
-        "id" : 283,
-        "stateAbrv" : "AZ",
-        "stateFullName" : "Arizona",
-        "county" : "Pima"
+        "countyAndState": "Pima, Arizona"
     },
     {
-        "id" : 284,
-        "stateAbrv" : "AZ",
-        "stateFullName" : "Arizona",
-        "county" : "Pinal"
+        "countyAndState": "Pinal, Arizona"
     },
     {
-        "id" : 285,
-        "stateAbrv" : "AZ",
-        "stateFullName" : "Arizona",
-        "county" : "Santa Cruz"
+        "countyAndState": "Santa Cruz, Arizona"
     },
     {
-        "id" : 286,
-        "stateAbrv" : "AZ",
-        "stateFullName" : "Arizona",
-        "county" : "Yavapai"
+        "countyAndState": "Yavapai, Arizona"
     },
     {
-        "id" : 287,
-        "stateAbrv" : "AZ",
-        "stateFullName" : "Arizona",
-        "county" : "Yuma"
+        "countyAndState": "Yuma, Arizona"
     },
     {
-        "id" : 288,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Arkansas"
+        "countyAndState": "Arkansas, Arkansas"
     },
     {
-        "id" : 289,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Benton"
+        "countyAndState": "Benton, Arkansas"
     },
     {
-        "id" : 290,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Boone"
+        "countyAndState": "Boone, Arkansas"
     },
     {
-        "id" : 291,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Calhoun"
+        "countyAndState": "Calhoun, Arkansas"
     },
     {
-        "id" : 292,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Carroll"
+        "countyAndState": "Carroll, Arkansas"
     },
     {
-        "id" : 293,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Clark"
+        "countyAndState": "Clark, Arkansas"
     },
     {
-        "id" : 294,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Cleburne"
+        "countyAndState": "Cleburne, Arkansas"
     },
     {
-        "id" : 295,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Conway"
+        "countyAndState": "Conway, Arkansas"
     },
     {
-        "id" : 296,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Craighead"
+        "countyAndState": "Craighead, Arkansas"
     },
     {
-        "id" : 297,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Crawford"
+        "countyAndState": "Crawford, Arkansas"
     },
     {
-        "id" : 298,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Crittenden"
+        "countyAndState": "Crittenden, Arkansas"
     },
     {
-        "id" : 299,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Cross"
+        "countyAndState": "Cross, Arkansas"
     },
     {
-        "id" : 300,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Drew"
+        "countyAndState": "Drew, Arkansas"
     },
     {
-        "id" : 301,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Faulkner"
+        "countyAndState": "Faulkner, Arkansas"
     },
     {
-        "id" : 302,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Garland"
+        "countyAndState": "Garland, Arkansas"
     },
     {
-        "id" : 303,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Hot Spring"
+        "countyAndState": "Hot Spring, Arkansas"
     },
     {
-        "id" : 304,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Independence"
+        "countyAndState": "Independence, Arkansas"
     },
     {
-        "id" : 305,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Izard"
+        "countyAndState": "Izard, Arkansas"
     },
     {
-        "id" : 306,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Jackson"
+        "countyAndState": "Jackson, Arkansas"
     },
     {
-        "id" : 307,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Arkansas"
     },
     {
-        "id" : 308,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Little River"
+        "countyAndState": "Little River, Arkansas"
     },
     {
-        "id" : 309,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Logan"
+        "countyAndState": "Logan, Arkansas"
     },
     {
-        "id" : 310,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Lonoke"
+        "countyAndState": "Lonoke, Arkansas"
     },
     {
-        "id" : 311,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Madison"
+        "countyAndState": "Madison, Arkansas"
     },
     {
-        "id" : 312,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Marion"
+        "countyAndState": "Marion, Arkansas"
     },
     {
-        "id" : 313,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Mayflower"
+        "countyAndState": "Mayflower, Arkansas"
     },
     {
-        "id" : 314,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Miller"
+        "countyAndState": "Miller, Arkansas"
     },
     {
-        "id" : 315,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Mississippi"
+        "countyAndState": "Mississippi, Arkansas"
     },
     {
-        "id" : 316,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Monroe"
+        "countyAndState": "Monroe, Arkansas"
     },
     {
-        "id" : 317,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Newton"
+        "countyAndState": "Newton, Arkansas"
     },
     {
-        "id" : 318,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Phillips"
+        "countyAndState": "Phillips, Arkansas"
     },
     {
-        "id" : 319,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Poinsett"
+        "countyAndState": "Poinsett, Arkansas"
     },
     {
-        "id" : 320,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Polk"
+        "countyAndState": "Polk, Arkansas"
     },
     {
-        "id" : 321,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Pope"
+        "countyAndState": "Pope, Arkansas"
     },
     {
-        "id" : 322,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Prairie"
+        "countyAndState": "Prairie, Arkansas"
     },
     {
-        "id" : 323,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Pulaski"
+        "countyAndState": "Pulaski, Arkansas"
     },
     {
-        "id" : 324,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Randolph"
+        "countyAndState": "Randolph, Arkansas"
     },
     {
-        "id" : 325,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Saline"
+        "countyAndState": "Saline, Arkansas"
     },
     {
-        "id" : 326,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Searcy"
+        "countyAndState": "Searcy, Arkansas"
     },
     {
-        "id" : 327,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Sebastian"
+        "countyAndState": "Sebastian, Arkansas"
     },
     {
-        "id" : 328,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Sevier"
+        "countyAndState": "Sevier, Arkansas"
     },
     {
-        "id" : 329,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "St. Francis"
+        "countyAndState": "St. Francis, Arkansas"
     },
     {
-        "id" : 330,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Stone"
+        "countyAndState": "Stone, Arkansas"
     },
     {
-        "id" : 331,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Van Buren"
+        "countyAndState": "Van Buren, Arkansas"
     },
     {
-        "id" : 332,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Washington"
+        "countyAndState": "Washington, Arkansas"
     },
     {
-        "id" : 333,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "White"
+        "countyAndState": "White, Arkansas"
     },
     {
-        "id" : 334,
-        "stateAbrv" : "AR",
-        "stateFullName" : "Arkansas",
-        "county" : "Woodruff"
+        "countyAndState": "Woodruff, Arkansas"
     },
     {
-        "id" : 335,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Alameda"
+        "countyAndState": "Alameda, California"
     },
     {
-        "id" : 336,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Alpine"
+        "countyAndState": "Alpine, California"
     },
     {
-        "id" : 337,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Butte"
+        "countyAndState": "Butte, California"
     },
     {
-        "id" : 338,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Contra Costa"
+        "countyAndState": "Contra Costa, California"
     },
     {
-        "id" : 339,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "El Dorado"
+        "countyAndState": "El Dorado, California"
     },
     {
-        "id" : 340,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Fresno"
+        "countyAndState": "Fresno, California"
     },
     {
-        "id" : 341,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Humboldt"
+        "countyAndState": "Humboldt, California"
     },
     {
-        "id" : 342,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Jackson"
+        "countyAndState": "Jackson, California"
     },
     {
-        "id" : 343,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Kern"
+        "countyAndState": "Kern, California"
     },
     {
-        "id" : 344,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Lake"
+        "countyAndState": "Lake, California"
     },
     {
-        "id" : 345,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Los Angeles"
+        "countyAndState": "Los Angeles, California"
     },
     {
-        "id" : 346,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Madera"
+        "countyAndState": "Madera, California"
     },
     {
-        "id" : 347,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Marin"
+        "countyAndState": "Marin, California"
     },
     {
-        "id" : 348,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Mendocino"
+        "countyAndState": "Mendocino, California"
     },
     {
-        "id" : 349,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Merced"
+        "countyAndState": "Merced, California"
     },
     {
-        "id" : 350,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Modoc"
+        "countyAndState": "Modoc, California"
     },
     {
-        "id" : 351,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Mono"
+        "countyAndState": "Mono, California"
     },
     {
-        "id" : 352,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Monterey"
+        "countyAndState": "Monterey, California"
     },
     {
-        "id" : 353,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Oakland"
+        "countyAndState": "Oakland, California"
     },
     {
-        "id" : 354,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Orange"
+        "countyAndState": "Orange, California"
     },
     {
-        "id" : 355,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Placer"
+        "countyAndState": "Placer, California"
     },
     {
-        "id" : 356,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Riverside"
+        "countyAndState": "Riverside, California"
     },
     {
-        "id" : 357,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Sacramento"
+        "countyAndState": "Sacramento, California"
     },
     {
-        "id" : 358,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "San Bernardino"
+        "countyAndState": "San Bernardino, California"
     },
     {
-        "id" : 359,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "San Diego"
+        "countyAndState": "San Diego, California"
     },
     {
-        "id" : 360,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "San Francisco"
+        "countyAndState": "San Francisco, California"
     },
     {
-        "id" : 361,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "San Luis Obispo"
+        "countyAndState": "San Luis Obispo, California"
     },
     {
-        "id" : 362,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "San Mateo"
+        "countyAndState": "San Mateo, California"
     },
     {
-        "id" : 363,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Santa Barbara"
+        "countyAndState": "Santa Barbara, California"
     },
     {
-        "id" : 364,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Santa Clara"
+        "countyAndState": "Santa Clara, California"
     },
     {
-        "id" : 365,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Santa Cruz"
+        "countyAndState": "Santa Cruz, California"
     },
     {
-        "id" : 366,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Selma"
+        "countyAndState": "Selma, California"
     },
     {
-        "id" : 367,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Shasta"
+        "countyAndState": "Shasta, California"
     },
     {
-        "id" : 368,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Solano"
+        "countyAndState": "Solano, California"
     },
     {
-        "id" : 369,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Sonoma"
+        "countyAndState": "Sonoma, California"
     },
     {
-        "id" : 370,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Sutter"
+        "countyAndState": "Sutter, California"
     },
     {
-        "id" : 371,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Tulare"
+        "countyAndState": "Tulare, California"
     },
     {
-        "id" : 372,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Tuolumne"
+        "countyAndState": "Tuolumne, California"
     },
     {
-        "id" : 373,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Ventura"
+        "countyAndState": "Ventura, California"
     },
     {
-        "id" : 374,
-        "stateAbrv" : "CA",
-        "stateFullName" : "California",
-        "county" : "Yuba"
+        "countyAndState": "Yuba, California"
     },
     {
-        "id" : 375,
-        "stateAbrv" : "CO",
-        "stateFullName" : "Colorado",
-        "county" : "Adams"
+        "countyAndState": "Adams, Colorado"
     },
     {
-        "id" : 376,
-        "stateAbrv" : "CO",
-        "stateFullName" : "Colorado",
-        "county" : "Arapahoe"
+        "countyAndState": "Arapahoe, Colorado"
     },
     {
-        "id" : 377,
-        "stateAbrv" : "CO",
-        "stateFullName" : "Colorado",
-        "county" : "Denver"
+        "countyAndState": "Denver, Colorado"
     },
     {
-        "id" : 378,
-        "stateAbrv" : "CO",
-        "stateFullName" : "Colorado",
-        "county" : "Eagle"
+        "countyAndState": "Eagle, Colorado"
     },
     {
-        "id" : 379,
-        "stateAbrv" : "CO",
-        "stateFullName" : "Colorado",
-        "county" : "El Paso"
+        "countyAndState": "El Paso, Colorado"
     },
     {
-        "id" : 380,
-        "stateAbrv" : "CO",
-        "stateFullName" : "Colorado",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Colorado"
     },
     {
-        "id" : 381,
-        "stateAbrv" : "CO",
-        "stateFullName" : "Colorado",
-        "county" : "Summit"
+        "countyAndState": "Summit, Colorado"
     },
     {
-        "id" : 382,
-        "stateAbrv" : "CT",
-        "stateFullName" : "Connecticut",
-        "county" : "Fairfield"
+        "countyAndState": "Fairfield, Connecticut"
     },
     {
-        "id" : 383,
-        "stateAbrv" : "CT",
-        "stateFullName" : "Connecticut",
-        "county" : "Hartford"
+        "countyAndState": "Hartford, Connecticut"
     },
     {
-        "id" : 384,
-        "stateAbrv" : "CT",
-        "stateFullName" : "Connecticut",
-        "county" : "Litchfield"
+        "countyAndState": "Litchfield, Connecticut"
     },
     {
-        "id" : 385,
-        "stateAbrv" : "CT",
-        "stateFullName" : "Connecticut",
-        "county" : "New Haven"
+        "countyAndState": "New Haven, Connecticut"
     },
     {
-        "id" : 386,
-        "stateAbrv" : "CT",
-        "stateFullName" : "Connecticut",
-        "county" : "New London"
+        "countyAndState": "New London, Connecticut"
     },
     {
-        "id" : 387,
-        "stateAbrv" : "CT",
-        "stateFullName" : "Connecticut",
-        "county" : "Tolland"
+        "countyAndState": "Tolland, Connecticut"
     },
     {
-        "id" : 388,
-        "stateAbrv" : "DE",
-        "stateFullName" : "Delaware",
-        "county" : "Kent"
+        "countyAndState": "Kent, Delaware"
     },
     {
-        "id" : 389,
-        "stateAbrv" : "DE",
-        "stateFullName" : "Delaware",
-        "county" : "New Castle"
+        "countyAndState": "New Castle, Delaware"
     },
     {
-        "id" : 390,
-        "stateAbrv" : "DE",
-        "stateFullName" : "Delaware",
-        "county" : "Sussex"
+        "countyAndState": "Sussex, Delaware"
     },
     {
-        "id" : 391,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Alachua"
+        "countyAndState": "Alachua, Florida"
     },
     {
-        "id" : 392,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Baker"
+        "countyAndState": "Baker, Florida"
     },
     {
-        "id" : 393,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Bay"
+        "countyAndState": "Bay, Florida"
     },
     {
-        "id" : 394,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Bradford"
+        "countyAndState": "Bradford, Florida"
     },
     {
-        "id" : 395,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Brevard"
+        "countyAndState": "Brevard, Florida"
     },
     {
-        "id" : 396,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Broward"
+        "countyAndState": "Broward, Florida"
     },
     {
-        "id" : 397,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Clay"
+        "countyAndState": "Clay, Florida"
     },
     {
-        "id" : 398,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Collier"
+        "countyAndState": "Collier, Florida"
     },
     {
-        "id" : 399,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Duval"
+        "countyAndState": "Duval, Florida"
     },
     {
-        "id" : 400,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Escambia"
+        "countyAndState": "Escambia, Florida"
     },
     {
-        "id" : 401,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Flagler"
+        "countyAndState": "Flagler, Florida"
     },
     {
-        "id" : 402,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Franklin"
+        "countyAndState": "Franklin, Florida"
     },
     {
-        "id" : 403,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Gulf"
+        "countyAndState": "Gulf, Florida"
     },
     {
-        "id" : 404,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Hillsborough"
+        "countyAndState": "Hillsborough, Florida"
     },
     {
-        "id" : 405,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Indian River"
+        "countyAndState": "Indian River, Florida"
     },
     {
-        "id" : 406,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Jackson"
+        "countyAndState": "Jackson, Florida"
     },
     {
-        "id" : 407,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Lake"
+        "countyAndState": "Lake, Florida"
     },
     {
-        "id" : 408,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Lee"
+        "countyAndState": "Lee, Florida"
     },
     {
-        "id" : 409,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Leon"
+        "countyAndState": "Leon, Florida"
     },
     {
-        "id" : 410,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Liberty"
+        "countyAndState": "Liberty, Florida"
     },
     {
-        "id" : 411,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Manatee"
+        "countyAndState": "Manatee, Florida"
     },
     {
-        "id" : 412,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Marion"
+        "countyAndState": "Marion, Florida"
     },
     {
-        "id" : 413,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Martin"
+        "countyAndState": "Martin, Florida"
     },
     {
-        "id" : 414,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Miami-Dade"
+        "countyAndState": "Miami-Dade, Florida"
     },
     {
-        "id" : 415,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Monroe"
+        "countyAndState": "Monroe, Florida"
     },
     {
-        "id" : 416,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Nassau"
+        "countyAndState": "Nassau, Florida"
     },
     {
-        "id" : 417,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Okaloosa"
+        "countyAndState": "Okaloosa, Florida"
     },
     {
-        "id" : 418,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Orange"
+        "countyAndState": "Orange, Florida"
     },
     {
-        "id" : 419,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Osceola"
+        "countyAndState": "Osceola, Florida"
     },
     {
-        "id" : 420,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Palm Beach"
+        "countyAndState": "Palm Beach, Florida"
     },
     {
-        "id" : 421,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Pasco"
+        "countyAndState": "Pasco, Florida"
     },
     {
-        "id" : 422,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Pinellas"
+        "countyAndState": "Pinellas, Florida"
     },
     {
-        "id" : 423,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Polk"
+        "countyAndState": "Polk, Florida"
     },
     {
-        "id" : 424,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Seminole"
+        "countyAndState": "Seminole, Florida"
     },
     {
-        "id" : 425,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "St. Johns"
+        "countyAndState": "St. Johns, Florida"
     },
     {
-        "id" : 426,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "St. Lucie"
+        "countyAndState": "St. Lucie, Florida"
     },
     {
-        "id" : 427,
-        "stateAbrv" : "FL",
-        "stateFullName" : "Florida",
-        "county" : "Volusia"
+        "countyAndState": "Volusia, Florida"
     },
     {
-        "id" : 428,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Baldwin"
+        "countyAndState": "Baldwin, Georgia"
     },
     {
-        "id" : 429,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Banks"
+        "countyAndState": "Banks, Georgia"
     },
     {
-        "id" : 430,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Barrow"
+        "countyAndState": "Barrow, Georgia"
     },
     {
-        "id" : 431,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Bartow"
+        "countyAndState": "Bartow, Georgia"
     },
     {
-        "id" : 432,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Ben Hill"
+        "countyAndState": "Ben Hill, Georgia"
     },
     {
-        "id" : 433,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Berrien"
+        "countyAndState": "Berrien, Georgia"
     },
     {
-        "id" : 434,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Bibb"
+        "countyAndState": "Bibb, Georgia"
     },
     {
-        "id" : 435,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Brooks"
+        "countyAndState": "Brooks, Georgia"
     },
     {
-        "id" : 436,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Bryan"
+        "countyAndState": "Bryan, Georgia"
     },
     {
-        "id" : 437,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Bulloch"
+        "countyAndState": "Bulloch, Georgia"
     },
     {
-        "id" : 438,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Camden"
+        "countyAndState": "Camden, Georgia"
     },
     {
-        "id" : 439,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Chatham"
+        "countyAndState": "Chatham, Georgia"
     },
     {
-        "id" : 440,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Cherokee"
+        "countyAndState": "Cherokee, Georgia"
     },
     {
-        "id" : 441,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Clarke"
+        "countyAndState": "Clarke, Georgia"
     },
     {
-        "id" : 442,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Clayton"
+        "countyAndState": "Clayton, Georgia"
     },
     {
-        "id" : 443,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Cobb"
+        "countyAndState": "Cobb, Georgia"
     },
     {
-        "id" : 444,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Coffee"
+        "countyAndState": "Coffee, Georgia"
     },
     {
-        "id" : 445,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Colquitt"
+        "countyAndState": "Colquitt, Georgia"
     },
     {
-        "id" : 446,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Columbia"
+        "countyAndState": "Columbia, Georgia"
     },
     {
-        "id" : 447,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Columbus"
+        "countyAndState": "Columbus, Georgia"
     },
     {
-        "id" : 448,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Cook"
+        "countyAndState": "Cook, Georgia"
     },
     {
-        "id" : 449,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Coweta"
+        "countyAndState": "Coweta, Georgia"
     },
     {
-        "id" : 450,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Cowetta"
+        "countyAndState": "Cowetta, Georgia"
     },
     {
-        "id" : 451,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Dawson"
+        "countyAndState": "Dawson, Georgia"
     },
     {
-        "id" : 452,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "DeKalb"
+        "countyAndState": "DeKalb, Georgia"
     },
     {
-        "id" : 453,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Dougherty"
+        "countyAndState": "Dougherty, Georgia"
     },
     {
-        "id" : 454,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Douglas"
+        "countyAndState": "Douglas, Georgia"
     },
     {
-        "id" : 455,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Echols"
+        "countyAndState": "Echols, Georgia"
     },
     {
-        "id" : 456,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Effingham"
+        "countyAndState": "Effingham, Georgia"
     },
     {
-        "id" : 457,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Elbert"
+        "countyAndState": "Elbert, Georgia"
     },
     {
-        "id" : 458,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Floyd"
+        "countyAndState": "Floyd, Georgia"
     },
     {
-        "id" : 459,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Forsyth"
+        "countyAndState": "Forsyth, Georgia"
     },
     {
-        "id" : 460,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Franklin"
+        "countyAndState": "Franklin, Georgia"
     },
     {
-        "id" : 461,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Fulton"
+        "countyAndState": "Fulton, Georgia"
     },
     {
-        "id" : 462,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Gilmer"
+        "countyAndState": "Gilmer, Georgia"
     },
     {
-        "id" : 463,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Glynn"
+        "countyAndState": "Glynn, Georgia"
     },
     {
-        "id" : 464,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Greene"
+        "countyAndState": "Greene, Georgia"
     },
     {
-        "id" : 465,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Gwinnett"
+        "countyAndState": "Gwinnett, Georgia"
     },
     {
-        "id" : 466,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Habersham"
+        "countyAndState": "Habersham, Georgia"
     },
     {
-        "id" : 467,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Hall"
+        "countyAndState": "Hall, Georgia"
     },
     {
-        "id" : 468,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Hancock"
+        "countyAndState": "Hancock, Georgia"
     },
     {
-        "id" : 469,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Hart"
+        "countyAndState": "Hart, Georgia"
     },
     {
-        "id" : 470,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Henry"
+        "countyAndState": "Henry, Georgia"
     },
     {
-        "id" : 471,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Houston"
+        "countyAndState": "Houston, Georgia"
     },
     {
-        "id" : 472,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Irwin"
+        "countyAndState": "Irwin, Georgia"
     },
     {
-        "id" : 473,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Jasper"
+        "countyAndState": "Jasper, Georgia"
     },
     {
-        "id" : 474,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Jones"
+        "countyAndState": "Jones, Georgia"
     },
     {
-        "id" : 475,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Lanier"
+        "countyAndState": "Lanier, Georgia"
     },
     {
-        "id" : 476,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Laurens"
+        "countyAndState": "Laurens, Georgia"
     },
     {
-        "id" : 477,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Liberty"
+        "countyAndState": "Liberty, Georgia"
     },
     {
-        "id" : 478,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Long"
+        "countyAndState": "Long, Georgia"
     },
     {
-        "id" : 479,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Lowndes"
+        "countyAndState": "Lowndes, Georgia"
     },
     {
-        "id" : 480,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Lumpkin"
+        "countyAndState": "Lumpkin, Georgia"
     },
     {
-        "id" : 481,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Macon"
+        "countyAndState": "Macon, Georgia"
     },
     {
-        "id" : 482,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Madison"
+        "countyAndState": "Madison, Georgia"
     },
     {
-        "id" : 483,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "McDuffie"
+        "countyAndState": "McDuffie, Georgia"
     },
     {
-        "id" : 484,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "McIntosh"
+        "countyAndState": "McIntosh, Georgia"
     },
     {
-        "id" : 485,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Miller"
+        "countyAndState": "Miller, Georgia"
     },
     {
-        "id" : 486,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Mitchell"
+        "countyAndState": "Mitchell, Georgia"
     },
     {
-        "id" : 487,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Morgan"
+        "countyAndState": "Morgan, Georgia"
     },
     {
-        "id" : 488,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Muscogee"
+        "countyAndState": "Muscogee, Georgia"
     },
     {
-        "id" : 489,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Newton"
+        "countyAndState": "Newton, Georgia"
     },
     {
-        "id" : 490,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Oconee"
+        "countyAndState": "Oconee, Georgia"
     },
     {
-        "id" : 491,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Oglethorpe"
+        "countyAndState": "Oglethorpe, Georgia"
     },
     {
-        "id" : 492,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Paulding"
+        "countyAndState": "Paulding, Georgia"
     },
     {
-        "id" : 493,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Rabun"
+        "countyAndState": "Rabun, Georgia"
     },
     {
-        "id" : 494,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Richmond"
+        "countyAndState": "Richmond, Georgia"
     },
     {
-        "id" : 495,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Rockdale"
+        "countyAndState": "Rockdale, Georgia"
     },
     {
-        "id" : 496,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Stephens"
+        "countyAndState": "Stephens, Georgia"
     },
     {
-        "id" : 497,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Telfair"
+        "countyAndState": "Telfair, Georgia"
     },
     {
-        "id" : 498,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Thomas"
+        "countyAndState": "Thomas, Georgia"
     },
     {
-        "id" : 499,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Tift"
+        "countyAndState": "Tift, Georgia"
     },
     {
-        "id" : 500,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Towns"
+        "countyAndState": "Towns, Georgia"
     },
     {
-        "id" : 501,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Turner"
+        "countyAndState": "Turner, Georgia"
     },
     {
-        "id" : 502,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Union"
+        "countyAndState": "Union, Georgia"
     },
     {
-        "id" : 503,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Upson"
+        "countyAndState": "Upson, Georgia"
     },
     {
-        "id" : 504,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Walker"
+        "countyAndState": "Walker, Georgia"
     },
     {
-        "id" : 505,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Walton"
+        "countyAndState": "Walton, Georgia"
     },
     {
-        "id" : 506,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Washington"
+        "countyAndState": "Washington, Georgia"
     },
     {
-        "id" : 507,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "White"
+        "countyAndState": "White, Georgia"
     },
     {
-        "id" : 508,
-        "stateAbrv" : "GA",
-        "stateFullName" : "Georgia",
-        "county" : "Whitfield"
+        "countyAndState": "Whitfield, Georgia"
     },
     {
-        "id" : 509,
-        "stateAbrv" : "HI",
-        "stateFullName" : "Hawaii",
-        "county" : "Hawaii"
+        "countyAndState": "Hawaii, Hawaii"
     },
     {
-        "id" : 510,
-        "stateAbrv" : "HI",
-        "stateFullName" : "Hawaii",
-        "county" : "Honolulu"
+        "countyAndState": "Honolulu, Hawaii"
     },
     {
-        "id" : 511,
-        "stateAbrv" : "HI",
-        "stateFullName" : "Hawaii",
-        "county" : "Kauai"
+        "countyAndState": "Kauai, Hawaii"
     },
     {
-        "id" : 512,
-        "stateAbrv" : "HI",
-        "stateFullName" : "Hawaii",
-        "county" : "Maui"
+        "countyAndState": "Maui, Hawaii"
     },
     {
-        "id" : 513,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Ada"
+        "countyAndState": "Ada, Idaho"
     },
     {
-        "id" : 514,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Bannock"
+        "countyAndState": "Bannock, Idaho"
     },
     {
-        "id" : 515,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Bingham"
+        "countyAndState": "Bingham, Idaho"
     },
     {
-        "id" : 516,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Blaine"
+        "countyAndState": "Blaine, Idaho"
     },
     {
-        "id" : 517,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Bonneville"
+        "countyAndState": "Bonneville, Idaho"
     },
     {
-        "id" : 518,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Butte"
+        "countyAndState": "Butte, Idaho"
     },
     {
-        "id" : 519,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Canyon"
+        "countyAndState": "Canyon, Idaho"
     },
     {
-        "id" : 520,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Cassia"
+        "countyAndState": "Cassia, Idaho"
     },
     {
-        "id" : 521,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Gem"
+        "countyAndState": "Gem, Idaho"
     },
     {
-        "id" : 522,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Gooding"
+        "countyAndState": "Gooding, Idaho"
     },
     {
-        "id" : 523,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Payette"
+        "countyAndState": "Payette, Idaho"
     },
     {
-        "id" : 524,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Power"
+        "countyAndState": "Power, Idaho"
     },
     {
-        "id" : 525,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Teton"
+        "countyAndState": "Teton, Idaho"
     },
     {
-        "id" : 526,
-        "stateAbrv" : "ID",
-        "stateFullName" : "Idaho",
-        "county" : "Twin Falls"
+        "countyAndState": "Twin Falls, Idaho"
     },
     {
-        "id" : 527,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Adams"
+        "countyAndState": "Adams, Illinois"
     },
     {
-        "id" : 528,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Alexander"
+        "countyAndState": "Alexander, Illinois"
     },
     {
-        "id" : 529,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Boone"
+        "countyAndState": "Boone, Illinois"
     },
     {
-        "id" : 530,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Bureau"
+        "countyAndState": "Bureau, Illinois"
     },
     {
-        "id" : 531,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Cass"
+        "countyAndState": "Cass, Illinois"
     },
     {
-        "id" : 532,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Champaign"
+        "countyAndState": "Champaign, Illinois"
     },
     {
-        "id" : 533,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Clay"
+        "countyAndState": "Clay, Illinois"
     },
     {
-        "id" : 534,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Coles"
+        "countyAndState": "Coles, Illinois"
     },
     {
-        "id" : 535,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Cook"
+        "countyAndState": "Cook, Illinois"
     },
     {
-        "id" : 536,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Crawford"
+        "countyAndState": "Crawford, Illinois"
     },
     {
-        "id" : 537,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "DeKalb"
+        "countyAndState": "DeKalb, Illinois"
     },
     {
-        "id" : 538,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Du Page"
+        "countyAndState": "Du Page, Illinois"
     },
     {
-        "id" : 539,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Edwards"
+        "countyAndState": "Edwards, Illinois"
     },
     {
-        "id" : 540,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Ford"
+        "countyAndState": "Ford, Illinois"
     },
     {
-        "id" : 541,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Franklin"
+        "countyAndState": "Franklin, Illinois"
     },
     {
-        "id" : 542,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Gallatin"
+        "countyAndState": "Gallatin, Illinois"
     },
     {
-        "id" : 543,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Grundy"
+        "countyAndState": "Grundy, Illinois"
     },
     {
-        "id" : 544,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Hancock"
+        "countyAndState": "Hancock, Illinois"
     },
     {
-        "id" : 545,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Hardin"
+        "countyAndState": "Hardin, Illinois"
     },
     {
-        "id" : 546,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Henderson"
+        "countyAndState": "Henderson, Illinois"
     },
     {
-        "id" : 547,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Henry"
+        "countyAndState": "Henry, Illinois"
     },
     {
-        "id" : 548,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Iroquois"
+        "countyAndState": "Iroquois, Illinois"
     },
     {
-        "id" : 549,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Jackson"
+        "countyAndState": "Jackson, Illinois"
     },
     {
-        "id" : 550,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Illinois"
     },
     {
-        "id" : 551,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Jersey"
+        "countyAndState": "Jersey, Illinois"
     },
     {
-        "id" : 552,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Johnson"
+        "countyAndState": "Johnson, Illinois"
     },
     {
-        "id" : 553,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Kane"
+        "countyAndState": "Kane, Illinois"
     },
     {
-        "id" : 554,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Kankakee"
+        "countyAndState": "Kankakee, Illinois"
     },
     {
-        "id" : 555,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Kendall"
+        "countyAndState": "Kendall, Illinois"
     },
     {
-        "id" : 556,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Knox"
+        "countyAndState": "Knox, Illinois"
     },
     {
-        "id" : 557,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "La Salle"
+        "countyAndState": "La Salle, Illinois"
     },
     {
-        "id" : 558,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Lake"
+        "countyAndState": "Lake, Illinois"
     },
     {
-        "id" : 559,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Lee"
+        "countyAndState": "Lee, Illinois"
     },
     {
-        "id" : 560,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Livingston"
+        "countyAndState": "Livingston, Illinois"
     },
     {
-        "id" : 561,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Logan"
+        "countyAndState": "Logan, Illinois"
     },
     {
-        "id" : 562,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Macon"
+        "countyAndState": "Macon, Illinois"
     },
     {
-        "id" : 563,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Macoupin"
+        "countyAndState": "Macoupin, Illinois"
     },
     {
-        "id" : 564,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Madison"
+        "countyAndState": "Madison, Illinois"
     },
     {
-        "id" : 565,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Marion"
+        "countyAndState": "Marion, Illinois"
     },
     {
-        "id" : 566,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Mason"
+        "countyAndState": "Mason, Illinois"
     },
     {
-        "id" : 567,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Massac"
+        "countyAndState": "Massac, Illinois"
     },
     {
-        "id" : 568,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "McHenry"
+        "countyAndState": "McHenry, Illinois"
     },
     {
-        "id" : 569,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "McLean"
+        "countyAndState": "McLean, Illinois"
     },
     {
-        "id" : 570,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Ogle"
+        "countyAndState": "Ogle, Illinois"
     },
     {
-        "id" : 571,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Peoria"
+        "countyAndState": "Peoria, Illinois"
     },
     {
-        "id" : 572,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Perry"
+        "countyAndState": "Perry, Illinois"
     },
     {
-        "id" : 573,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Pope"
+        "countyAndState": "Pope, Illinois"
     },
     {
-        "id" : 574,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Pulaski"
+        "countyAndState": "Pulaski, Illinois"
     },
     {
-        "id" : 575,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Randolph"
+        "countyAndState": "Randolph, Illinois"
     },
     {
-        "id" : 576,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Richland"
+        "countyAndState": "Richland, Illinois"
     },
     {
-        "id" : 577,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Rock Island"
+        "countyAndState": "Rock Island, Illinois"
     },
     {
-        "id" : 578,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Saline"
+        "countyAndState": "Saline, Illinois"
     },
     {
-        "id" : 579,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Sangamon"
+        "countyAndState": "Sangamon, Illinois"
     },
     {
-        "id" : 580,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "St. Clair"
+        "countyAndState": "St. Clair, Illinois"
     },
     {
-        "id" : 581,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Stephenson"
+        "countyAndState": "Stephenson, Illinois"
     },
     {
-        "id" : 582,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Tazewell"
+        "countyAndState": "Tazewell, Illinois"
     },
     {
-        "id" : 583,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Union"
+        "countyAndState": "Union, Illinois"
     },
     {
-        "id" : 584,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Vermilion"
+        "countyAndState": "Vermilion, Illinois"
     },
     {
-        "id" : 585,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Wayne"
+        "countyAndState": "Wayne, Illinois"
     },
     {
-        "id" : 586,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Whiteside"
+        "countyAndState": "Whiteside, Illinois"
     },
     {
-        "id" : 587,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Will"
+        "countyAndState": "Will, Illinois"
     },
     {
-        "id" : 588,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Williamson"
+        "countyAndState": "Williamson, Illinois"
     },
     {
-        "id" : 589,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Winnebago"
+        "countyAndState": "Winnebago, Illinois"
     },
     {
-        "id" : 590,
-        "stateAbrv" : "IL",
-        "stateFullName" : "Illinois",
-        "county" : "Woodford"
+        "countyAndState": "Woodford, Illinois"
     },
     {
-        "id" : 591,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Allen"
+        "countyAndState": "Allen, Indiana"
     },
     {
-        "id" : 592,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Bartholomew"
+        "countyAndState": "Bartholomew, Indiana"
     },
     {
-        "id" : 593,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Blackford"
+        "countyAndState": "Blackford, Indiana"
     },
     {
-        "id" : 594,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Boone"
+        "countyAndState": "Boone, Indiana"
     },
     {
-        "id" : 595,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Cass"
+        "countyAndState": "Cass, Indiana"
     },
     {
-        "id" : 596,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Clark"
+        "countyAndState": "Clark, Indiana"
     },
     {
-        "id" : 597,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "De Kalb"
+        "countyAndState": "De Kalb, Indiana"
     },
     {
-        "id" : 598,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Dearborn"
+        "countyAndState": "Dearborn, Indiana"
     },
     {
-        "id" : 599,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Decatur"
+        "countyAndState": "Decatur, Indiana"
     },
     {
-        "id" : 600,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Delaware"
+        "countyAndState": "Delaware, Indiana"
     },
     {
-        "id" : 601,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Dubois"
+        "countyAndState": "Dubois, Indiana"
     },
     {
-        "id" : 602,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Elkhart"
+        "countyAndState": "Elkhart, Indiana"
     },
     {
-        "id" : 603,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Fayette"
+        "countyAndState": "Fayette, Indiana"
     },
     {
-        "id" : 604,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Floyd"
+        "countyAndState": "Floyd, Indiana"
     },
     {
-        "id" : 605,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Fountain"
+        "countyAndState": "Fountain, Indiana"
     },
     {
-        "id" : 606,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Franklin"
+        "countyAndState": "Franklin, Indiana"
     },
     {
-        "id" : 607,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Fulton"
+        "countyAndState": "Fulton, Indiana"
     },
     {
-        "id" : 608,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Gibson"
+        "countyAndState": "Gibson, Indiana"
     },
     {
-        "id" : 609,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Grant"
+        "countyAndState": "Grant, Indiana"
     },
     {
-        "id" : 610,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Greene"
+        "countyAndState": "Greene, Indiana"
     },
     {
-        "id" : 611,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Hamilton"
+        "countyAndState": "Hamilton, Indiana"
     },
     {
-        "id" : 612,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Hancock"
+        "countyAndState": "Hancock, Indiana"
     },
     {
-        "id" : 613,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Hendricks"
+        "countyAndState": "Hendricks, Indiana"
     },
     {
-        "id" : 614,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Henry"
+        "countyAndState": "Henry, Indiana"
     },
     {
-        "id" : 615,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Howard"
+        "countyAndState": "Howard, Indiana"
     },
     {
-        "id" : 616,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Huntington"
+        "countyAndState": "Huntington, Indiana"
     },
     {
-        "id" : 617,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Jackson"
+        "countyAndState": "Jackson, Indiana"
     },
     {
-        "id" : 618,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Jasper"
+        "countyAndState": "Jasper, Indiana"
     },
     {
-        "id" : 619,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Jay"
+        "countyAndState": "Jay, Indiana"
     },
     {
-        "id" : 620,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Indiana"
     },
     {
-        "id" : 621,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Jennings"
+        "countyAndState": "Jennings, Indiana"
     },
     {
-        "id" : 622,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Johnson"
+        "countyAndState": "Johnson, Indiana"
     },
     {
-        "id" : 623,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Knox"
+        "countyAndState": "Knox, Indiana"
     },
     {
-        "id" : 624,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Kosciusko"
+        "countyAndState": "Kosciusko, Indiana"
     },
     {
-        "id" : 625,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "La Porte"
+        "countyAndState": "La Porte, Indiana"
     },
     {
-        "id" : 626,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "LaGrange"
+        "countyAndState": "LaGrange, Indiana"
     },
     {
-        "id" : 627,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Lake"
+        "countyAndState": "Lake, Indiana"
     },
     {
-        "id" : 628,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Lawrence"
+        "countyAndState": "Lawrence, Indiana"
     },
     {
-        "id" : 629,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Madison"
+        "countyAndState": "Madison, Indiana"
     },
     {
-        "id" : 630,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Marion"
+        "countyAndState": "Marion, Indiana"
     },
     {
-        "id" : 631,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Marshall"
+        "countyAndState": "Marshall, Indiana"
     },
     {
-        "id" : 632,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Miami"
+        "countyAndState": "Miami, Indiana"
     },
     {
-        "id" : 633,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Monroe"
+        "countyAndState": "Monroe, Indiana"
     },
     {
-        "id" : 634,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Montgomery"
+        "countyAndState": "Montgomery, Indiana"
     },
     {
-        "id" : 635,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Morgan"
+        "countyAndState": "Morgan, Indiana"
     },
     {
-        "id" : 636,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Porter"
+        "countyAndState": "Porter, Indiana"
     },
     {
-        "id" : 637,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Pulaski"
+        "countyAndState": "Pulaski, Indiana"
     },
     {
-        "id" : 638,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Randolph"
+        "countyAndState": "Randolph, Indiana"
     },
     {
-        "id" : 639,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Ripley"
+        "countyAndState": "Ripley, Indiana"
     },
     {
-        "id" : 640,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Rush"
+        "countyAndState": "Rush, Indiana"
     },
     {
-        "id" : 641,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Scott"
+        "countyAndState": "Scott, Indiana"
     },
     {
-        "id" : 642,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Shelby"
+        "countyAndState": "Shelby, Indiana"
     },
     {
-        "id" : 643,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "St. Joseph"
+        "countyAndState": "St. Joseph, Indiana"
     },
     {
-        "id" : 644,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Starke"
+        "countyAndState": "Starke, Indiana"
     },
     {
-        "id" : 645,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Steuben"
+        "countyAndState": "Steuben, Indiana"
     },
     {
-        "id" : 646,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Sullivan"
+        "countyAndState": "Sullivan, Indiana"
     },
     {
-        "id" : 647,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Switzerland"
+        "countyAndState": "Switzerland, Indiana"
     },
     {
-        "id" : 648,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Tippecanoe"
+        "countyAndState": "Tippecanoe, Indiana"
     },
     {
-        "id" : 649,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Vanderburgh"
+        "countyAndState": "Vanderburgh, Indiana"
     },
     {
-        "id" : 650,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Vermillion"
+        "countyAndState": "Vermillion, Indiana"
     },
     {
-        "id" : 651,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Vigo"
+        "countyAndState": "Vigo, Indiana"
     },
     {
-        "id" : 652,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Wabash"
+        "countyAndState": "Wabash, Indiana"
     },
     {
-        "id" : 653,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Warrick"
+        "countyAndState": "Warrick, Indiana"
     },
     {
-        "id" : 654,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Washington"
+        "countyAndState": "Washington, Indiana"
     },
     {
-        "id" : 655,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Wayne"
+        "countyAndState": "Wayne, Indiana"
     },
     {
-        "id" : 656,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Wells"
+        "countyAndState": "Wells, Indiana"
     },
     {
-        "id" : 657,
-        "stateAbrv" : "IN",
-        "stateFullName" : "Indiana",
-        "county" : "Whitley"
+        "countyAndState": "Whitley, Indiana"
     },
     {
-        "id" : 658,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Adair"
+        "countyAndState": "Adair, Iowa"
     },
     {
-        "id" : 659,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Appanoose"
+        "countyAndState": "Appanoose, Iowa"
     },
     {
-        "id" : 660,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Audubon"
+        "countyAndState": "Audubon, Iowa"
     },
     {
-        "id" : 661,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Benton"
+        "countyAndState": "Benton, Iowa"
     },
     {
-        "id" : 662,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Black Hawk"
+        "countyAndState": "Black Hawk, Iowa"
     },
     {
-        "id" : 663,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Boone"
+        "countyAndState": "Boone, Iowa"
     },
     {
-        "id" : 664,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Butler"
+        "countyAndState": "Butler, Iowa"
     },
     {
-        "id" : 665,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Calhoun"
+        "countyAndState": "Calhoun, Iowa"
     },
     {
-        "id" : 666,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Carroll"
+        "countyAndState": "Carroll, Iowa"
     },
     {
-        "id" : 667,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Cass"
+        "countyAndState": "Cass, Iowa"
     },
     {
-        "id" : 668,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Cerro Gordo"
+        "countyAndState": "Cerro Gordo, Iowa"
     },
     {
-        "id" : 669,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Chickasaw"
+        "countyAndState": "Chickasaw, Iowa"
     },
     {
-        "id" : 670,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Clinton"
+        "countyAndState": "Clinton, Iowa"
     },
     {
-        "id" : 671,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Des Moines"
+        "countyAndState": "Des Moines, Iowa"
     },
     {
-        "id" : 672,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Dubuque"
+        "countyAndState": "Dubuque, Iowa"
     },
     {
-        "id" : 673,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Fayette"
+        "countyAndState": "Fayette, Iowa"
     },
     {
-        "id" : 674,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Floyd"
+        "countyAndState": "Floyd, Iowa"
     },
     {
-        "id" : 675,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Greene"
+        "countyAndState": "Greene, Iowa"
     },
     {
-        "id" : 676,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Hardin"
+        "countyAndState": "Hardin, Iowa"
     },
     {
-        "id" : 677,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Jasper"
+        "countyAndState": "Jasper, Iowa"
     },
     {
-        "id" : 678,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Iowa"
     },
     {
-        "id" : 679,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Johnson"
+        "countyAndState": "Johnson, Iowa"
     },
     {
-        "id" : 680,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Jones"
+        "countyAndState": "Jones, Iowa"
     },
     {
-        "id" : 681,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Keokuk"
+        "countyAndState": "Keokuk, Iowa"
     },
     {
-        "id" : 682,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Kossuth"
+        "countyAndState": "Kossuth, Iowa"
     },
     {
-        "id" : 683,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Linn"
+        "countyAndState": "Linn, Iowa"
     },
     {
-        "id" : 684,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Madison"
+        "countyAndState": "Madison, Iowa"
     },
     {
-        "id" : 685,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Mahaska"
+        "countyAndState": "Mahaska, Iowa"
     },
     {
-        "id" : 686,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Marion"
+        "countyAndState": "Marion, Iowa"
     },
     {
-        "id" : 687,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Muscatine"
+        "countyAndState": "Muscatine, Iowa"
     },
     {
-        "id" : 688,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Page"
+        "countyAndState": "Page, Iowa"
     },
     {
-        "id" : 689,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Palo Alto"
+        "countyAndState": "Palo Alto, Iowa"
     },
     {
-        "id" : 690,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Pocahontas"
+        "countyAndState": "Pocahontas, Iowa"
     },
     {
-        "id" : 691,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Polk"
+        "countyAndState": "Polk, Iowa"
     },
     {
-        "id" : 692,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Poweshiek"
+        "countyAndState": "Poweshiek, Iowa"
     },
     {
-        "id" : 693,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Scott"
+        "countyAndState": "Scott, Iowa"
     },
     {
-        "id" : 694,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Story"
+        "countyAndState": "Story, Iowa"
     },
     {
-        "id" : 695,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Union"
+        "countyAndState": "Union, Iowa"
     },
     {
-        "id" : 696,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Washington"
+        "countyAndState": "Washington, Iowa"
     },
     {
-        "id" : 697,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Wayne"
+        "countyAndState": "Wayne, Iowa"
     },
     {
-        "id" : 698,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Webster"
+        "countyAndState": "Webster, Iowa"
     },
     {
-        "id" : 699,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Woodbury"
+        "countyAndState": "Woodbury, Iowa"
     },
     {
-        "id" : 700,
-        "stateAbrv" : "IA",
-        "stateFullName" : "Iowa",
-        "county" : "Wright"
+        "countyAndState": "Wright, Iowa"
     },
     {
-        "id" : 701,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Barber"
+        "countyAndState": "Barber, Kansas"
     },
     {
-        "id" : 702,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Butler"
+        "countyAndState": "Butler, Kansas"
     },
     {
-        "id" : 703,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Clark"
+        "countyAndState": "Clark, Kansas"
     },
     {
-        "id" : 704,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Cloud"
+        "countyAndState": "Cloud, Kansas"
     },
     {
-        "id" : 705,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Dickinson"
+        "countyAndState": "Dickinson, Kansas"
     },
     {
-        "id" : 706,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Ellis"
+        "countyAndState": "Ellis, Kansas"
     },
     {
-        "id" : 707,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Ellsworth"
+        "countyAndState": "Ellsworth, Kansas"
     },
     {
-        "id" : 708,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Finney"
+        "countyAndState": "Finney, Kansas"
     },
     {
-        "id" : 709,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Ford"
+        "countyAndState": "Ford, Kansas"
     },
     {
-        "id" : 710,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Geary"
+        "countyAndState": "Geary, Kansas"
     },
     {
-        "id" : 711,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Gove"
+        "countyAndState": "Gove, Kansas"
     },
     {
-        "id" : 712,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Harvey"
+        "countyAndState": "Harvey, Kansas"
     },
     {
-        "id" : 713,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Hodgeman"
+        "countyAndState": "Hodgeman, Kansas"
     },
     {
-        "id" : 714,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Jackson"
+        "countyAndState": "Jackson, Kansas"
     },
     {
-        "id" : 715,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Jewell"
+        "countyAndState": "Jewell, Kansas"
     },
     {
-        "id" : 716,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Johnson"
+        "countyAndState": "Johnson, Kansas"
     },
     {
-        "id" : 717,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Kingman"
+        "countyAndState": "Kingman, Kansas"
     },
     {
-        "id" : 718,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Marion"
+        "countyAndState": "Marion, Kansas"
     },
     {
-        "id" : 719,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "McPherson"
+        "countyAndState": "McPherson, Kansas"
     },
     {
-        "id" : 720,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Mitchell"
+        "countyAndState": "Mitchell, Kansas"
     },
     {
-        "id" : 721,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Ness"
+        "countyAndState": "Ness, Kansas"
     },
     {
-        "id" : 722,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Norton"
+        "countyAndState": "Norton, Kansas"
     },
     {
-        "id" : 723,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Osborne"
+        "countyAndState": "Osborne, Kansas"
     },
     {
-        "id" : 724,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Pawnee"
+        "countyAndState": "Pawnee, Kansas"
     },
     {
-        "id" : 725,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Reno"
+        "countyAndState": "Reno, Kansas"
     },
     {
-        "id" : 726,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Riley"
+        "countyAndState": "Riley, Kansas"
     },
     {
-        "id" : 727,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Rooks"
+        "countyAndState": "Rooks, Kansas"
     },
     {
-        "id" : 728,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Saline"
+        "countyAndState": "Saline, Kansas"
     },
     {
-        "id" : 729,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Scott"
+        "countyAndState": "Scott, Kansas"
     },
     {
-        "id" : 730,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Sedgwick"
+        "countyAndState": "Sedgwick, Kansas"
     },
     {
-        "id" : 731,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Shawnee"
+        "countyAndState": "Shawnee, Kansas"
     },
     {
-        "id" : 732,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Trego"
+        "countyAndState": "Trego, Kansas"
     },
     {
-        "id" : 733,
-        "stateAbrv" : "KS",
-        "stateFullName" : "Kansas",
-        "county" : "Wyandotte"
+        "countyAndState": "Wyandotte, Kansas"
     },
     {
-        "id" : 734,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Adair"
+        "countyAndState": "Adair, Kentucky"
     },
     {
-        "id" : 735,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Barren"
+        "countyAndState": "Barren, Kentucky"
     },
     {
-        "id" : 736,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Boyle"
+        "countyAndState": "Boyle, Kentucky"
     },
     {
-        "id" : 737,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Calloway"
+        "countyAndState": "Calloway, Kentucky"
     },
     {
-        "id" : 738,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Christian"
+        "countyAndState": "Christian, Kentucky"
     },
     {
-        "id" : 739,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Daviess"
+        "countyAndState": "Daviess, Kentucky"
     },
     {
-        "id" : 740,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Fayette"
+        "countyAndState": "Fayette, Kentucky"
     },
     {
-        "id" : 741,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Hopkins"
+        "countyAndState": "Hopkins, Kentucky"
     },
     {
-        "id" : 742,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Kentucky"
     },
     {
-        "id" : 743,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Jessamine"
+        "countyAndState": "Jessamine, Kentucky"
     },
     {
-        "id" : 744,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Knox"
+        "countyAndState": "Knox, Kentucky"
     },
     {
-        "id" : 745,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Madison"
+        "countyAndState": "Madison, Kentucky"
     },
     {
-        "id" : 746,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Mason"
+        "countyAndState": "Mason, Kentucky"
     },
     {
-        "id" : 747,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "McCracken"
+        "countyAndState": "McCracken, Kentucky"
     },
     {
-        "id" : 748,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Owen"
+        "countyAndState": "Owen, Kentucky"
     },
     {
-        "id" : 749,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Perry"
+        "countyAndState": "Perry, Kentucky"
     },
     {
-        "id" : 750,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Rowan"
+        "countyAndState": "Rowan, Kentucky"
     },
     {
-        "id" : 751,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Trigg"
+        "countyAndState": "Trigg, Kentucky"
     },
     {
-        "id" : 752,
-        "stateAbrv" : "KY",
-        "stateFullName" : "Kentucky",
-        "county" : "Warren"
+        "countyAndState": "Warren, Kentucky"
     },
     {
-        "id" : 753,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Acadia Parish"
+        "countyAndState": "Acadia Parish, Louisiana"
     },
     {
-        "id" : 754,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Ascension Parish"
+        "countyAndState": "Ascension Parish, Louisiana"
     },
     {
-        "id" : 755,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Avoyelles Parish"
+        "countyAndState": "Avoyelles Parish, Louisiana"
     },
     {
-        "id" : 756,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Caddo"
+        "countyAndState": "Caddo, Louisiana"
     },
     {
-        "id" : 757,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Caddo Parish"
+        "countyAndState": "Caddo Parish, Louisiana"
     },
     {
-        "id" : 758,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Calcasieu Parish"
+        "countyAndState": "Calcasieu Parish, Louisiana"
     },
     {
-        "id" : 759,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Concordia Parish"
+        "countyAndState": "Concordia Parish, Louisiana"
     },
     {
-        "id" : 760,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "East Baton Rouge Parish"
+        "countyAndState": "East Baton Rouge Parish, Louisiana"
     },
     {
-        "id" : 761,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Evangeline Parish"
+        "countyAndState": "Evangeline Parish, Louisiana"
     },
     {
-        "id" : 762,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Iberia Parish"
+        "countyAndState": "Iberia Parish, Louisiana"
     },
     {
-        "id" : 763,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Jefferson Parish"
+        "countyAndState": "Jefferson Parish, Louisiana"
     },
     {
-        "id" : 764,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Lafayette Parish"
+        "countyAndState": "Lafayette Parish, Louisiana"
     },
     {
-        "id" : 765,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Lafourche Parish"
+        "countyAndState": "Lafourche Parish, Louisiana"
     },
     {
-        "id" : 766,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Natchitoches Parish"
+        "countyAndState": "Natchitoches Parish, Louisiana"
     },
     {
-        "id" : 767,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Oakdale Parish"
+        "countyAndState": "Oakdale Parish, Louisiana"
     },
     {
-        "id" : 768,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Orleans Parish"
+        "countyAndState": "Orleans Parish, Louisiana"
     },
     {
-        "id" : 769,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Ouachita Parish"
+        "countyAndState": "Ouachita Parish, Louisiana"
     },
     {
-        "id" : 770,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Plaquemines Parish"
+        "countyAndState": "Plaquemines Parish, Louisiana"
     },
     {
-        "id" : 771,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Pointe Coupee Parish"
+        "countyAndState": "Pointe Coupee Parish, Louisiana"
     },
     {
-        "id" : 772,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Rapides Parish"
+        "countyAndState": "Rapides Parish, Louisiana"
     },
     {
-        "id" : 773,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Sabine Parish"
+        "countyAndState": "Sabine Parish, Louisiana"
     },
     {
-        "id" : 774,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "St John the Baptist Parish"
+        "countyAndState": "St John the Baptist Parish, Louisiana"
     },
     {
-        "id" : 775,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "St. Bernard Parish"
+        "countyAndState": "St. Bernard Parish, Louisiana"
     },
     {
-        "id" : 776,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "St. Charles Parish"
+        "countyAndState": "St. Charles Parish, Louisiana"
     },
     {
-        "id" : 777,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "St. James Parish"
+        "countyAndState": "St. James Parish, Louisiana"
     },
     {
-        "id" : 778,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "St. John the Baptist Parish"
+        "countyAndState": "St. John the Baptist Parish, Louisiana"
     },
     {
-        "id" : 779,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "St. Landry Parish"
+        "countyAndState": "St. Landry Parish, Louisiana"
     },
     {
-        "id" : 780,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "St. Tammany Parish"
+        "countyAndState": "St. Tammany Parish, Louisiana"
     },
     {
-        "id" : 781,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Tangipahoa Parish"
+        "countyAndState": "Tangipahoa Parish, Louisiana"
     },
     {
-        "id" : 782,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Vermilion Parish"
+        "countyAndState": "Vermilion Parish, Louisiana"
     },
     {
-        "id" : 783,
-        "stateAbrv" : "LA",
-        "stateFullName" : "Louisiana",
-        "county" : "Washington Parish"
+        "countyAndState": "Washington Parish, Louisiana"
     },
     {
-        "id" : 784,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Androscoggin"
+        "countyAndState": "Androscoggin, Maine"
     },
     {
-        "id" : 785,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Aroostook"
+        "countyAndState": "Aroostook, Maine"
     },
     {
-        "id" : 786,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Cumberland"
+        "countyAndState": "Cumberland, Maine"
     },
     {
-        "id" : 787,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Franklin"
+        "countyAndState": "Franklin, Maine"
     },
     {
-        "id" : 788,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Hancock"
+        "countyAndState": "Hancock, Maine"
     },
     {
-        "id" : 789,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Kennebec"
+        "countyAndState": "Kennebec, Maine"
     },
     {
-        "id" : 790,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Knox"
+        "countyAndState": "Knox, Maine"
     },
     {
-        "id" : 791,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Oxford"
+        "countyAndState": "Oxford, Maine"
     },
     {
-        "id" : 792,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Penobscot"
+        "countyAndState": "Penobscot, Maine"
     },
     {
-        "id" : 793,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Piscataquis"
+        "countyAndState": "Piscataquis, Maine"
     },
     {
-        "id" : 794,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Sagadahoc"
+        "countyAndState": "Sagadahoc, Maine"
     },
     {
-        "id" : 795,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Somerset"
+        "countyAndState": "Somerset, Maine"
     },
     {
-        "id" : 796,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "Waldo"
+        "countyAndState": "Waldo, Maine"
     },
     {
-        "id" : 797,
-        "stateAbrv" : "ME",
-        "stateFullName" : "Maine",
-        "county" : "York"
+        "countyAndState": "York, Maine"
     },
     {
-        "id" : 798,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Allegany"
+        "countyAndState": "Allegany, Maryland"
     },
     {
-        "id" : 799,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Anne Arundel"
+        "countyAndState": "Anne Arundel, Maryland"
     },
     {
-        "id" : 800,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Baltimore"
+        "countyAndState": "Baltimore, Maryland"
     },
     {
-        "id" : 801,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Carroll"
+        "countyAndState": "Carroll, Maryland"
     },
     {
-        "id" : 802,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Charles"
+        "countyAndState": "Charles, Maryland"
     },
     {
-        "id" : 803,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Dorchester"
+        "countyAndState": "Dorchester, Maryland"
     },
     {
-        "id" : 804,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Frederick"
+        "countyAndState": "Frederick, Maryland"
     },
     {
-        "id" : 805,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Harford"
+        "countyAndState": "Harford, Maryland"
     },
     {
-        "id" : 806,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Howard"
+        "countyAndState": "Howard, Maryland"
     },
     {
-        "id" : 807,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Kent"
+        "countyAndState": "Kent, Maryland"
     },
     {
-        "id" : 808,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Montgomery"
+        "countyAndState": "Montgomery, Maryland"
     },
     {
-        "id" : 809,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Prince George's"
+        "countyAndState": "Prince George's, Maryland"
     },
     {
-        "id" : 810,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Queen Anne's"
+        "countyAndState": "Queen Anne's, Maryland"
     },
     {
-        "id" : 811,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "St. Mary's"
+        "countyAndState": "St. Mary's, Maryland"
     },
     {
-        "id" : 812,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Wicomico"
+        "countyAndState": "Wicomico, Maryland"
     },
     {
-        "id" : 813,
-        "stateAbrv" : "MD",
-        "stateFullName" : "Maryland",
-        "county" : "Worcester"
+        "countyAndState": "Worcester, Maryland"
     },
     {
-        "id" : 814,
-        "stateAbrv" : "MA",
-        "stateFullName" : "Massachusetts",
-        "county" : "Barnstable"
+        "countyAndState": "Barnstable, Massachusetts"
     },
     {
-        "id" : 815,
-        "stateAbrv" : "MA",
-        "stateFullName" : "Massachusetts",
-        "county" : "Berkshire"
+        "countyAndState": "Berkshire, Massachusetts"
     },
     {
-        "id" : 816,
-        "stateAbrv" : "MA",
-        "stateFullName" : "Massachusetts",
-        "county" : "Bristol"
+        "countyAndState": "Bristol, Massachusetts"
     },
     {
-        "id" : 817,
-        "stateAbrv" : "MA",
-        "stateFullName" : "Massachusetts",
-        "county" : "Essex"
+        "countyAndState": "Essex, Massachusetts"
     },
     {
-        "id" : 818,
-        "stateAbrv" : "MA",
-        "stateFullName" : "Massachusetts",
-        "county" : "Hampden"
+        "countyAndState": "Hampden, Massachusetts"
     },
     {
-        "id" : 819,
-        "stateAbrv" : "MA",
-        "stateFullName" : "Massachusetts",
-        "county" : "Hampshire"
+        "countyAndState": "Hampshire, Massachusetts"
     },
     {
-        "id" : 820,
-        "stateAbrv" : "MA",
-        "stateFullName" : "Massachusetts",
-        "county" : "Middlesex"
+        "countyAndState": "Middlesex, Massachusetts"
     },
     {
-        "id" : 821,
-        "stateAbrv" : "MA",
-        "stateFullName" : "Massachusetts",
-        "county" : "Nantucket"
+        "countyAndState": "Nantucket, Massachusetts"
     },
     {
-        "id" : 822,
-        "stateAbrv" : "MA",
-        "stateFullName" : "Massachusetts",
-        "county" : "Norfolk"
+        "countyAndState": "Norfolk, Massachusetts"
     },
     {
-        "id" : 823,
-        "stateAbrv" : "MA",
-        "stateFullName" : "Massachusetts",
-        "county" : "Plymouth"
+        "countyAndState": "Plymouth, Massachusetts"
     },
     {
-        "id" : 824,
-        "stateAbrv" : "MA",
-        "stateFullName" : "Massachusetts",
-        "county" : "Suffolk"
+        "countyAndState": "Suffolk, Massachusetts"
     },
     {
-        "id" : 825,
-        "stateAbrv" : "MA",
-        "stateFullName" : "Massachusetts",
-        "county" : "Worcester"
+        "countyAndState": "Worcester, Massachusetts"
     },
     {
-        "id" : 826,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Alcona"
+        "countyAndState": "Alcona, Michigan"
     },
     {
-        "id" : 827,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Alger"
+        "countyAndState": "Alger, Michigan"
     },
     {
-        "id" : 828,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Allegan"
+        "countyAndState": "Allegan, Michigan"
     },
     {
-        "id" : 829,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Alpena"
+        "countyAndState": "Alpena, Michigan"
     },
     {
-        "id" : 830,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Antrim"
+        "countyAndState": "Antrim, Michigan"
     },
     {
-        "id" : 831,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Barry"
+        "countyAndState": "Barry, Michigan"
     },
     {
-        "id" : 832,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Bay"
+        "countyAndState": "Bay, Michigan"
     },
     {
-        "id" : 833,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Berrien"
+        "countyAndState": "Berrien, Michigan"
     },
     {
-        "id" : 834,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Branch"
+        "countyAndState": "Branch, Michigan"
     },
     {
-        "id" : 835,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Calhoun"
+        "countyAndState": "Calhoun, Michigan"
     },
     {
-        "id" : 836,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Cass"
+        "countyAndState": "Cass, Michigan"
     },
     {
-        "id" : 837,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Cheboygan"
+        "countyAndState": "Cheboygan, Michigan"
     },
     {
-        "id" : 838,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Chippewa"
+        "countyAndState": "Chippewa, Michigan"
     },
     {
-        "id" : 839,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Clare"
+        "countyAndState": "Clare, Michigan"
     },
     {
-        "id" : 840,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Clinton"
+        "countyAndState": "Clinton, Michigan"
     },
     {
-        "id" : 841,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Delta"
+        "countyAndState": "Delta, Michigan"
     },
     {
-        "id" : 842,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Dickinson"
+        "countyAndState": "Dickinson, Michigan"
     },
     {
-        "id" : 843,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Eaton"
+        "countyAndState": "Eaton, Michigan"
     },
     {
-        "id" : 844,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Emmet"
+        "countyAndState": "Emmet, Michigan"
     },
     {
-        "id" : 845,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Genesee"
+        "countyAndState": "Genesee, Michigan"
     },
     {
-        "id" : 846,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Gladwin"
+        "countyAndState": "Gladwin, Michigan"
     },
     {
-        "id" : 847,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Gogebic"
+        "countyAndState": "Gogebic, Michigan"
     },
     {
-        "id" : 848,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Grand Traverse"
+        "countyAndState": "Grand Traverse, Michigan"
     },
     {
-        "id" : 849,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Gratiot"
+        "countyAndState": "Gratiot, Michigan"
     },
     {
-        "id" : 850,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Hillsdale"
+        "countyAndState": "Hillsdale, Michigan"
     },
     {
-        "id" : 851,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Houghton"
+        "countyAndState": "Houghton, Michigan"
     },
     {
-        "id" : 852,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Huron"
+        "countyAndState": "Huron, Michigan"
     },
     {
-        "id" : 853,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Ingham"
+        "countyAndState": "Ingham, Michigan"
     },
     {
-        "id" : 854,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Ionia"
+        "countyAndState": "Ionia, Michigan"
     },
     {
-        "id" : 855,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Isabella"
+        "countyAndState": "Isabella, Michigan"
     },
     {
-        "id" : 856,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Jackson"
+        "countyAndState": "Jackson, Michigan"
     },
     {
-        "id" : 857,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Kalamazoo"
+        "countyAndState": "Kalamazoo, Michigan"
     },
     {
-        "id" : 858,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Kent"
+        "countyAndState": "Kent, Michigan"
     },
     {
-        "id" : 859,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Lake"
+        "countyAndState": "Lake, Michigan"
     },
     {
-        "id" : 860,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Lapeer"
+        "countyAndState": "Lapeer, Michigan"
     },
     {
-        "id" : 861,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Lenawee"
+        "countyAndState": "Lenawee, Michigan"
     },
     {
-        "id" : 862,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Livingston"
+        "countyAndState": "Livingston, Michigan"
     },
     {
-        "id" : 863,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Luce"
+        "countyAndState": "Luce, Michigan"
     },
     {
-        "id" : 864,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Macomb"
+        "countyAndState": "Macomb, Michigan"
     },
     {
-        "id" : 865,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Marquette"
+        "countyAndState": "Marquette, Michigan"
     },
     {
-        "id" : 866,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Mason"
+        "countyAndState": "Mason, Michigan"
     },
     {
-        "id" : 867,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Mecosta"
+        "countyAndState": "Mecosta, Michigan"
     },
     {
-        "id" : 868,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Midland"
+        "countyAndState": "Midland, Michigan"
     },
     {
-        "id" : 869,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Monroe"
+        "countyAndState": "Monroe, Michigan"
     },
     {
-        "id" : 870,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Montcalm"
+        "countyAndState": "Montcalm, Michigan"
     },
     {
-        "id" : 871,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Montmorency"
+        "countyAndState": "Montmorency, Michigan"
     },
     {
-        "id" : 872,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Muskegon"
+        "countyAndState": "Muskegon, Michigan"
     },
     {
-        "id" : 873,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Newaygo"
+        "countyAndState": "Newaygo, Michigan"
     },
     {
-        "id" : 874,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Oakland"
+        "countyAndState": "Oakland, Michigan"
     },
     {
-        "id" : 875,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Oceana"
+        "countyAndState": "Oceana, Michigan"
     },
     {
-        "id" : 876,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Ogemaw"
+        "countyAndState": "Ogemaw, Michigan"
     },
     {
-        "id" : 877,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Ontonagon"
+        "countyAndState": "Ontonagon, Michigan"
     },
     {
-        "id" : 878,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Otsego"
+        "countyAndState": "Otsego, Michigan"
     },
     {
-        "id" : 879,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Ottawa"
+        "countyAndState": "Ottawa, Michigan"
     },
     {
-        "id" : 880,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Roscommon"
+        "countyAndState": "Roscommon, Michigan"
     },
     {
-        "id" : 881,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Saginaw"
+        "countyAndState": "Saginaw, Michigan"
     },
     {
-        "id" : 882,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Schoolcraft"
+        "countyAndState": "Schoolcraft, Michigan"
     },
     {
-        "id" : 883,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Shiawassee"
+        "countyAndState": "Shiawassee, Michigan"
     },
     {
-        "id" : 884,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "St. Clair"
+        "countyAndState": "St. Clair, Michigan"
     },
     {
-        "id" : 885,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "St. Joseph"
+        "countyAndState": "St. Joseph, Michigan"
     },
     {
-        "id" : 886,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Tuscola"
+        "countyAndState": "Tuscola, Michigan"
     },
     {
-        "id" : 887,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Van Buren"
+        "countyAndState": "Van Buren, Michigan"
     },
     {
-        "id" : 888,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Washtenaw"
+        "countyAndState": "Washtenaw, Michigan"
     },
     {
-        "id" : 889,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Wayne"
+        "countyAndState": "Wayne, Michigan"
     },
     {
-        "id" : 890,
-        "stateAbrv" : "MI",
-        "stateFullName" : "Michigan",
-        "county" : "Wexford"
+        "countyAndState": "Wexford, Michigan"
     },
     {
-        "id" : 891,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Anoka"
+        "countyAndState": "Anoka, Minnesota"
     },
     {
-        "id" : 892,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Becker"
+        "countyAndState": "Becker, Minnesota"
     },
     {
-        "id" : 893,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Beltrami"
+        "countyAndState": "Beltrami, Minnesota"
     },
     {
-        "id" : 894,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Cass"
+        "countyAndState": "Cass, Minnesota"
     },
     {
-        "id" : 895,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Chippewa"
+        "countyAndState": "Chippewa, Minnesota"
     },
     {
-        "id" : 896,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Chisago"
+        "countyAndState": "Chisago, Minnesota"
     },
     {
-        "id" : 897,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Crow Wing"
+        "countyAndState": "Crow Wing, Minnesota"
     },
     {
-        "id" : 898,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Dakota"
+        "countyAndState": "Dakota, Minnesota"
     },
     {
-        "id" : 899,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Freeborn"
+        "countyAndState": "Freeborn, Minnesota"
     },
     {
-        "id" : 900,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Goodhue"
+        "countyAndState": "Goodhue, Minnesota"
     },
     {
-        "id" : 901,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Hennepin"
+        "countyAndState": "Hennepin, Minnesota"
     },
     {
-        "id" : 902,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Hubbard"
+        "countyAndState": "Hubbard, Minnesota"
     },
     {
-        "id" : 903,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Isanti"
+        "countyAndState": "Isanti, Minnesota"
     },
     {
-        "id" : 904,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Itasca"
+        "countyAndState": "Itasca, Minnesota"
     },
     {
-        "id" : 905,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Kanabec"
+        "countyAndState": "Kanabec, Minnesota"
     },
     {
-        "id" : 906,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Lake"
+        "countyAndState": "Lake, Minnesota"
     },
     {
-        "id" : 907,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Mower"
+        "countyAndState": "Mower, Minnesota"
     },
     {
-        "id" : 908,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Nobles"
+        "countyAndState": "Nobles, Minnesota"
     },
     {
-        "id" : 909,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Olmsted"
+        "countyAndState": "Olmsted, Minnesota"
     },
     {
-        "id" : 910,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Pine"
+        "countyAndState": "Pine, Minnesota"
     },
     {
-        "id" : 911,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Ramsey"
+        "countyAndState": "Ramsey, Minnesota"
     },
     {
-        "id" : 912,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Renville"
+        "countyAndState": "Renville, Minnesota"
     },
     {
-        "id" : 913,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "St. Louis"
+        "countyAndState": "St. Louis, Minnesota"
     },
     {
-        "id" : 914,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Stearns"
+        "countyAndState": "Stearns, Minnesota"
     },
     {
-        "id" : 915,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Steele"
+        "countyAndState": "Steele, Minnesota"
     },
     {
-        "id" : 916,
-        "stateAbrv" : "MN",
-        "stateFullName" : "Minnesota",
-        "county" : "Todd"
+        "countyAndState": "Todd, Minnesota"
     },
     {
-        "id" : 917,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Alcorn"
+        "countyAndState": "Alcorn, Mississippi"
     },
     {
-        "id" : 918,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Attala"
+        "countyAndState": "Attala, Mississippi"
     },
     {
-        "id" : 919,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Covington"
+        "countyAndState": "Covington, Mississippi"
     },
     {
-        "id" : 920,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "DeSoto"
+        "countyAndState": "DeSoto, Mississippi"
     },
     {
-        "id" : 921,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Forrest"
+        "countyAndState": "Forrest, Mississippi"
     },
     {
-        "id" : 922,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Hancock"
+        "countyAndState": "Hancock, Mississippi"
     },
     {
-        "id" : 923,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Hanock"
+        "countyAndState": "Hanock, Mississippi"
     },
     {
-        "id" : 924,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Harrison"
+        "countyAndState": "Harrison, Mississippi"
     },
     {
-        "id" : 925,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Hinds"
+        "countyAndState": "Hinds, Mississippi"
     },
     {
-        "id" : 926,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Humphreys"
+        "countyAndState": "Humphreys, Mississippi"
     },
     {
-        "id" : 927,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Itawamba"
+        "countyAndState": "Itawamba, Mississippi"
     },
     {
-        "id" : 928,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Jackson"
+        "countyAndState": "Jackson, Mississippi"
     },
     {
-        "id" : 929,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Jefferson Davis"
+        "countyAndState": "Jefferson Davis, Mississippi"
     },
     {
-        "id" : 930,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Jones"
+        "countyAndState": "Jones, Mississippi"
     },
     {
-        "id" : 931,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Lafayette"
+        "countyAndState": "Lafayette, Mississippi"
     },
     {
-        "id" : 932,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "lamar"
+        "countyAndState": "lamar, Mississippi"
     },
     {
-        "id" : 933,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Lee"
+        "countyAndState": "Lee, Mississippi"
     },
     {
-        "id" : 934,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Lincoln"
+        "countyAndState": "Lincoln, Mississippi"
     },
     {
-        "id" : 935,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Marshall"
+        "countyAndState": "Marshall, Mississippi"
     },
     {
-        "id" : 936,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Neshoba"
+        "countyAndState": "Neshoba, Mississippi"
     },
     {
-        "id" : 937,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Panola"
+        "countyAndState": "Panola, Mississippi"
     },
     {
-        "id" : 938,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Pearl River"
+        "countyAndState": "Pearl River, Mississippi"
     },
     {
-        "id" : 939,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Perry"
+        "countyAndState": "Perry, Mississippi"
     },
     {
-        "id" : 940,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Pike"
+        "countyAndState": "Pike, Mississippi"
     },
     {
-        "id" : 941,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Pontotoc"
+        "countyAndState": "Pontotoc, Mississippi"
     },
     {
-        "id" : 942,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Prentiss"
+        "countyAndState": "Prentiss, Mississippi"
     },
     {
-        "id" : 943,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Simpson"
+        "countyAndState": "Simpson, Mississippi"
     },
     {
-        "id" : 944,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Stone"
+        "countyAndState": "Stone, Mississippi"
     },
     {
-        "id" : 945,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Tishomingo"
+        "countyAndState": "Tishomingo, Mississippi"
     },
     {
-        "id" : 946,
-        "stateAbrv" : "MS",
-        "stateFullName" : "Mississippi",
-        "county" : "Wilkinson"
+        "countyAndState": "Wilkinson, Mississippi"
     },
     {
-        "id" : 947,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Adair"
+        "countyAndState": "Adair, Missouri"
     },
     {
-        "id" : 948,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Atchison"
+        "countyAndState": "Atchison, Missouri"
     },
     {
-        "id" : 949,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Audrain"
+        "countyAndState": "Audrain, Missouri"
     },
     {
-        "id" : 950,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Barry"
+        "countyAndState": "Barry, Missouri"
     },
     {
-        "id" : 951,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Barton"
+        "countyAndState": "Barton, Missouri"
     },
     {
-        "id" : 952,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Benton"
+        "countyAndState": "Benton, Missouri"
     },
     {
-        "id" : 953,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Boone"
+        "countyAndState": "Boone, Missouri"
     },
     {
-        "id" : 954,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Buchanan"
+        "countyAndState": "Buchanan, Missouri"
     },
     {
-        "id" : 955,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Butler"
+        "countyAndState": "Butler, Missouri"
     },
     {
-        "id" : 956,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Camden"
+        "countyAndState": "Camden, Missouri"
     },
     {
-        "id" : 957,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Cape Girardeau"
+        "countyAndState": "Cape Girardeau, Missouri"
     },
     {
-        "id" : 958,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Carter"
+        "countyAndState": "Carter, Missouri"
     },
     {
-        "id" : 959,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Christian"
+        "countyAndState": "Christian, Missouri"
     },
     {
-        "id" : 960,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Clay"
+        "countyAndState": "Clay, Missouri"
     },
     {
-        "id" : 961,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Clinton"
+        "countyAndState": "Clinton, Missouri"
     },
     {
-        "id" : 962,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Cole"
+        "countyAndState": "Cole, Missouri"
     },
     {
-        "id" : 963,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Dallas"
+        "countyAndState": "Dallas, Missouri"
     },
     {
-        "id" : 964,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Franklin"
+        "countyAndState": "Franklin, Missouri"
     },
     {
-        "id" : 965,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Gasconade"
+        "countyAndState": "Gasconade, Missouri"
     },
     {
-        "id" : 966,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Gentry"
+        "countyAndState": "Gentry, Missouri"
     },
     {
-        "id" : 967,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Greene"
+        "countyAndState": "Greene, Missouri"
     },
     {
-        "id" : 968,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Hickory"
+        "countyAndState": "Hickory, Missouri"
     },
     {
-        "id" : 969,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Holt"
+        "countyAndState": "Holt, Missouri"
     },
     {
-        "id" : 970,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Howell"
+        "countyAndState": "Howell, Missouri"
     },
     {
-        "id" : 971,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Iron"
+        "countyAndState": "Iron, Missouri"
     },
     {
-        "id" : 972,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Jackson"
+        "countyAndState": "Jackson, Missouri"
     },
     {
-        "id" : 973,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Jasper"
+        "countyAndState": "Jasper, Missouri"
     },
     {
-        "id" : 974,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Missouri"
     },
     {
-        "id" : 975,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Johnson"
+        "countyAndState": "Johnson, Missouri"
     },
     {
-        "id" : 976,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Knox"
+        "countyAndState": "Knox, Missouri"
     },
     {
-        "id" : 977,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Laclede"
+        "countyAndState": "Laclede, Missouri"
     },
     {
-        "id" : 978,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Lafayette"
+        "countyAndState": "Lafayette, Missouri"
     },
     {
-        "id" : 979,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Lawrence"
+        "countyAndState": "Lawrence, Missouri"
     },
     {
-        "id" : 980,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Lincoln"
+        "countyAndState": "Lincoln, Missouri"
     },
     {
-        "id" : 981,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Linn"
+        "countyAndState": "Linn, Missouri"
     },
     {
-        "id" : 982,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Livingston"
+        "countyAndState": "Livingston, Missouri"
     },
     {
-        "id" : 983,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Macon"
+        "countyAndState": "Macon, Missouri"
     },
     {
-        "id" : 984,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Marion"
+        "countyAndState": "Marion, Missouri"
     },
     {
-        "id" : 985,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "McDonald"
+        "countyAndState": "McDonald, Missouri"
     },
     {
-        "id" : 986,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Miller"
+        "countyAndState": "Miller, Missouri"
     },
     {
-        "id" : 987,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Morgan"
+        "countyAndState": "Morgan, Missouri"
     },
     {
-        "id" : 988,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "New Madrid"
+        "countyAndState": "New Madrid, Missouri"
     },
     {
-        "id" : 989,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Nodaway"
+        "countyAndState": "Nodaway, Missouri"
     },
     {
-        "id" : 990,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Pemiscot"
+        "countyAndState": "Pemiscot, Missouri"
     },
     {
-        "id" : 991,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Perry"
+        "countyAndState": "Perry, Missouri"
     },
     {
-        "id" : 992,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Pettis"
+        "countyAndState": "Pettis, Missouri"
     },
     {
-        "id" : 993,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Phelps"
+        "countyAndState": "Phelps, Missouri"
     },
     {
-        "id" : 994,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Pike"
+        "countyAndState": "Pike, Missouri"
     },
     {
-        "id" : 995,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Platte"
+        "countyAndState": "Platte, Missouri"
     },
     {
-        "id" : 996,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Polk"
+        "countyAndState": "Polk, Missouri"
     },
     {
-        "id" : 997,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Pulaski"
+        "countyAndState": "Pulaski, Missouri"
     },
     {
-        "id" : 998,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Putnam"
+        "countyAndState": "Putnam, Missouri"
     },
     {
-        "id" : 999,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Randolph"
+        "countyAndState": "Randolph, Missouri"
     },
     {
-        "id" : 1000,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Reynolds"
+        "countyAndState": "Reynolds, Missouri"
     },
     {
-        "id" : 1001,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Ripley"
+        "countyAndState": "Ripley, Missouri"
     },
     {
-        "id" : 1002,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Saline"
+        "countyAndState": "Saline, Missouri"
     },
     {
-        "id" : 1003,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Scotland"
+        "countyAndState": "Scotland, Missouri"
     },
     {
-        "id" : 1004,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Shannon"
+        "countyAndState": "Shannon, Missouri"
     },
     {
-        "id" : 1005,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "St. Charles"
+        "countyAndState": "St. Charles, Missouri"
     },
     {
-        "id" : 1006,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "St. Louis"
+        "countyAndState": "St. Louis, Missouri"
     },
     {
-        "id" : 1007,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "St. Louis City"
+        "countyAndState": "St. Louis City, Missouri"
     },
     {
-        "id" : 1008,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Stoddard"
+        "countyAndState": "Stoddard, Missouri"
     },
     {
-        "id" : 1009,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Sullivan"
+        "countyAndState": "Sullivan, Missouri"
     },
     {
-        "id" : 1010,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Taney"
+        "countyAndState": "Taney, Missouri"
     },
     {
-        "id" : 1011,
-        "stateAbrv" : "MO",
-        "stateFullName" : "Missouri",
-        "county" : "Wayne"
+        "countyAndState": "Wayne, Missouri"
     },
     {
-        "id" : 1012,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Broadwater"
+        "countyAndState": "Broadwater, Montana"
     },
     {
-        "id" : 1013,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Cascade"
+        "countyAndState": "Cascade, Montana"
     },
     {
-        "id" : 1014,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Fergus"
+        "countyAndState": "Fergus, Montana"
     },
     {
-        "id" : 1015,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Flathead"
+        "countyAndState": "Flathead, Montana"
     },
     {
-        "id" : 1016,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Gallatin"
+        "countyAndState": "Gallatin, Montana"
     },
     {
-        "id" : 1017,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Lake"
+        "countyAndState": "Lake, Montana"
     },
     {
-        "id" : 1018,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Lewis and Clark"
+        "countyAndState": "Lewis and Clark, Montana"
     },
     {
-        "id" : 1019,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Lincoln"
+        "countyAndState": "Lincoln, Montana"
     },
     {
-        "id" : 1020,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Meagher"
+        "countyAndState": "Meagher, Montana"
     },
     {
-        "id" : 1021,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Missoula"
+        "countyAndState": "Missoula, Montana"
     },
     {
-        "id" : 1022,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Musselshell"
+        "countyAndState": "Musselshell, Montana"
     },
     {
-        "id" : 1023,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Park"
+        "countyAndState": "Park, Montana"
     },
     {
-        "id" : 1024,
-        "stateAbrv" : "MT",
-        "stateFullName" : "Montana",
-        "county" : "Wheatland"
+        "countyAndState": "Wheatland, Montana"
     },
     {
-        "id" : 1025,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Adams"
+        "countyAndState": "Adams, Nebraska"
     },
     {
-        "id" : 1026,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Antelope"
+        "countyAndState": "Antelope, Nebraska"
     },
     {
-        "id" : 1027,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Boone"
+        "countyAndState": "Boone, Nebraska"
     },
     {
-        "id" : 1028,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Box Butte"
+        "countyAndState": "Box Butte, Nebraska"
     },
     {
-        "id" : 1029,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Boyd"
+        "countyAndState": "Boyd, Nebraska"
     },
     {
-        "id" : 1030,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Brown"
+        "countyAndState": "Brown, Nebraska"
     },
     {
-        "id" : 1031,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Buffalo"
+        "countyAndState": "Buffalo, Nebraska"
     },
     {
-        "id" : 1032,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Burt"
+        "countyAndState": "Burt, Nebraska"
     },
     {
-        "id" : 1033,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Chase"
+        "countyAndState": "Chase, Nebraska"
     },
     {
-        "id" : 1034,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Cherry"
+        "countyAndState": "Cherry, Nebraska"
     },
     {
-        "id" : 1035,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Colfax"
+        "countyAndState": "Colfax, Nebraska"
     },
     {
-        "id" : 1036,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Cuming"
+        "countyAndState": "Cuming, Nebraska"
     },
     {
-        "id" : 1037,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Custer"
+        "countyAndState": "Custer, Nebraska"
     },
     {
-        "id" : 1038,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Dawes"
+        "countyAndState": "Dawes, Nebraska"
     },
     {
-        "id" : 1039,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Dawson"
+        "countyAndState": "Dawson, Nebraska"
     },
     {
-        "id" : 1040,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Douglas"
+        "countyAndState": "Douglas, Nebraska"
     },
     {
-        "id" : 1041,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Fillmore"
+        "countyAndState": "Fillmore, Nebraska"
     },
     {
-        "id" : 1042,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Franklin"
+        "countyAndState": "Franklin, Nebraska"
     },
     {
-        "id" : 1043,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Gage"
+        "countyAndState": "Gage, Nebraska"
     },
     {
-        "id" : 1044,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Hall"
+        "countyAndState": "Hall, Nebraska"
     },
     {
-        "id" : 1045,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Hamilton"
+        "countyAndState": "Hamilton, Nebraska"
     },
     {
-        "id" : 1046,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Howard"
+        "countyAndState": "Howard, Nebraska"
     },
     {
-        "id" : 1047,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Nebraska"
     },
     {
-        "id" : 1048,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Johnson"
+        "countyAndState": "Johnson, Nebraska"
     },
     {
-        "id" : 1049,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Kearney"
+        "countyAndState": "Kearney, Nebraska"
     },
     {
-        "id" : 1050,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Keith"
+        "countyAndState": "Keith, Nebraska"
     },
     {
-        "id" : 1051,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Kimball"
+        "countyAndState": "Kimball, Nebraska"
     },
     {
-        "id" : 1052,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Knox"
+        "countyAndState": "Knox, Nebraska"
     },
     {
-        "id" : 1053,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Lancaster"
+        "countyAndState": "Lancaster, Nebraska"
     },
     {
-        "id" : 1054,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Lincoln"
+        "countyAndState": "Lincoln, Nebraska"
     },
     {
-        "id" : 1055,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Madison"
+        "countyAndState": "Madison, Nebraska"
     },
     {
-        "id" : 1056,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Morrill"
+        "countyAndState": "Morrill, Nebraska"
     },
     {
-        "id" : 1057,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Nuckolls"
+        "countyAndState": "Nuckolls, Nebraska"
     },
     {
-        "id" : 1058,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Otoe"
+        "countyAndState": "Otoe, Nebraska"
     },
     {
-        "id" : 1059,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Pawnee"
+        "countyAndState": "Pawnee, Nebraska"
     },
     {
-        "id" : 1060,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Perkins"
+        "countyAndState": "Perkins, Nebraska"
     },
     {
-        "id" : 1061,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Pierce"
+        "countyAndState": "Pierce, Nebraska"
     },
     {
-        "id" : 1062,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Richardson"
+        "countyAndState": "Richardson, Nebraska"
     },
     {
-        "id" : 1063,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Rock"
+        "countyAndState": "Rock, Nebraska"
     },
     {
-        "id" : 1064,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Saline"
+        "countyAndState": "Saline, Nebraska"
     },
     {
-        "id" : 1065,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Sarpy"
+        "countyAndState": "Sarpy, Nebraska"
     },
     {
-        "id" : 1066,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Scotts Bluff"
+        "countyAndState": "Scotts Bluff, Nebraska"
     },
     {
-        "id" : 1067,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Sheridan"
+        "countyAndState": "Sheridan, Nebraska"
     },
     {
-        "id" : 1068,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Thayer"
+        "countyAndState": "Thayer, Nebraska"
     },
     {
-        "id" : 1069,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Thurston"
+        "countyAndState": "Thurston, Nebraska"
     },
     {
-        "id" : 1070,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Valley"
+        "countyAndState": "Valley, Nebraska"
     },
     {
-        "id" : 1071,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "Washington"
+        "countyAndState": "Washington, Nebraska"
     },
     {
-        "id" : 1072,
-        "stateAbrv" : "NE",
-        "stateFullName" : "Nebraska",
-        "county" : "York"
+        "countyAndState": "York, Nebraska"
     },
     {
-        "id" : 1073,
-        "stateAbrv" : "NV",
-        "stateFullName" : "Nevada",
-        "county" : "Clark"
+        "countyAndState": "Clark, Nevada"
     },
     {
-        "id" : 1074,
-        "stateAbrv" : "NV",
-        "stateFullName" : "Nevada",
-        "county" : "Douglas"
+        "countyAndState": "Douglas, Nevada"
     },
     {
-        "id" : 1075,
-        "stateAbrv" : "NV",
-        "stateFullName" : "Nevada",
-        "county" : "Elko"
+        "countyAndState": "Elko, Nevada"
     },
     {
-        "id" : 1076,
-        "stateAbrv" : "NV",
-        "stateFullName" : "Nevada",
-        "county" : "Humboldt"
+        "countyAndState": "Humboldt, Nevada"
     },
     {
-        "id" : 1077,
-        "stateAbrv" : "NV",
-        "stateFullName" : "Nevada",
-        "county" : "Lander"
+        "countyAndState": "Lander, Nevada"
     },
     {
-        "id" : 1078,
-        "stateAbrv" : "NV",
-        "stateFullName" : "Nevada",
-        "county" : "Washoe"
+        "countyAndState": "Washoe, Nevada"
     },
     {
-        "id" : 1079,
-        "stateAbrv" : "NV",
-        "stateFullName" : "Nevada",
-        "county" : "White Pine"
+        "countyAndState": "White Pine, Nevada"
     },
     {
-        "id" : 1080,
-        "stateAbrv" : "NH",
-        "stateFullName" : "New Hampshire",
-        "county" : "Belknap"
+        "countyAndState": "Belknap, New Hampshire"
     },
     {
-        "id" : 1081,
-        "stateAbrv" : "NH",
-        "stateFullName" : "New Hampshire",
-        "county" : "Cheshire"
+        "countyAndState": "Cheshire, New Hampshire"
     },
     {
-        "id" : 1082,
-        "stateAbrv" : "NH",
-        "stateFullName" : "New Hampshire",
-        "county" : "Grafton"
+        "countyAndState": "Grafton, New Hampshire"
     },
     {
-        "id" : 1083,
-        "stateAbrv" : "NH",
-        "stateFullName" : "New Hampshire",
-        "county" : "Hillsborough"
+        "countyAndState": "Hillsborough, New Hampshire"
     },
     {
-        "id" : 1084,
-        "stateAbrv" : "NH",
-        "stateFullName" : "New Hampshire",
-        "county" : "Merrimack"
+        "countyAndState": "Merrimack, New Hampshire"
     },
     {
-        "id" : 1085,
-        "stateAbrv" : "NH",
-        "stateFullName" : "New Hampshire",
-        "county" : "Rockingham"
+        "countyAndState": "Rockingham, New Hampshire"
     },
     {
-        "id" : 1086,
-        "stateAbrv" : "NH",
-        "stateFullName" : "New Hampshire",
-        "county" : "Strafford"
+        "countyAndState": "Strafford, New Hampshire"
     },
     {
-        "id" : 1087,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Atlantic"
+        "countyAndState": "Atlantic, New Jersey"
     },
     {
-        "id" : 1088,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Bergen"
+        "countyAndState": "Bergen, New Jersey"
     },
     {
-        "id" : 1089,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Burlington"
+        "countyAndState": "Burlington, New Jersey"
     },
     {
-        "id" : 1090,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Camden"
+        "countyAndState": "Camden, New Jersey"
     },
     {
-        "id" : 1091,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Cape May"
+        "countyAndState": "Cape May, New Jersey"
     },
     {
-        "id" : 1092,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Cumberland"
+        "countyAndState": "Cumberland, New Jersey"
     },
     {
-        "id" : 1093,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Essex"
+        "countyAndState": "Essex, New Jersey"
     },
     {
-        "id" : 1094,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Gloucester"
+        "countyAndState": "Gloucester, New Jersey"
     },
     {
-        "id" : 1095,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Hudson"
+        "countyAndState": "Hudson, New Jersey"
     },
     {
-        "id" : 1096,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Hunterdon"
+        "countyAndState": "Hunterdon, New Jersey"
     },
     {
-        "id" : 1097,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Mercer"
+        "countyAndState": "Mercer, New Jersey"
     },
     {
-        "id" : 1098,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Middlesex"
+        "countyAndState": "Middlesex, New Jersey"
     },
     {
-        "id" : 1099,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Monmouth"
+        "countyAndState": "Monmouth, New Jersey"
     },
     {
-        "id" : 1100,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Morris"
+        "countyAndState": "Morris, New Jersey"
     },
     {
-        "id" : 1101,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Ocean"
+        "countyAndState": "Ocean, New Jersey"
     },
     {
-        "id" : 1102,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Passaic"
+        "countyAndState": "Passaic, New Jersey"
     },
     {
-        "id" : 1103,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Salem"
+        "countyAndState": "Salem, New Jersey"
     },
     {
-        "id" : 1104,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Somerset"
+        "countyAndState": "Somerset, New Jersey"
     },
     {
-        "id" : 1105,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Union"
+        "countyAndState": "Union, New Jersey"
     },
     {
-        "id" : 1106,
-        "stateAbrv" : "NJ",
-        "stateFullName" : "New Jersey",
-        "county" : "Warren"
+        "countyAndState": "Warren, New Jersey"
     },
     {
-        "id" : 1107,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Bernalillo"
+        "countyAndState": "Bernalillo, New Mexico"
     },
     {
-        "id" : 1108,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Catron"
+        "countyAndState": "Catron, New Mexico"
     },
     {
-        "id" : 1109,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Chaves"
+        "countyAndState": "Chaves, New Mexico"
     },
     {
-        "id" : 1110,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Cibola"
+        "countyAndState": "Cibola, New Mexico"
     },
     {
-        "id" : 1111,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Colfax"
+        "countyAndState": "Colfax, New Mexico"
     },
     {
-        "id" : 1112,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Curry"
+        "countyAndState": "Curry, New Mexico"
     },
     {
-        "id" : 1113,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Dona Ana"
+        "countyAndState": "Dona Ana, New Mexico"
     },
     {
-        "id" : 1114,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Eddy"
+        "countyAndState": "Eddy, New Mexico"
     },
     {
-        "id" : 1115,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Grant"
+        "countyAndState": "Grant, New Mexico"
     },
     {
-        "id" : 1116,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Hidalgo"
+        "countyAndState": "Hidalgo, New Mexico"
     },
     {
-        "id" : 1117,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Lea"
+        "countyAndState": "Lea, New Mexico"
     },
     {
-        "id" : 1118,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Lincoln"
+        "countyAndState": "Lincoln, New Mexico"
     },
     {
-        "id" : 1119,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Los Alamos"
+        "countyAndState": "Los Alamos, New Mexico"
     },
     {
-        "id" : 1120,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Luna"
+        "countyAndState": "Luna, New Mexico"
     },
     {
-        "id" : 1121,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "McKinley"
+        "countyAndState": "McKinley, New Mexico"
     },
     {
-        "id" : 1122,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Otero"
+        "countyAndState": "Otero, New Mexico"
     },
     {
-        "id" : 1123,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Quay"
+        "countyAndState": "Quay, New Mexico"
     },
     {
-        "id" : 1124,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Rio Arriba"
+        "countyAndState": "Rio Arriba, New Mexico"
     },
     {
-        "id" : 1125,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Roosevelt"
+        "countyAndState": "Roosevelt, New Mexico"
     },
     {
-        "id" : 1126,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "San Juan"
+        "countyAndState": "San Juan, New Mexico"
     },
     {
-        "id" : 1127,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "San Miguel"
+        "countyAndState": "San Miguel, New Mexico"
     },
     {
-        "id" : 1128,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Sandoval"
+        "countyAndState": "Sandoval, New Mexico"
     },
     {
-        "id" : 1129,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Santa Fe"
+        "countyAndState": "Santa Fe, New Mexico"
     },
     {
-        "id" : 1130,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Sierra"
+        "countyAndState": "Sierra, New Mexico"
     },
     {
-        "id" : 1131,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Socorro"
+        "countyAndState": "Socorro, New Mexico"
     },
     {
-        "id" : 1132,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Torrance"
+        "countyAndState": "Torrance, New Mexico"
     },
     {
-        "id" : 1133,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Union"
+        "countyAndState": "Union, New Mexico"
     },
     {
-        "id" : 1134,
-        "stateAbrv" : "NM",
-        "stateFullName" : "New Mexico",
-        "county" : "Valencia"
+        "countyAndState": "Valencia, New Mexico"
     },
     {
-        "id" : 1135,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Albany"
+        "countyAndState": "Albany, New York"
     },
     {
-        "id" : 1136,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Bronx"
+        "countyAndState": "Bronx, New York"
     },
     {
-        "id" : 1137,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Broome"
+        "countyAndState": "Broome, New York"
     },
     {
-        "id" : 1138,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Chautauqua"
+        "countyAndState": "Chautauqua, New York"
     },
     {
-        "id" : 1139,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Chemung"
+        "countyAndState": "Chemung, New York"
     },
     {
-        "id" : 1140,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Cortland"
+        "countyAndState": "Cortland, New York"
     },
     {
-        "id" : 1141,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Delaware"
+        "countyAndState": "Delaware, New York"
     },
     {
-        "id" : 1142,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Dutchess"
+        "countyAndState": "Dutchess, New York"
     },
     {
-        "id" : 1143,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "ERIE"
+        "countyAndState": "ERIE, New York"
     },
     {
-        "id" : 1144,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Genesee"
+        "countyAndState": "Genesee, New York"
     },
     {
-        "id" : 1145,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Herkimer"
+        "countyAndState": "Herkimer, New York"
     },
     {
-        "id" : 1146,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, New York"
     },
     {
-        "id" : 1147,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Kings"
+        "countyAndState": "Kings, New York"
     },
     {
-        "id" : 1148,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Monroe"
+        "countyAndState": "Monroe, New York"
     },
     {
-        "id" : 1149,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Nassau"
+        "countyAndState": "Nassau, New York"
     },
     {
-        "id" : 1150,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "New York"
+        "countyAndState": "New York, New York"
     },
     {
-        "id" : 1151,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Oneida"
+        "countyAndState": "Oneida, New York"
     },
     {
-        "id" : 1152,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Onondaga"
+        "countyAndState": "Onondaga, New York"
     },
     {
-        "id" : 1153,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Ontario"
+        "countyAndState": "Ontario, New York"
     },
     {
-        "id" : 1154,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Orange"
+        "countyAndState": "Orange, New York"
     },
     {
-        "id" : 1155,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Otsego"
+        "countyAndState": "Otsego, New York"
     },
     {
-        "id" : 1156,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Putnam"
+        "countyAndState": "Putnam, New York"
     },
     {
-        "id" : 1157,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Queens"
+        "countyAndState": "Queens, New York"
     },
     {
-        "id" : 1158,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Rensselaer"
+        "countyAndState": "Rensselaer, New York"
     },
     {
-        "id" : 1159,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Richmond"
+        "countyAndState": "Richmond, New York"
     },
     {
-        "id" : 1160,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Rockland"
+        "countyAndState": "Rockland, New York"
     },
     {
-        "id" : 1161,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Saratoga"
+        "countyAndState": "Saratoga, New York"
     },
     {
-        "id" : 1162,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Schuyler"
+        "countyAndState": "Schuyler, New York"
     },
     {
-        "id" : 1163,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Steuben"
+        "countyAndState": "Steuben, New York"
     },
     {
-        "id" : 1164,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Suffolk"
+        "countyAndState": "Suffolk, New York"
     },
     {
-        "id" : 1165,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Sullivan"
+        "countyAndState": "Sullivan, New York"
     },
     {
-        "id" : 1166,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Tompkins"
+        "countyAndState": "Tompkins, New York"
     },
     {
-        "id" : 1167,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Ulster"
+        "countyAndState": "Ulster, New York"
     },
     {
-        "id" : 1168,
-        "stateAbrv" : "NY",
-        "stateFullName" : "New York",
-        "county" : "Westchester"
+        "countyAndState": "Westchester, New York"
     },
     {
-        "id" : 1169,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Brunswick"
+        "countyAndState": "Brunswick, North Carolina"
     },
     {
-        "id" : 1170,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Cabarrus"
+        "countyAndState": "Cabarrus, North Carolina"
     },
     {
-        "id" : 1171,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Chatham"
+        "countyAndState": "Chatham, North Carolina"
     },
     {
-        "id" : 1172,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Craven"
+        "countyAndState": "Craven, North Carolina"
     },
     {
-        "id" : 1173,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Cumberland"
+        "countyAndState": "Cumberland, North Carolina"
     },
     {
-        "id" : 1174,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Davidson"
+        "countyAndState": "Davidson, North Carolina"
     },
     {
-        "id" : 1175,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Durham"
+        "countyAndState": "Durham, North Carolina"
     },
     {
-        "id" : 1176,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Forsyth"
+        "countyAndState": "Forsyth, North Carolina"
     },
     {
-        "id" : 1177,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Hoke"
+        "countyAndState": "Hoke, North Carolina"
     },
     {
-        "id" : 1178,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Iredell"
+        "countyAndState": "Iredell, North Carolina"
     },
     {
-        "id" : 1179,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Johnston"
+        "countyAndState": "Johnston, North Carolina"
     },
     {
-        "id" : 1180,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Lee"
+        "countyAndState": "Lee, North Carolina"
     },
     {
-        "id" : 1181,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Lincoln"
+        "countyAndState": "Lincoln, North Carolina"
     },
     {
-        "id" : 1182,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Mecklenburg"
+        "countyAndState": "Mecklenburg, North Carolina"
     },
     {
-        "id" : 1183,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Moore"
+        "countyAndState": "Moore, North Carolina"
     },
     {
-        "id" : 1184,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Orange"
+        "countyAndState": "Orange, North Carolina"
     },
     {
-        "id" : 1185,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Pitt"
+        "countyAndState": "Pitt, North Carolina"
     },
     {
-        "id" : 1186,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Randolph"
+        "countyAndState": "Randolph, North Carolina"
     },
     {
-        "id" : 1187,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Richmond"
+        "countyAndState": "Richmond, North Carolina"
     },
     {
-        "id" : 1188,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Rowan"
+        "countyAndState": "Rowan, North Carolina"
     },
     {
-        "id" : 1189,
-        "stateAbrv" : "NC",
-        "stateFullName" : "North Carolina",
-        "county" : "Wake"
+        "countyAndState": "Wake, North Carolina"
     },
     {
-        "id" : 1190,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Adams"
+        "countyAndState": "Adams, North Dakota"
     },
     {
-        "id" : 1191,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Barnes"
+        "countyAndState": "Barnes, North Dakota"
     },
     {
-        "id" : 1192,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Bowman"
+        "countyAndState": "Bowman, North Dakota"
     },
     {
-        "id" : 1193,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Burleigh"
+        "countyAndState": "Burleigh, North Dakota"
     },
     {
-        "id" : 1194,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Cass"
+        "countyAndState": "Cass, North Dakota"
     },
     {
-        "id" : 1195,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Cavalier"
+        "countyAndState": "Cavalier, North Dakota"
     },
     {
-        "id" : 1196,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Dickey"
+        "countyAndState": "Dickey, North Dakota"
     },
     {
-        "id" : 1197,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Emmons"
+        "countyAndState": "Emmons, North Dakota"
     },
     {
-        "id" : 1198,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Foster"
+        "countyAndState": "Foster, North Dakota"
     },
     {
-        "id" : 1199,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Grand Forks"
+        "countyAndState": "Grand Forks, North Dakota"
     },
     {
-        "id" : 1200,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Griggs"
+        "countyAndState": "Griggs, North Dakota"
     },
     {
-        "id" : 1201,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Hettinger"
+        "countyAndState": "Hettinger, North Dakota"
     },
     {
-        "id" : 1202,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "McIntosh"
+        "countyAndState": "McIntosh, North Dakota"
     },
     {
-        "id" : 1203,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "McKenzie"
+        "countyAndState": "McKenzie, North Dakota"
     },
     {
-        "id" : 1204,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "McLean"
+        "countyAndState": "McLean, North Dakota"
     },
     {
-        "id" : 1205,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Mountrail"
+        "countyAndState": "Mountrail, North Dakota"
     },
     {
-        "id" : 1206,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Ramsey"
+        "countyAndState": "Ramsey, North Dakota"
     },
     {
-        "id" : 1207,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Ransom"
+        "countyAndState": "Ransom, North Dakota"
     },
     {
-        "id" : 1208,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Rolette"
+        "countyAndState": "Rolette, North Dakota"
     },
     {
-        "id" : 1209,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Sioux"
+        "countyAndState": "Sioux, North Dakota"
     },
     {
-        "id" : 1210,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Stark"
+        "countyAndState": "Stark, North Dakota"
     },
     {
-        "id" : 1211,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Stutsman"
+        "countyAndState": "Stutsman, North Dakota"
     },
     {
-        "id" : 1212,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Traill"
+        "countyAndState": "Traill, North Dakota"
     },
     {
-        "id" : 1213,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Ward"
+        "countyAndState": "Ward, North Dakota"
     },
     {
-        "id" : 1214,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Wells"
+        "countyAndState": "Wells, North Dakota"
     },
     {
-        "id" : 1215,
-        "stateAbrv" : "ND",
-        "stateFullName" : "North Dakota",
-        "county" : "Williams"
+        "countyAndState": "Williams, North Dakota"
     },
     {
-        "id" : 1216,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Allen"
+        "countyAndState": "Allen, Ohio"
     },
     {
-        "id" : 1217,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Ashtabula"
+        "countyAndState": "Ashtabula, Ohio"
     },
     {
-        "id" : 1218,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Belmont"
+        "countyAndState": "Belmont, Ohio"
     },
     {
-        "id" : 1219,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Butler"
+        "countyAndState": "Butler, Ohio"
     },
     {
-        "id" : 1220,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Cuyahoga"
+        "countyAndState": "Cuyahoga, Ohio"
     },
     {
-        "id" : 1221,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Delaware"
+        "countyAndState": "Delaware, Ohio"
     },
     {
-        "id" : 1222,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Erie"
+        "countyAndState": "Erie, Ohio"
     },
     {
-        "id" : 1223,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Fairfield"
+        "countyAndState": "Fairfield, Ohio"
     },
     {
-        "id" : 1224,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Franklin"
+        "countyAndState": "Franklin, Ohio"
     },
     {
-        "id" : 1225,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Geauga"
+        "countyAndState": "Geauga, Ohio"
     },
     {
-        "id" : 1226,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Greene"
+        "countyAndState": "Greene, Ohio"
     },
     {
-        "id" : 1227,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Hamilton"
+        "countyAndState": "Hamilton, Ohio"
     },
     {
-        "id" : 1228,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Hancock"
+        "countyAndState": "Hancock, Ohio"
     },
     {
-        "id" : 1229,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Henry"
+        "countyAndState": "Henry, Ohio"
     },
     {
-        "id" : 1230,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Highland"
+        "countyAndState": "Highland, Ohio"
     },
     {
-        "id" : 1231,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Holmes"
+        "countyAndState": "Holmes, Ohio"
     },
     {
-        "id" : 1232,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Huron"
+        "countyAndState": "Huron, Ohio"
     },
     {
-        "id" : 1233,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Lake"
+        "countyAndState": "Lake, Ohio"
     },
     {
-        "id" : 1234,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Licking"
+        "countyAndState": "Licking, Ohio"
     },
     {
-        "id" : 1235,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Logan"
+        "countyAndState": "Logan, Ohio"
     },
     {
-        "id" : 1236,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Lorain"
+        "countyAndState": "Lorain, Ohio"
     },
     {
-        "id" : 1237,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Lucas"
+        "countyAndState": "Lucas, Ohio"
     },
     {
-        "id" : 1238,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Mercer"
+        "countyAndState": "Mercer, Ohio"
     },
     {
-        "id" : 1239,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Montgomery"
+        "countyAndState": "Montgomery, Ohio"
     },
     {
-        "id" : 1240,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Muskingum"
+        "countyAndState": "Muskingum, Ohio"
     },
     {
-        "id" : 1241,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Ottawa"
+        "countyAndState": "Ottawa, Ohio"
     },
     {
-        "id" : 1242,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Scioto"
+        "countyAndState": "Scioto, Ohio"
     },
     {
-        "id" : 1243,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Stark"
+        "countyAndState": "Stark, Ohio"
     },
     {
-        "id" : 1244,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Summit"
+        "countyAndState": "Summit, Ohio"
     },
     {
-        "id" : 1245,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Trumbull"
+        "countyAndState": "Trumbull, Ohio"
     },
     {
-        "id" : 1246,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Tuscarawas"
+        "countyAndState": "Tuscarawas, Ohio"
     },
     {
-        "id" : 1247,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Union"
+        "countyAndState": "Union, Ohio"
     },
     {
-        "id" : 1248,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Warren"
+        "countyAndState": "Warren, Ohio"
     },
     {
-        "id" : 1249,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Washington"
+        "countyAndState": "Washington, Ohio"
     },
     {
-        "id" : 1250,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Wayne"
+        "countyAndState": "Wayne, Ohio"
     },
     {
-        "id" : 1251,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Wood"
+        "countyAndState": "Wood, Ohio"
     },
     {
-        "id" : 1252,
-        "stateAbrv" : "OH",
-        "stateFullName" : "Ohio",
-        "county" : "Wyandot"
+        "countyAndState": "Wyandot, Ohio"
     },
     {
-        "id" : 1253,
-        "stateAbrv" : "OK",
-        "stateFullName" : "Oklahoma",
-        "county" : "Adair"
+        "countyAndState": "Adair, Oklahoma"
     },
     {
-        "id" : 1254,
-        "stateAbrv" : "OK",
-        "stateFullName" : "Oklahoma",
-        "county" : "Atoka"
+        "countyAndState": "Atoka, Oklahoma"
     },
     {
-        "id" : 1255,
-        "stateAbrv" : "OK",
-        "stateFullName" : "Oklahoma",
-        "county" : "Beaver"
+        "countyAndState": "Beaver, Oklahoma"
     },
     {
-        "id" : 1256,
-        "stateAbrv" : "OK",
-        "stateFullName" : "Oklahoma",
-        "county" : "Beckham"
+        "countyAndState": "Beckham, Oklahoma"
     },
     {
-        "id" : 1257,
-        "stateAbrv" : "OK",
-        "stateFullName" : "Oklahoma",
-        "county" : "Cimarron"
+        "countyAndState": "Cimarron, Oklahoma"
     },
     {
-        "id" : 1258,
-        "stateAbrv" : "OK",
-        "stateFullName" : "Oklahoma",
-        "county" : "Cleveland"
+        "countyAndState": "Cleveland, Oklahoma"
     },
     {
-        "id" : 1259,
-        "stateAbrv" : "OK",
-        "stateFullName" : "Oklahoma",
-        "county" : "Kay"
+        "countyAndState": "Kay, Oklahoma"
     },
     {
-        "id" : 1260,
-        "stateAbrv" : "OK",
-        "stateFullName" : "Oklahoma",
-        "county" : "Oklahoma"
+        "countyAndState": "Oklahoma, Oklahoma"
     },
     {
-        "id" : 1261,
-        "stateAbrv" : "OK",
-        "stateFullName" : "Oklahoma",
-        "county" : "Okmulgee"
+        "countyAndState": "Okmulgee, Oklahoma"
     },
     {
-        "id" : 1262,
-        "stateAbrv" : "OK",
-        "stateFullName" : "Oklahoma",
-        "county" : "Pittsburg"
+        "countyAndState": "Pittsburg, Oklahoma"
     },
     {
-        "id" : 1263,
-        "stateAbrv" : "OK",
-        "stateFullName" : "Oklahoma",
-        "county" : "Rogers"
+        "countyAndState": "Rogers, Oklahoma"
     },
     {
-        "id" : 1264,
-        "stateAbrv" : "OK",
-        "stateFullName" : "Oklahoma",
-        "county" : "Tulsa"
+        "countyAndState": "Tulsa, Oklahoma"
     },
     {
-        "id" : 1265,
-        "stateAbrv" : "OR",
-        "stateFullName" : "Oregon",
-        "county" : "Benton"
+        "countyAndState": "Benton, Oregon"
     },
     {
-        "id" : 1266,
-        "stateAbrv" : "OR",
-        "stateFullName" : "Oregon",
-        "county" : "Clackamas"
+        "countyAndState": "Clackamas, Oregon"
     },
     {
-        "id" : 1267,
-        "stateAbrv" : "OR",
-        "stateFullName" : "Oregon",
-        "county" : "Clatsop"
+        "countyAndState": "Clatsop, Oregon"
     },
     {
-        "id" : 1268,
-        "stateAbrv" : "OR",
-        "stateFullName" : "Oregon",
-        "county" : "Columbia"
+        "countyAndState": "Columbia, Oregon"
     },
     {
-        "id" : 1269,
-        "stateAbrv" : "OR",
-        "stateFullName" : "Oregon",
-        "county" : "Deschutes"
+        "countyAndState": "Deschutes, Oregon"
     },
     {
-        "id" : 1270,
-        "stateAbrv" : "OR",
-        "stateFullName" : "Oregon",
-        "county" : "Hood River"
+        "countyAndState": "Hood River, Oregon"
     },
     {
-        "id" : 1271,
-        "stateAbrv" : "OR",
-        "stateFullName" : "Oregon",
-        "county" : "Jackson"
+        "countyAndState": "Jackson, Oregon"
     },
     {
-        "id" : 1272,
-        "stateAbrv" : "OR",
-        "stateFullName" : "Oregon",
-        "county" : "Lincoln"
+        "countyAndState": "Lincoln, Oregon"
     },
     {
-        "id" : 1273,
-        "stateAbrv" : "OR",
-        "stateFullName" : "Oregon",
-        "county" : "Linn"
+        "countyAndState": "Linn, Oregon"
     },
     {
-        "id" : 1274,
-        "stateAbrv" : "OR",
-        "stateFullName" : "Oregon",
-        "county" : "Malheur"
+        "countyAndState": "Malheur, Oregon"
     },
     {
-        "id" : 1275,
-        "stateAbrv" : "OR",
-        "stateFullName" : "Oregon",
-        "county" : "Multnomah"
+        "countyAndState": "Multnomah, Oregon"
     },
     {
-        "id" : 1276,
-        "stateAbrv" : "OR",
-        "stateFullName" : "Oregon",
-        "county" : "Washington"
+        "countyAndState": "Washington, Oregon"
     },
     {
-        "id" : 1277,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Adams"
+        "countyAndState": "Adams, Pennsylvania"
     },
     {
-        "id" : 1278,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Allegheny"
+        "countyAndState": "Allegheny, Pennsylvania"
     },
     {
-        "id" : 1279,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Armstrong"
+        "countyAndState": "Armstrong, Pennsylvania"
     },
     {
-        "id" : 1280,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Beaver"
+        "countyAndState": "Beaver, Pennsylvania"
     },
     {
-        "id" : 1281,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Bedford"
+        "countyAndState": "Bedford, Pennsylvania"
     },
     {
-        "id" : 1282,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Berks"
+        "countyAndState": "Berks, Pennsylvania"
     },
     {
-        "id" : 1283,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Blair"
+        "countyAndState": "Blair, Pennsylvania"
     },
     {
-        "id" : 1284,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Bucks"
+        "countyAndState": "Bucks, Pennsylvania"
     },
     {
-        "id" : 1285,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Butler"
+        "countyAndState": "Butler, Pennsylvania"
     },
     {
-        "id" : 1286,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Cambria"
+        "countyAndState": "Cambria, Pennsylvania"
     },
     {
-        "id" : 1287,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Carbon"
+        "countyAndState": "Carbon, Pennsylvania"
     },
     {
-        "id" : 1288,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Centre"
+        "countyAndState": "Centre, Pennsylvania"
     },
     {
-        "id" : 1289,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Chester"
+        "countyAndState": "Chester, Pennsylvania"
     },
     {
-        "id" : 1290,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Clarion"
+        "countyAndState": "Clarion, Pennsylvania"
     },
     {
-        "id" : 1291,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Clearfield"
+        "countyAndState": "Clearfield, Pennsylvania"
     },
     {
-        "id" : 1292,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Clinton"
+        "countyAndState": "Clinton, Pennsylvania"
     },
     {
-        "id" : 1293,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Columbia"
+        "countyAndState": "Columbia, Pennsylvania"
     },
     {
-        "id" : 1294,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Crawford"
+        "countyAndState": "Crawford, Pennsylvania"
     },
     {
-        "id" : 1295,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Cumberland"
+        "countyAndState": "Cumberland, Pennsylvania"
     },
     {
-        "id" : 1296,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Dauphin"
+        "countyAndState": "Dauphin, Pennsylvania"
     },
     {
-        "id" : 1297,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Delaware"
+        "countyAndState": "Delaware, Pennsylvania"
     },
     {
-        "id" : 1298,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Elk"
+        "countyAndState": "Elk, Pennsylvania"
     },
     {
-        "id" : 1299,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Erie"
+        "countyAndState": "Erie, Pennsylvania"
     },
     {
-        "id" : 1300,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Fayette"
+        "countyAndState": "Fayette, Pennsylvania"
     },
     {
-        "id" : 1301,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Franklin"
+        "countyAndState": "Franklin, Pennsylvania"
     },
     {
-        "id" : 1302,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Fulton"
+        "countyAndState": "Fulton, Pennsylvania"
     },
     {
-        "id" : 1303,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Greene"
+        "countyAndState": "Greene, Pennsylvania"
     },
     {
-        "id" : 1304,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Indiana"
+        "countyAndState": "Indiana, Pennsylvania"
     },
     {
-        "id" : 1305,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Pennsylvania"
     },
     {
-        "id" : 1306,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Lackawanna"
+        "countyAndState": "Lackawanna, Pennsylvania"
     },
     {
-        "id" : 1307,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Lancaster"
+        "countyAndState": "Lancaster, Pennsylvania"
     },
     {
-        "id" : 1308,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Lawrence"
+        "countyAndState": "Lawrence, Pennsylvania"
     },
     {
-        "id" : 1309,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Lebanon"
+        "countyAndState": "Lebanon, Pennsylvania"
     },
     {
-        "id" : 1310,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Lehigh"
+        "countyAndState": "Lehigh, Pennsylvania"
     },
     {
-        "id" : 1311,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Luzerne"
+        "countyAndState": "Luzerne, Pennsylvania"
     },
     {
-        "id" : 1312,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Lycoming"
+        "countyAndState": "Lycoming, Pennsylvania"
     },
     {
-        "id" : 1313,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Mercer"
+        "countyAndState": "Mercer, Pennsylvania"
     },
     {
-        "id" : 1314,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Mifflin"
+        "countyAndState": "Mifflin, Pennsylvania"
     },
     {
-        "id" : 1315,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Monroe"
+        "countyAndState": "Monroe, Pennsylvania"
     },
     {
-        "id" : 1316,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Montgomery"
+        "countyAndState": "Montgomery, Pennsylvania"
     },
     {
-        "id" : 1317,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Montour"
+        "countyAndState": "Montour, Pennsylvania"
     },
     {
-        "id" : 1318,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Northampton"
+        "countyAndState": "Northampton, Pennsylvania"
     },
     {
-        "id" : 1319,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Northumberland"
+        "countyAndState": "Northumberland, Pennsylvania"
     },
     {
-        "id" : 1320,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Philadelphia"
+        "countyAndState": "Philadelphia, Pennsylvania"
     },
     {
-        "id" : 1321,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Pike"
+        "countyAndState": "Pike, Pennsylvania"
     },
     {
-        "id" : 1322,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Potter"
+        "countyAndState": "Potter, Pennsylvania"
     },
     {
-        "id" : 1323,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Schuylkill"
+        "countyAndState": "Schuylkill, Pennsylvania"
     },
     {
-        "id" : 1324,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Snyder"
+        "countyAndState": "Snyder, Pennsylvania"
     },
     {
-        "id" : 1325,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Somerset"
+        "countyAndState": "Somerset, Pennsylvania"
     },
     {
-        "id" : 1326,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Tioga"
+        "countyAndState": "Tioga, Pennsylvania"
     },
     {
-        "id" : 1327,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Union"
+        "countyAndState": "Union, Pennsylvania"
     },
     {
-        "id" : 1328,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Venango"
+        "countyAndState": "Venango, Pennsylvania"
     },
     {
-        "id" : 1329,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Warren"
+        "countyAndState": "Warren, Pennsylvania"
     },
     {
-        "id" : 1330,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Washington"
+        "countyAndState": "Washington, Pennsylvania"
     },
     {
-        "id" : 1331,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "Westmoreland"
+        "countyAndState": "Westmoreland, Pennsylvania"
     },
     {
-        "id" : 1332,
-        "stateAbrv" : "PA",
-        "stateFullName" : "Pennsylvania",
-        "county" : "York"
+        "countyAndState": "York, Pennsylvania"
     },
     {
-        "id" : 1333,
-        "stateAbrv" : "RI",
-        "stateFullName" : "Rhode Island",
-        "county" : "Bristol"
+        "countyAndState": "Bristol, Rhode Island"
     },
     {
-        "id" : 1334,
-        "stateAbrv" : "RI",
-        "stateFullName" : "Rhode Island",
-        "county" : "Kent"
+        "countyAndState": "Kent, Rhode Island"
     },
     {
-        "id" : 1335,
-        "stateAbrv" : "RI",
-        "stateFullName" : "Rhode Island",
-        "county" : "Newport"
+        "countyAndState": "Newport, Rhode Island"
     },
     {
-        "id" : 1336,
-        "stateAbrv" : "RI",
-        "stateFullName" : "Rhode Island",
-        "county" : "Providence"
+        "countyAndState": "Providence, Rhode Island"
     },
     {
-        "id" : 1337,
-        "stateAbrv" : "RI",
-        "stateFullName" : "Rhode Island",
-        "county" : "Washington"
+        "countyAndState": "Washington, Rhode Island"
     },
     {
-        "id" : 1338,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Anderson"
+        "countyAndState": "Anderson, South Carolina"
     },
     {
-        "id" : 1339,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Beaufort"
+        "countyAndState": "Beaufort, South Carolina"
     },
     {
-        "id" : 1340,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Berkeley"
+        "countyAndState": "Berkeley, South Carolina"
     },
     {
-        "id" : 1341,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Charleston"
+        "countyAndState": "Charleston, South Carolina"
     },
     {
-        "id" : 1342,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Cherokee"
+        "countyAndState": "Cherokee, South Carolina"
     },
     {
-        "id" : 1343,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Chesterfield"
+        "countyAndState": "Chesterfield, South Carolina"
     },
     {
-        "id" : 1344,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Clarendon"
+        "countyAndState": "Clarendon, South Carolina"
     },
     {
-        "id" : 1345,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Colleton"
+        "countyAndState": "Colleton, South Carolina"
     },
     {
-        "id" : 1346,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Dillon"
+        "countyAndState": "Dillon, South Carolina"
     },
     {
-        "id" : 1347,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Florence"
+        "countyAndState": "Florence, South Carolina"
     },
     {
-        "id" : 1348,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Greenville"
+        "countyAndState": "Greenville, South Carolina"
     },
     {
-        "id" : 1349,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Greenwood"
+        "countyAndState": "Greenwood, South Carolina"
     },
     {
-        "id" : 1350,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Horry"
+        "countyAndState": "Horry, South Carolina"
     },
     {
-        "id" : 1351,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Kershaw"
+        "countyAndState": "Kershaw, South Carolina"
     },
     {
-        "id" : 1352,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Lancaster"
+        "countyAndState": "Lancaster, South Carolina"
     },
     {
-        "id" : 1353,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Lexington"
+        "countyAndState": "Lexington, South Carolina"
     },
     {
-        "id" : 1354,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Richland"
+        "countyAndState": "Richland, South Carolina"
     },
     {
-        "id" : 1355,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Spartanburg"
+        "countyAndState": "Spartanburg, South Carolina"
     },
     {
-        "id" : 1356,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Sumter"
+        "countyAndState": "Sumter, South Carolina"
     },
     {
-        "id" : 1357,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "Union"
+        "countyAndState": "Union, South Carolina"
     },
     {
-        "id" : 1358,
-        "stateAbrv" : "SC",
-        "stateFullName" : "South Carolina",
-        "county" : "York"
+        "countyAndState": "York, South Carolina"
     },
     {
-        "id" : 1359,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Beadle"
+        "countyAndState": "Beadle, South Dakota"
     },
     {
-        "id" : 1360,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Bennett"
+        "countyAndState": "Bennett, South Dakota"
     },
     {
-        "id" : 1361,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Brookings"
+        "countyAndState": "Brookings, South Dakota"
     },
     {
-        "id" : 1362,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Brown"
+        "countyAndState": "Brown, South Dakota"
     },
     {
-        "id" : 1363,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Brule"
+        "countyAndState": "Brule, South Dakota"
     },
     {
-        "id" : 1364,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Charles Mix"
+        "countyAndState": "Charles Mix, South Dakota"
     },
     {
-        "id" : 1365,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Codington"
+        "countyAndState": "Codington, South Dakota"
     },
     {
-        "id" : 1366,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Custer"
+        "countyAndState": "Custer, South Dakota"
     },
     {
-        "id" : 1367,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Davison"
+        "countyAndState": "Davison, South Dakota"
     },
     {
-        "id" : 1368,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Day"
+        "countyAndState": "Day, South Dakota"
     },
     {
-        "id" : 1369,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Deuel"
+        "countyAndState": "Deuel, South Dakota"
     },
     {
-        "id" : 1370,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Douglas"
+        "countyAndState": "Douglas, South Dakota"
     },
     {
-        "id" : 1371,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Edmunds"
+        "countyAndState": "Edmunds, South Dakota"
     },
     {
-        "id" : 1372,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Fall River"
+        "countyAndState": "Fall River, South Dakota"
     },
     {
-        "id" : 1373,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Faulk"
+        "countyAndState": "Faulk, South Dakota"
     },
     {
-        "id" : 1374,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Grant"
+        "countyAndState": "Grant, South Dakota"
     },
     {
-        "id" : 1375,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Gregory"
+        "countyAndState": "Gregory, South Dakota"
     },
     {
-        "id" : 1376,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Hamlin"
+        "countyAndState": "Hamlin, South Dakota"
     },
     {
-        "id" : 1377,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Hughes"
+        "countyAndState": "Hughes, South Dakota"
     },
     {
-        "id" : 1378,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Hutchinson"
+        "countyAndState": "Hutchinson, South Dakota"
     },
     {
-        "id" : 1379,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Jerauld"
+        "countyAndState": "Jerauld, South Dakota"
     },
     {
-        "id" : 1380,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Kingsbury"
+        "countyAndState": "Kingsbury, South Dakota"
     },
     {
-        "id" : 1381,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Lake"
+        "countyAndState": "Lake, South Dakota"
     },
     {
-        "id" : 1382,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Lawrence"
+        "countyAndState": "Lawrence, South Dakota"
     },
     {
-        "id" : 1383,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Marshall"
+        "countyAndState": "Marshall, South Dakota"
     },
     {
-        "id" : 1384,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "McPherson"
+        "countyAndState": "McPherson, South Dakota"
     },
     {
-        "id" : 1385,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Meade"
+        "countyAndState": "Meade, South Dakota"
     },
     {
-        "id" : 1386,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Minnehaha"
+        "countyAndState": "Minnehaha, South Dakota"
     },
     {
-        "id" : 1387,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Moody"
+        "countyAndState": "Moody, South Dakota"
     },
     {
-        "id" : 1388,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Pennington"
+        "countyAndState": "Pennington, South Dakota"
     },
     {
-        "id" : 1389,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Potter"
+        "countyAndState": "Potter, South Dakota"
     },
     {
-        "id" : 1390,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Shannon"
+        "countyAndState": "Shannon, South Dakota"
     },
     {
-        "id" : 1391,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Spink"
+        "countyAndState": "Spink, South Dakota"
     },
     {
-        "id" : 1392,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Todd"
+        "countyAndState": "Todd, South Dakota"
     },
     {
-        "id" : 1393,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Tripp"
+        "countyAndState": "Tripp, South Dakota"
     },
     {
-        "id" : 1394,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Turner"
+        "countyAndState": "Turner, South Dakota"
     },
     {
-        "id" : 1395,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Walworth"
+        "countyAndState": "Walworth, South Dakota"
     },
     {
-        "id" : 1396,
-        "stateAbrv" : "SD",
-        "stateFullName" : "South Dakota",
-        "county" : "Yankton"
+        "countyAndState": "Yankton, South Dakota"
     },
     {
-        "id" : 1397,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Anderson"
+        "countyAndState": "Anderson, Tennessee"
     },
     {
-        "id" : 1398,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Bedford"
+        "countyAndState": "Bedford, Tennessee"
     },
     {
-        "id" : 1399,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Benton"
+        "countyAndState": "Benton, Tennessee"
     },
     {
-        "id" : 1400,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Bledsoe"
+        "countyAndState": "Bledsoe, Tennessee"
     },
     {
-        "id" : 1401,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Blount"
+        "countyAndState": "Blount, Tennessee"
     },
     {
-        "id" : 1402,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Bradley"
+        "countyAndState": "Bradley, Tennessee"
     },
     {
-        "id" : 1403,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Campbell"
+        "countyAndState": "Campbell, Tennessee"
     },
     {
-        "id" : 1404,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Cannon"
+        "countyAndState": "Cannon, Tennessee"
     },
     {
-        "id" : 1405,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Carroll"
+        "countyAndState": "Carroll, Tennessee"
     },
     {
-        "id" : 1406,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Carter"
+        "countyAndState": "Carter, Tennessee"
     },
     {
-        "id" : 1407,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Cheatham"
+        "countyAndState": "Cheatham, Tennessee"
     },
     {
-        "id" : 1408,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Chester"
+        "countyAndState": "Chester, Tennessee"
     },
     {
-        "id" : 1409,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Claiborne"
+        "countyAndState": "Claiborne, Tennessee"
     },
     {
-        "id" : 1410,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Clay"
+        "countyAndState": "Clay, Tennessee"
     },
     {
-        "id" : 1411,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Cocke"
+        "countyAndState": "Cocke, Tennessee"
     },
     {
-        "id" : 1412,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Coffee"
+        "countyAndState": "Coffee, Tennessee"
     },
     {
-        "id" : 1413,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Crockett"
+        "countyAndState": "Crockett, Tennessee"
     },
     {
-        "id" : 1414,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Cumberland"
+        "countyAndState": "Cumberland, Tennessee"
     },
     {
-        "id" : 1415,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Davidson"
+        "countyAndState": "Davidson, Tennessee"
     },
     {
-        "id" : 1416,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Decatur"
+        "countyAndState": "Decatur, Tennessee"
     },
     {
-        "id" : 1417,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Dekalb"
+        "countyAndState": "Dekalb, Tennessee"
     },
     {
-        "id" : 1418,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Dickson"
+        "countyAndState": "Dickson, Tennessee"
     },
     {
-        "id" : 1419,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Dyer"
+        "countyAndState": "Dyer, Tennessee"
     },
     {
-        "id" : 1420,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Fayette"
+        "countyAndState": "Fayette, Tennessee"
     },
     {
-        "id" : 1421,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Fentress"
+        "countyAndState": "Fentress, Tennessee"
     },
     {
-        "id" : 1422,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Franklin"
+        "countyAndState": "Franklin, Tennessee"
     },
     {
-        "id" : 1423,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Gibson"
+        "countyAndState": "Gibson, Tennessee"
     },
     {
-        "id" : 1424,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Giles"
+        "countyAndState": "Giles, Tennessee"
     },
     {
-        "id" : 1425,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Grainger"
+        "countyAndState": "Grainger, Tennessee"
     },
     {
-        "id" : 1426,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Greene"
+        "countyAndState": "Greene, Tennessee"
     },
     {
-        "id" : 1427,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Grundy"
+        "countyAndState": "Grundy, Tennessee"
     },
     {
-        "id" : 1428,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Hamblen"
+        "countyAndState": "Hamblen, Tennessee"
     },
     {
-        "id" : 1429,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Hamilton"
+        "countyAndState": "Hamilton, Tennessee"
     },
     {
-        "id" : 1430,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Hancock"
+        "countyAndState": "Hancock, Tennessee"
     },
     {
-        "id" : 1431,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Hardeman"
+        "countyAndState": "Hardeman, Tennessee"
     },
     {
-        "id" : 1432,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Hardin"
+        "countyAndState": "Hardin, Tennessee"
     },
     {
-        "id" : 1433,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Hawkins"
+        "countyAndState": "Hawkins, Tennessee"
     },
     {
-        "id" : 1434,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Haywood"
+        "countyAndState": "Haywood, Tennessee"
     },
     {
-        "id" : 1435,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Henderson"
+        "countyAndState": "Henderson, Tennessee"
     },
     {
-        "id" : 1436,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Henry"
+        "countyAndState": "Henry, Tennessee"
     },
     {
-        "id" : 1437,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Hickman"
+        "countyAndState": "Hickman, Tennessee"
     },
     {
-        "id" : 1438,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Houston"
+        "countyAndState": "Houston, Tennessee"
     },
     {
-        "id" : 1439,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Humphreys"
+        "countyAndState": "Humphreys, Tennessee"
     },
     {
-        "id" : 1440,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Jackson"
+        "countyAndState": "Jackson, Tennessee"
     },
     {
-        "id" : 1441,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Tennessee"
     },
     {
-        "id" : 1442,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Johnson"
+        "countyAndState": "Johnson, Tennessee"
     },
     {
-        "id" : 1443,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Knox"
+        "countyAndState": "Knox, Tennessee"
     },
     {
-        "id" : 1444,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Lake"
+        "countyAndState": "Lake, Tennessee"
     },
     {
-        "id" : 1445,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Lauderdale"
+        "countyAndState": "Lauderdale, Tennessee"
     },
     {
-        "id" : 1446,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Lawrence"
+        "countyAndState": "Lawrence, Tennessee"
     },
     {
-        "id" : 1447,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Lewis"
+        "countyAndState": "Lewis, Tennessee"
     },
     {
-        "id" : 1448,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Lincoln"
+        "countyAndState": "Lincoln, Tennessee"
     },
     {
-        "id" : 1449,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Loudon"
+        "countyAndState": "Loudon, Tennessee"
     },
     {
-        "id" : 1450,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Macon"
+        "countyAndState": "Macon, Tennessee"
     },
     {
-        "id" : 1451,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Madison"
+        "countyAndState": "Madison, Tennessee"
     },
     {
-        "id" : 1452,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Marion"
+        "countyAndState": "Marion, Tennessee"
     },
     {
-        "id" : 1453,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Marshall"
+        "countyAndState": "Marshall, Tennessee"
     },
     {
-        "id" : 1454,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Maury"
+        "countyAndState": "Maury, Tennessee"
     },
     {
-        "id" : 1455,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Mcminn"
+        "countyAndState": "Mcminn, Tennessee"
     },
     {
-        "id" : 1456,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Mcnairy"
+        "countyAndState": "Mcnairy, Tennessee"
     },
     {
-        "id" : 1457,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Meigs"
+        "countyAndState": "Meigs, Tennessee"
     },
     {
-        "id" : 1458,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Monroe"
+        "countyAndState": "Monroe, Tennessee"
     },
     {
-        "id" : 1459,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Moore"
+        "countyAndState": "Moore, Tennessee"
     },
     {
-        "id" : 1460,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Morgan"
+        "countyAndState": "Morgan, Tennessee"
     },
     {
-        "id" : 1461,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Obion"
+        "countyAndState": "Obion, Tennessee"
     },
     {
-        "id" : 1462,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Overton"
+        "countyAndState": "Overton, Tennessee"
     },
     {
-        "id" : 1463,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Perry"
+        "countyAndState": "Perry, Tennessee"
     },
     {
-        "id" : 1464,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Polk"
+        "countyAndState": "Polk, Tennessee"
     },
     {
-        "id" : 1465,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Putnam"
+        "countyAndState": "Putnam, Tennessee"
     },
     {
-        "id" : 1466,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Rhea"
+        "countyAndState": "Rhea, Tennessee"
     },
     {
-        "id" : 1467,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Roane"
+        "countyAndState": "Roane, Tennessee"
     },
     {
-        "id" : 1468,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Robertson"
+        "countyAndState": "Robertson, Tennessee"
     },
     {
-        "id" : 1469,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Scott"
+        "countyAndState": "Scott, Tennessee"
     },
     {
-        "id" : 1470,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Sequatchie"
+        "countyAndState": "Sequatchie, Tennessee"
     },
     {
-        "id" : 1471,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Sevier"
+        "countyAndState": "Sevier, Tennessee"
     },
     {
-        "id" : 1472,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Shelby"
+        "countyAndState": "Shelby, Tennessee"
     },
     {
-        "id" : 1473,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Smith"
+        "countyAndState": "Smith, Tennessee"
     },
     {
-        "id" : 1474,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Stewart"
+        "countyAndState": "Stewart, Tennessee"
     },
     {
-        "id" : 1475,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Sullivan"
+        "countyAndState": "Sullivan, Tennessee"
     },
     {
-        "id" : 1476,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Sumner"
+        "countyAndState": "Sumner, Tennessee"
     },
     {
-        "id" : 1477,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Tipton"
+        "countyAndState": "Tipton, Tennessee"
     },
     {
-        "id" : 1478,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Trousdale"
+        "countyAndState": "Trousdale, Tennessee"
     },
     {
-        "id" : 1479,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Unicoi"
+        "countyAndState": "Unicoi, Tennessee"
     },
     {
-        "id" : 1480,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Union"
+        "countyAndState": "Union, Tennessee"
     },
     {
-        "id" : 1481,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Van Buren"
+        "countyAndState": "Van Buren, Tennessee"
     },
     {
-        "id" : 1482,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Warren"
+        "countyAndState": "Warren, Tennessee"
     },
     {
-        "id" : 1483,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Washington"
+        "countyAndState": "Washington, Tennessee"
     },
     {
-        "id" : 1484,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Wayne"
+        "countyAndState": "Wayne, Tennessee"
     },
     {
-        "id" : 1485,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Weakley"
+        "countyAndState": "Weakley, Tennessee"
     },
     {
-        "id" : 1486,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "White"
+        "countyAndState": "White, Tennessee"
     },
     {
-        "id" : 1487,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Williamson"
+        "countyAndState": "Williamson, Tennessee"
     },
     {
-        "id" : 1488,
-        "stateAbrv" : "TN",
-        "stateFullName" : "Tennessee",
-        "county" : "Wilson"
+        "countyAndState": "Wilson, Tennessee"
     },
     {
-        "id" : 1489,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Bell"
+        "countyAndState": "Bell, Texas"
     },
     {
-        "id" : 1490,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Bexar"
+        "countyAndState": "Bexar, Texas"
     },
     {
-        "id" : 1491,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Bowie"
+        "countyAndState": "Bowie, Texas"
     },
     {
-        "id" : 1492,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Cameron"
+        "countyAndState": "Cameron, Texas"
     },
     {
-        "id" : 1493,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Collin"
+        "countyAndState": "Collin, Texas"
     },
     {
-        "id" : 1494,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Comal"
+        "countyAndState": "Comal, Texas"
     },
     {
-        "id" : 1495,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Crane"
+        "countyAndState": "Crane, Texas"
     },
     {
-        "id" : 1496,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Dallas"
+        "countyAndState": "Dallas, Texas"
     },
     {
-        "id" : 1497,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Denton"
+        "countyAndState": "Denton, Texas"
     },
     {
-        "id" : 1498,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Ector"
+        "countyAndState": "Ector, Texas"
     },
     {
-        "id" : 1499,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "El Paso"
+        "countyAndState": "El Paso, Texas"
     },
     {
-        "id" : 1500,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Fort Bend"
+        "countyAndState": "Fort Bend, Texas"
     },
     {
-        "id" : 1501,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Galveston"
+        "countyAndState": "Galveston, Texas"
     },
     {
-        "id" : 1502,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Guadalupe"
+        "countyAndState": "Guadalupe, Texas"
     },
     {
-        "id" : 1503,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Harris"
+        "countyAndState": "Harris, Texas"
     },
     {
-        "id" : 1504,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Harrison"
+        "countyAndState": "Harrison, Texas"
     },
     {
-        "id" : 1505,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Hays"
+        "countyAndState": "Hays, Texas"
     },
     {
-        "id" : 1506,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Hidalgo"
+        "countyAndState": "Hidalgo, Texas"
     },
     {
-        "id" : 1507,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Texas"
     },
     {
-        "id" : 1508,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Lamar"
+        "countyAndState": "Lamar, Texas"
     },
     {
-        "id" : 1509,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Lubbock"
+        "countyAndState": "Lubbock, Texas"
     },
     {
-        "id" : 1510,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Montgomery"
+        "countyAndState": "Montgomery, Texas"
     },
     {
-        "id" : 1511,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Nacogdoches"
+        "countyAndState": "Nacogdoches, Texas"
     },
     {
-        "id" : 1512,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Pecos"
+        "countyAndState": "Pecos, Texas"
     },
     {
-        "id" : 1513,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Potter"
+        "countyAndState": "Potter, Texas"
     },
     {
-        "id" : 1514,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Presidio"
+        "countyAndState": "Presidio, Texas"
     },
     {
-        "id" : 1515,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Rockwall"
+        "countyAndState": "Rockwall, Texas"
     },
     {
-        "id" : 1516,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Smith"
+        "countyAndState": "Smith, Texas"
     },
     {
-        "id" : 1517,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Tarrant"
+        "countyAndState": "Tarrant, Texas"
     },
     {
-        "id" : 1518,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Tom Green"
+        "countyAndState": "Tom Green, Texas"
     },
     {
-        "id" : 1519,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Travis"
+        "countyAndState": "Travis, Texas"
     },
     {
-        "id" : 1520,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Ward"
+        "countyAndState": "Ward, Texas"
     },
     {
-        "id" : 1521,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Wharton"
+        "countyAndState": "Wharton, Texas"
     },
     {
-        "id" : 1522,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Wichita"
+        "countyAndState": "Wichita, Texas"
     },
     {
-        "id" : 1523,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Williamson"
+        "countyAndState": "Williamson, Texas"
     },
     {
-        "id" : 1524,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Winkler"
+        "countyAndState": "Winkler, Texas"
     },
     {
-        "id" : 1525,
-        "stateAbrv" : "TX",
-        "stateFullName" : "Texas",
-        "county" : "Wise"
+        "countyAndState": "Wise, Texas"
     },
     {
-        "id" : 1526,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Beaver"
+        "countyAndState": "Beaver, Utah"
     },
     {
-        "id" : 1527,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Box Elder"
+        "countyAndState": "Box Elder, Utah"
     },
     {
-        "id" : 1528,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Cache"
+        "countyAndState": "Cache, Utah"
     },
     {
-        "id" : 1529,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Davis"
+        "countyAndState": "Davis, Utah"
     },
     {
-        "id" : 1530,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Garfield"
+        "countyAndState": "Garfield, Utah"
     },
     {
-        "id" : 1531,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Iron"
+        "countyAndState": "Iron, Utah"
     },
     {
-        "id" : 1532,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Juab"
+        "countyAndState": "Juab, Utah"
     },
     {
-        "id" : 1533,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Millard"
+        "countyAndState": "Millard, Utah"
     },
     {
-        "id" : 1534,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Salt Lake"
+        "countyAndState": "Salt Lake, Utah"
     },
     {
-        "id" : 1535,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Sanpete"
+        "countyAndState": "Sanpete, Utah"
     },
     {
-        "id" : 1536,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Sevier"
+        "countyAndState": "Sevier, Utah"
     },
     {
-        "id" : 1537,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Summit"
+        "countyAndState": "Summit, Utah"
     },
     {
-        "id" : 1538,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Tooele"
+        "countyAndState": "Tooele, Utah"
     },
     {
-        "id" : 1539,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Utah"
+        "countyAndState": "Utah, Utah"
     },
     {
-        "id" : 1540,
-        "stateAbrv" : "UT",
-        "stateFullName" : "Utah",
-        "county" : "Weber"
+        "countyAndState": "Weber, Utah"
     },
     {
-        "id" : 1541,
-        "stateAbrv" : "VT",
-        "stateFullName" : "Vermont",
-        "county" : "Addison"
+        "countyAndState": "Addison, Vermont"
     },
     {
-        "id" : 1542,
-        "stateAbrv" : "VT",
-        "stateFullName" : "Vermont",
-        "county" : "Bennington"
+        "countyAndState": "Bennington, Vermont"
     },
     {
-        "id" : 1543,
-        "stateAbrv" : "VT",
-        "stateFullName" : "Vermont",
-        "county" : "Caledonia"
+        "countyAndState": "Caledonia, Vermont"
     },
     {
-        "id" : 1544,
-        "stateAbrv" : "VT",
-        "stateFullName" : "Vermont",
-        "county" : "Chittenden"
+        "countyAndState": "Chittenden, Vermont"
     },
     {
-        "id" : 1545,
-        "stateAbrv" : "VT",
-        "stateFullName" : "Vermont",
-        "county" : "Essex"
+        "countyAndState": "Essex, Vermont"
     },
     {
-        "id" : 1546,
-        "stateAbrv" : "VT",
-        "stateFullName" : "Vermont",
-        "county" : "Grand Isle"
+        "countyAndState": "Grand Isle, Vermont"
     },
     {
-        "id" : 1547,
-        "stateAbrv" : "VT",
-        "stateFullName" : "Vermont",
-        "county" : "Orange"
+        "countyAndState": "Orange, Vermont"
     },
     {
-        "id" : 1548,
-        "stateAbrv" : "VT",
-        "stateFullName" : "Vermont",
-        "county" : "Rutland"
+        "countyAndState": "Rutland, Vermont"
     },
     {
-        "id" : 1549,
-        "stateAbrv" : "VT",
-        "stateFullName" : "Vermont",
-        "county" : "Windham"
+        "countyAndState": "Windham, Vermont"
     },
     {
-        "id" : 1550,
-        "stateAbrv" : "VT",
-        "stateFullName" : "Vermont",
-        "county" : "Windsor"
+        "countyAndState": "Windsor, Vermont"
     },
     {
-        "id" : 1551,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Accomack"
+        "countyAndState": "Accomack, Virginia"
     },
     {
-        "id" : 1552,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Albemarle"
+        "countyAndState": "Albemarle, Virginia"
     },
     {
-        "id" : 1553,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Arlington"
+        "countyAndState": "Arlington, Virginia"
     },
     {
-        "id" : 1554,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Augusta"
+        "countyAndState": "Augusta, Virginia"
     },
     {
-        "id" : 1555,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Campbell"
+        "countyAndState": "Campbell, Virginia"
     },
     {
-        "id" : 1556,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Caroline"
+        "countyAndState": "Caroline, Virginia"
     },
     {
-        "id" : 1557,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Charles City"
+        "countyAndState": "Charles City, Virginia"
     },
     {
-        "id" : 1558,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Chesterfield"
+        "countyAndState": "Chesterfield, Virginia"
     },
     {
-        "id" : 1559,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Culpeper"
+        "countyAndState": "Culpeper, Virginia"
     },
     {
-        "id" : 1560,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Essex"
+        "countyAndState": "Essex, Virginia"
     },
     {
-        "id" : 1561,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Fairfax"
+        "countyAndState": "Fairfax, Virginia"
     },
     {
-        "id" : 1562,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Fauquier"
+        "countyAndState": "Fauquier, Virginia"
     },
     {
-        "id" : 1563,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Floyd"
+        "countyAndState": "Floyd, Virginia"
     },
     {
-        "id" : 1564,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Frederick"
+        "countyAndState": "Frederick, Virginia"
     },
     {
-        "id" : 1565,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Gloucester"
+        "countyAndState": "Gloucester, Virginia"
     },
     {
-        "id" : 1566,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Halifax"
+        "countyAndState": "Halifax, Virginia"
     },
     {
-        "id" : 1567,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Hanover"
+        "countyAndState": "Hanover, Virginia"
     },
     {
-        "id" : 1568,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Henrico"
+        "countyAndState": "Henrico, Virginia"
     },
     {
-        "id" : 1569,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Henry"
+        "countyAndState": "Henry, Virginia"
     },
     {
-        "id" : 1570,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Isle of Wight"
+        "countyAndState": "Isle of Wight, Virginia"
     },
     {
-        "id" : 1571,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "King George"
+        "countyAndState": "King George, Virginia"
     },
     {
-        "id" : 1572,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Loudoun"
+        "countyAndState": "Loudoun, Virginia"
     },
     {
-        "id" : 1573,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Lunenburg"
+        "countyAndState": "Lunenburg, Virginia"
     },
     {
-        "id" : 1574,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Mecklenburg"
+        "countyAndState": "Mecklenburg, Virginia"
     },
     {
-        "id" : 1575,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Montgomery"
+        "countyAndState": "Montgomery, Virginia"
     },
     {
-        "id" : 1576,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Pittsylvania"
+        "countyAndState": "Pittsylvania, Virginia"
     },
     {
-        "id" : 1577,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Powhatan"
+        "countyAndState": "Powhatan, Virginia"
     },
     {
-        "id" : 1578,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Prince Edward"
+        "countyAndState": "Prince Edward, Virginia"
     },
     {
-        "id" : 1579,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Prince William"
+        "countyAndState": "Prince William, Virginia"
     },
     {
-        "id" : 1580,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Pulaski"
+        "countyAndState": "Pulaski, Virginia"
     },
     {
-        "id" : 1581,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Richmond"
+        "countyAndState": "Richmond, Virginia"
     },
     {
-        "id" : 1582,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Roanoke"
+        "countyAndState": "Roanoke, Virginia"
     },
     {
-        "id" : 1583,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Rockingham"
+        "countyAndState": "Rockingham, Virginia"
     },
     {
-        "id" : 1584,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Spotsylvania"
+        "countyAndState": "Spotsylvania, Virginia"
     },
     {
-        "id" : 1585,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Stafford"
+        "countyAndState": "Stafford, Virginia"
     },
     {
-        "id" : 1586,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Tazewell"
+        "countyAndState": "Tazewell, Virginia"
     },
     {
-        "id" : 1587,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "Warren"
+        "countyAndState": "Warren, Virginia"
     },
     {
-        "id" : 1588,
-        "stateAbrv" : "VA",
-        "stateFullName" : "Virginia",
-        "county" : "York"
+        "countyAndState": "York, Virginia"
     },
     {
-        "id" : 1589,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Adams"
+        "countyAndState": "Adams, Washington"
     },
     {
-        "id" : 1590,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Benton"
+        "countyAndState": "Benton, Washington"
     },
     {
-        "id" : 1591,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Chelan"
+        "countyAndState": "Chelan, Washington"
     },
     {
-        "id" : 1592,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Clallam"
+        "countyAndState": "Clallam, Washington"
     },
     {
-        "id" : 1593,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Clark"
+        "countyAndState": "Clark, Washington"
     },
     {
-        "id" : 1594,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Cowlitz"
+        "countyAndState": "Cowlitz, Washington"
     },
     {
-        "id" : 1595,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Douglas"
+        "countyAndState": "Douglas, Washington"
     },
     {
-        "id" : 1596,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Ferry"
+        "countyAndState": "Ferry, Washington"
     },
     {
-        "id" : 1597,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Franklin"
+        "countyAndState": "Franklin, Washington"
     },
     {
-        "id" : 1598,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Garfield"
+        "countyAndState": "Garfield, Washington"
     },
     {
-        "id" : 1599,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Grant"
+        "countyAndState": "Grant, Washington"
     },
     {
-        "id" : 1600,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Island"
+        "countyAndState": "Island, Washington"
     },
     {
-        "id" : 1601,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, Washington"
     },
     {
-        "id" : 1602,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "King"
+        "countyAndState": "King, Washington"
     },
     {
-        "id" : 1603,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Kitsap"
+        "countyAndState": "Kitsap, Washington"
     },
     {
-        "id" : 1604,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Kittitas"
+        "countyAndState": "Kittitas, Washington"
     },
     {
-        "id" : 1605,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Klickitat"
+        "countyAndState": "Klickitat, Washington"
     },
     {
-        "id" : 1606,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Mason"
+        "countyAndState": "Mason, Washington"
     },
     {
-        "id" : 1607,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Okanogan"
+        "countyAndState": "Okanogan, Washington"
     },
     {
-        "id" : 1608,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Pacific"
+        "countyAndState": "Pacific, Washington"
     },
     {
-        "id" : 1609,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Pend Oreille"
+        "countyAndState": "Pend Oreille, Washington"
     },
     {
-        "id" : 1610,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Pierce"
+        "countyAndState": "Pierce, Washington"
     },
     {
-        "id" : 1611,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "San Juan"
+        "countyAndState": "San Juan, Washington"
     },
     {
-        "id" : 1612,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Skagit"
+        "countyAndState": "Skagit, Washington"
     },
     {
-        "id" : 1613,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Snohomish"
+        "countyAndState": "Snohomish, Washington"
     },
     {
-        "id" : 1614,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Spokane"
+        "countyAndState": "Spokane, Washington"
     },
     {
-        "id" : 1615,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Stevens"
+        "countyAndState": "Stevens, Washington"
     },
     {
-        "id" : 1616,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Thurston"
+        "countyAndState": "Thurston, Washington"
     },
     {
-        "id" : 1617,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Walla Walla"
+        "countyAndState": "Walla Walla, Washington"
     },
     {
-        "id" : 1618,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Whatcom"
+        "countyAndState": "Whatcom, Washington"
     },
     {
-        "id" : 1619,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Whitman"
+        "countyAndState": "Whitman, Washington"
     },
     {
-        "id" : 1620,
-        "stateAbrv" : "WA",
-        "stateFullName" : "Washington",
-        "county" : "Yakima"
+        "countyAndState": "Yakima, Washington"
     },
     {
-        "id" : 1621,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Berkeley"
+        "countyAndState": "Berkeley, West Virginia"
     },
     {
-        "id" : 1622,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Boone"
+        "countyAndState": "Boone, West Virginia"
     },
     {
-        "id" : 1623,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Braxton"
+        "countyAndState": "Braxton, West Virginia"
     },
     {
-        "id" : 1624,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Brooke"
+        "countyAndState": "Brooke, West Virginia"
     },
     {
-        "id" : 1625,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Cabell"
+        "countyAndState": "Cabell, West Virginia"
     },
     {
-        "id" : 1626,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Calhoun"
+        "countyAndState": "Calhoun, West Virginia"
     },
     {
-        "id" : 1627,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Clay"
+        "countyAndState": "Clay, West Virginia"
     },
     {
-        "id" : 1628,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Fayette"
+        "countyAndState": "Fayette, West Virginia"
     },
     {
-        "id" : 1629,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Grant"
+        "countyAndState": "Grant, West Virginia"
     },
     {
-        "id" : 1630,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Greenbrier"
+        "countyAndState": "Greenbrier, West Virginia"
     },
     {
-        "id" : 1631,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Harrison"
+        "countyAndState": "Harrison, West Virginia"
     },
     {
-        "id" : 1632,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Jefferson"
+        "countyAndState": "Jefferson, West Virginia"
     },
     {
-        "id" : 1633,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Kanawha"
+        "countyAndState": "Kanawha, West Virginia"
     },
     {
-        "id" : 1634,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Lewis"
+        "countyAndState": "Lewis, West Virginia"
     },
     {
-        "id" : 1635,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Logan"
+        "countyAndState": "Logan, West Virginia"
     },
     {
-        "id" : 1636,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Marion"
+        "countyAndState": "Marion, West Virginia"
     },
     {
-        "id" : 1637,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Marshall"
+        "countyAndState": "Marshall, West Virginia"
     },
     {
-        "id" : 1638,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Mason"
+        "countyAndState": "Mason, West Virginia"
     },
     {
-        "id" : 1639,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "McDowell"
+        "countyAndState": "McDowell, West Virginia"
     },
     {
-        "id" : 1640,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Mercer"
+        "countyAndState": "Mercer, West Virginia"
     },
     {
-        "id" : 1641,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Mineral"
+        "countyAndState": "Mineral, West Virginia"
     },
     {
-        "id" : 1642,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Mingo"
+        "countyAndState": "Mingo, West Virginia"
     },
     {
-        "id" : 1643,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Monongalia"
+        "countyAndState": "Monongalia, West Virginia"
     },
     {
-        "id" : 1644,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Monroe"
+        "countyAndState": "Monroe, West Virginia"
     },
     {
-        "id" : 1645,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Nicholas"
+        "countyAndState": "Nicholas, West Virginia"
     },
     {
-        "id" : 1646,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Northfork Center"
+        "countyAndState": "Northfork Center, West Virginia"
     },
     {
-        "id" : 1647,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Ohio"
+        "countyAndState": "Ohio, West Virginia"
     },
     {
-        "id" : 1648,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Pocahontas"
+        "countyAndState": "Pocahontas, West Virginia"
     },
     {
-        "id" : 1649,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Preston"
+        "countyAndState": "Preston, West Virginia"
     },
     {
-        "id" : 1650,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Putnam"
+        "countyAndState": "Putnam, West Virginia"
     },
     {
-        "id" : 1651,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Raleigh"
+        "countyAndState": "Raleigh, West Virginia"
     },
     {
-        "id" : 1652,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Randolph"
+        "countyAndState": "Randolph, West Virginia"
     },
     {
-        "id" : 1653,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Summers"
+        "countyAndState": "Summers, West Virginia"
     },
     {
-        "id" : 1654,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Taylor"
+        "countyAndState": "Taylor, West Virginia"
     },
     {
-        "id" : 1655,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Tucker"
+        "countyAndState": "Tucker, West Virginia"
     },
     {
-        "id" : 1656,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Upshur"
+        "countyAndState": "Upshur, West Virginia"
     },
     {
-        "id" : 1657,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Webster"
+        "countyAndState": "Webster, West Virginia"
     },
     {
-        "id" : 1658,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Wood"
+        "countyAndState": "Wood, West Virginia"
     },
     {
-        "id" : 1659,
-        "stateAbrv" : "WV",
-        "stateFullName" : "West Virginia",
-        "county" : "Wyoming"
+        "countyAndState": "Wyoming, West Virginia"
     },
     {
-        "id" : 1660,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Bayfield"
+        "countyAndState": "Bayfield, Wisconsin"
     },
     {
-        "id" : 1661,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Brown"
+        "countyAndState": "Brown, Wisconsin"
     },
     {
-        "id" : 1662,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Calumet"
+        "countyAndState": "Calumet, Wisconsin"
     },
     {
-        "id" : 1663,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Chippewa"
+        "countyAndState": "Chippewa, Wisconsin"
     },
     {
-        "id" : 1664,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Clark"
+        "countyAndState": "Clark, Wisconsin"
     },
     {
-        "id" : 1665,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Dane"
+        "countyAndState": "Dane, Wisconsin"
     },
     {
-        "id" : 1666,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Door"
+        "countyAndState": "Door, Wisconsin"
     },
     {
-        "id" : 1667,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Eau Claire"
+        "countyAndState": "Eau Claire, Wisconsin"
     },
     {
-        "id" : 1668,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Fond du Lac"
+        "countyAndState": "Fond du Lac, Wisconsin"
     },
     {
-        "id" : 1669,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Forest"
+        "countyAndState": "Forest, Wisconsin"
     },
     {
-        "id" : 1670,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Grant"
+        "countyAndState": "Grant, Wisconsin"
     },
     {
-        "id" : 1671,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Green Lake"
+        "countyAndState": "Green Lake, Wisconsin"
     },
     {
-        "id" : 1672,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Kenosha"
+        "countyAndState": "Kenosha, Wisconsin"
     },
     {
-        "id" : 1673,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "La Crosse"
+        "countyAndState": "La Crosse, Wisconsin"
     },
     {
-        "id" : 1674,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Langlade"
+        "countyAndState": "Langlade, Wisconsin"
     },
     {
-        "id" : 1675,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Lincoln"
+        "countyAndState": "Lincoln, Wisconsin"
     },
     {
-        "id" : 1676,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Marathon"
+        "countyAndState": "Marathon, Wisconsin"
     },
     {
-        "id" : 1677,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Milwaukee"
+        "countyAndState": "Milwaukee, Wisconsin"
     },
     {
-        "id" : 1678,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Monroe"
+        "countyAndState": "Monroe, Wisconsin"
     },
     {
-        "id" : 1679,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Oconto"
+        "countyAndState": "Oconto, Wisconsin"
     },
     {
-        "id" : 1680,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Oneida"
+        "countyAndState": "Oneida, Wisconsin"
     },
     {
-        "id" : 1681,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Outagamie"
+        "countyAndState": "Outagamie, Wisconsin"
     },
     {
-        "id" : 1682,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Ozaukee"
+        "countyAndState": "Ozaukee, Wisconsin"
     },
     {
-        "id" : 1683,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Portage"
+        "countyAndState": "Portage, Wisconsin"
     },
     {
-        "id" : 1684,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Racine"
+        "countyAndState": "Racine, Wisconsin"
     },
     {
-        "id" : 1685,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Rusk"
+        "countyAndState": "Rusk, Wisconsin"
     },
     {
-        "id" : 1686,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Shawano"
+        "countyAndState": "Shawano, Wisconsin"
     },
     {
-        "id" : 1687,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Taylor"
+        "countyAndState": "Taylor, Wisconsin"
     },
     {
-        "id" : 1688,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Vilas"
+        "countyAndState": "Vilas, Wisconsin"
     },
     {
-        "id" : 1689,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Washington"
+        "countyAndState": "Washington, Wisconsin"
     },
     {
-        "id" : 1690,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Waukesha"
+        "countyAndState": "Waukesha, Wisconsin"
     },
     {
-        "id" : 1691,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Waupaca"
+        "countyAndState": "Waupaca, Wisconsin"
     },
     {
-        "id" : 1692,
-        "stateAbrv" : "WI",
-        "stateFullName" : "Wisconsin",
-        "county" : "Wood"
+        "countyAndState": "Wood, Wisconsin"
     },
     {
-        "id" : 1693,
-        "stateAbrv" : "WY",
-        "stateFullName" : "Wyoming",
-        "county" : "Albany"
+        "countyAndState": "Albany, Wyoming"
     },
     {
-        "id" : 1694,
-        "stateAbrv" : "WY",
-        "stateFullName" : "Wyoming",
-        "county" : "Campbell"
+        "countyAndState": "Campbell, Wyoming"
     },
     {
-        "id" : 1695,
-        "stateAbrv" : "WY",
-        "stateFullName" : "Wyoming",
-        "county" : "Laramie"
+        "countyAndState": "Laramie, Wyoming"
     },
     {
-        "id" : 1696,
-        "stateAbrv" : "WY",
-        "stateFullName" : "Wyoming",
-        "county" : "Lincoln"
+        "countyAndState": "Lincoln, Wyoming"
     },
     {
-        "id" : 1697,
-        "stateAbrv" : "WY",
-        "stateFullName" : "Wyoming",
-        "county" : "Natrona"
+        "countyAndState": "Natrona, Wyoming"
     },
     {
-        "id" : 1698,
-        "stateAbrv" : "WY",
-        "stateFullName" : "Wyoming",
-        "county" : "Park"
+        "countyAndState": "Park, Wyoming"
     },
     {
-        "id" : 1699,
-        "stateAbrv" : "WY",
-        "stateFullName" : "Wyoming",
-        "county" : "Teton"
+        "countyAndState": "Teton, Wyoming"
     },
     {
-        "id" : 1700,
-        "stateAbrv" : "WY",
-        "stateFullName" : "Wyoming",
-        "county" : "Uinta"
+        "countyAndState": "Uinta, Wyoming"
     }
 ];
 exports.allRegions = allRegions;

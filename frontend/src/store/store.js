@@ -22,6 +22,8 @@ let initialState = {
     countySearchTerm: "initial County",
     stateSearchTerm: "initial State",
     containsComma: false,
+    currSearchValue: "",
+    suggestions: [],
     justSearched: false
 };
 
