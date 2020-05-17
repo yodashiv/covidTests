@@ -9,10 +9,18 @@ const getSuggestions = value => {
     const inputValue = value.trim().toLowerCase();
     const inputLength = inputValue.length;
 
-    return inputLength === 0 ? [] : allRegions.filter(region => {
-        return region.countyAndState.toLowerCase().slice(0, inputLength) === inputValue;
+    if (inputLength === 0) {
+        return []
+    } else {
+        let results = allRegions.filter(region => {
+            return region.countyAndState.toLowerCase().slice(0, inputLength) === inputValue;
+        });
+        return results.slice(0, 4);
+
     }
-    );
+    // return (inputLength === 0 ? [] : allRegions.filter(region => {
+    //     return region.countyAndState.toLowerCase().slice(0, inputLength) === inputValue;
+    // }));
 };
 
 // When suggestion is clicked, Autosuggest needs to populate the input
