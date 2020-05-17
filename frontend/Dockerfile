@@ -1,6 +1,5 @@
 FROM node:12-alpine as build-deps
 WORKDIR /usr/src/app
-RUN yarn config set ignore-engines true
 COPY package.json yarn.lock ./
 RUN yarn
 COPY . ./

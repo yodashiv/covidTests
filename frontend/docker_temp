@@ -1,0 +1,6 @@
+sudo docker build -t covidproject .
+
+
+gcloud builds submit --tag gcr.io/covidproject/react_frontend_container
+
+gcloud run deploy slackhr --image gcr.io/slackhr/react_frontend_container --platform managed
