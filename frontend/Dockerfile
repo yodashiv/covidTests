@@ -9,5 +9,5 @@ FROM nginx:1.12-alpine
 COPY --from=build-deps /usr/src/app/build /usr/share/nginx/html
 # new
 COPY nginx/nginx.conf /etc/nginx/conf.d/default.conf
-EXPOSE 80
+EXPOSE 443
 CMD ["nginx", "-g", "daemon off;"]

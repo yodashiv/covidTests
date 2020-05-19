@@ -13,7 +13,7 @@ import { PersistGate } from 'redux-persist/lib/integration/react';
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
-    uri: 'http://localhost:4000/'
+    uri: 'https://baked-backend-oyb42glamq-uc.a.run.app/'
 });
 
 const client = new ApolloClient({
