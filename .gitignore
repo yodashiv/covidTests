@@ -4,6 +4,7 @@
 frontend/src/constants/constants.js
 backend/prisma/.env
 backend/Server/temp.js
+backend/credentials.json
 
 # dependencies
 backend/node_modules

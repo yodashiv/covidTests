@@ -2,5 +2,28 @@ sudo docker build -t covidproject .
 
 
 gcloud builds submit --tag gcr.io/covidproject/react_frontend_container
+gcloud builds submit --tag gcr.io/covidtestsites/node_backend
 
 gcloud run deploy slackhr --image gcr.io/slackhr/react_frontend_container --platform managed
+
+
+FROM node:12-alpine as build-deps
+WORKDIR /usr/src/app
+COPY . ./
+RUN yarn
+COPY . ./
+RUN yarn prisma introspect
+RUN yarn prisma generate
+EXPOSE 4000
+CMD ["node", "Server/server.js"]
+
+
+
+FROM node:12-alpine as build-deps
+WORKDIR /usr/src/app
+COPY . ./
+RUN yarn
+EXPOSE 4000
+CMD yarn prisma generate; node Server/server.js
+
+node_modules
